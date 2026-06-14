@@ -3,41 +3,6 @@ sys.path.insert(0, os.path.abspath('../'))
 from __training_imports__ import *
 from schwartz_smith import SSParams, SchwartzSmithModel
 
-class SSForwardCurveDatasetNormalised(TorchDataset):
-    """
-    PyTorch Dataset for Schwartz-Smith forward curve data.
-    Each item: (theta_normalised, F_normalised, grad_dict)
-    """
-
-    def __init__(
-        self,
-        data: dict[str, np.ndarray],
-        theta_mean: np.ndarray,
-        theta_std: np.ndarray,
-        F_mean: np.ndarray,
-        F_std: np.ndarray,
-    ):
-        self.theta = torch.tensor(
-            (data["theta"] - theta_mean) / theta_std, dtype=torch.float32
-        )
-        self.F = torch.tensor(
-            (data["F"] - F_mean) / F_std, dtype=torch.float32
-        )
-        # Store available gradient targets
-        self.grads = {
-            k: torch.tensor(data[k] / F_std, dtype=torch.float32)
-            for k in ["dF_dkappa", "dF_dsigma_chi", "dF_dsigma_xi", "dF_drho"]
-            if k in data
-        }
-
-    def __len__(self) -> int:
-        return len(self.theta)
-
-    def __getitem__(self, idx: int) -> tuple:
-        grads = {k: v[idx] for k, v in self.grads.items()}
-        return self.theta[idx], self.F[idx], grads
-
-
 def sample_parameters(
     n: int,
     param_bounds: np.ndarray,
@@ -181,20 +146,22 @@ if __name__ == "__main__":
     F_mean     = data["F"].mean(axis=0)
     F_std      = data["F"].std(axis=0) + 1e-8
 
-    dataset = SSForwardCurveDatasetNormalised(data, theta_mean, theta_std, F_mean, F_std)
-    # save the dataset and normalization stats as a torch file
-
     save_path = cfg["data"]["save_path"]
+
+    # stack gradients into (N, M, 4) — order matters, document it
+    grad_keys = ["dF_dkappa", "dF_dsigma_chi", "dF_dsigma_xi", "dF_drho"]
+    grads_stacked = np.stack([data[k] for k in grad_keys], axis=-1)  # (N, M, 4)
 
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     torch.save({
-        "dataset": dataset,
+        "theta":      data["theta"],
+        "F":          data["F"],
+        "grads_stacked": grads_stacked,   # raw (N, M, 4)
+        "grad_keys":  grad_keys,          # ["dF_dkappa","dF_dsigma_chi","dF_dsigma_xi","dF_drho"]
         "theta_mean": theta_mean,
-        "theta_std": theta_std,
-        "F_mean": F_mean,
-        "F_std": F_std,
+        "theta_std":  theta_std,
+        "F_mean":     F_mean,
+        "F_std":      F_std,
         "maturities": maturities,
     }, save_path)
-
-
 
