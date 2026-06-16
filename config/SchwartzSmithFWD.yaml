@@ -1,0 +1,40 @@
+# Stage 1 — Forward Curve Surrogate
+# Trains a neural network to map Schwartz-Smith parameters to the full forward curve.
+
+param_names: [kappa, mu_xi, sigma_chi, sigma_xi, rho, lambda_chi, chi0, xi0]
+
+model:
+  hidden_dims: [64, 128, 128, 64]
+  activation: gelu
+
+training:
+  n_samples: 500000
+  batch_size: 2048
+  n_epochs: 2000
+  learning_rate: 3.0e-4
+  weight_decay: 1.0e-5
+  scheduler: cosine            # cosine annealing
+  differential_loss_alpha: 0.1 # weight on gradient-matching term
+  differential_loss_beta: 0.1
+  val_fraction: 0.1
+  seed: 42
+
+data:
+  maturities: [0.25, 0.5, 0.75, 1.0, 1.5, 2.0, 3.0, 4.0, 5.0, 7.0, 10.0]  # years
+  priors:
+    kappa:   [0.1,  5.0]   # mean-reversion speed (1/year)
+    mu_xi:   [0.0,  0.1]   # long-term drift
+    sigma_chi: [0.05, 0.60] # short-term vol
+    sigma_xi:  [0.05, 0.40] # long-term vol
+    rho:       [-0.9, 0.9]  # correlation
+    lambda_chi: [-0.5, 0.5] # market price of short-term risk 
+    chi0:    [-0.5, 0.5]    # initial short-term factor STATE_BOUNDS
+    xi0:     [2.5,  5.0]    # initial long-term factor (log price ~3-4) STATE_BOUNDS
+
+  save_path: /home/singh/QUANT_PROJECT/commodity_futures/training_data/SchwartzSmithFWD_dataset.pt
+
+output:
+
+  checkpoint_dir: home/singh/QUANT_PROJECT/commodity_futures/results/checkpoints/SchwartzSmithFWD
+  log_dir: home/singh/QUANT_PROJECT/commodity_futures/results/logs
+  plot_dir: home/singh/QUANT_PROJECT/commodity_futures/results/plots/SchwartzSmithFWD

@@ -1,5 +1,5 @@
 import sys, os
-sys.path.insert(0, os.path.abspath('../'))
+sys.path.insert(0, os.path.abspath('./'))
 from __training_imports__ import *
 from schwartz_smith import SSParams, SchwartzSmithModel
 
@@ -104,7 +104,7 @@ def generate_forward_curve_data(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default="../config/SchwartzSmithFWD.yaml")
+    parser.add_argument("--config", default="./config/SchwartzSmithFWD.yaml")
     args = parser.parse_args()
     cfg_path = args.config
     with open(cfg_path) as f:

@@ -6,8 +6,8 @@ from typing import Optional
 
 import matplotlib
 
-matplotlib.rc('font', family='serif', serif=['Computer Modern'], size=12)
-matplotlib.rc('text', usetex=True)
+# matplotlib.rc('font', family='serif', serif=['Computer Modern'], size=12)
+# matplotlib.rc('text', usetex=True)
 
 
 PALETTE      = sns.color_palette("tab10")

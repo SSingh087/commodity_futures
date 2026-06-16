@@ -229,7 +229,7 @@ class SchwartzSmithModel:
 def simulate_state_paths(
     params: SSParams,
     T: float,
-    n_paths: int = 50_000,
+    n_paths: int = 50000,
     n_steps: int = 252,
     seed: Optional[int] = None
 ) -> tuple[np.ndarray, np.ndarray]:
@@ -283,7 +283,7 @@ def price_european_call_on_futures(
     T_option: float,              # option expiry (years)
     T_futures: float,             # futures delivery date (years) >= T_option
     risk_free_rate: float = 0.05,
-    n_paths: int = 50_000,
+    n_paths: int = 50000,
     n_steps: int = 252,
     seed: Optional[int] = None
 ) -> tuple[float, float]:
@@ -341,7 +341,7 @@ def price_spread_option(
     T_option: float,
     T_futures: float,
     risk_free_rate: float = 0.05,
-    n_paths: int = 50_000,
+    n_paths: int = 50000,
     n_steps: int = 252,
     seed: Optional[int] = None
 ) -> tuple[float, float]:
