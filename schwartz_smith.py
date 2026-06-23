@@ -231,8 +231,7 @@ def simulate_state_paths(
     T: float,
     n_paths: int = 50000,
     n_steps: int = 252,
-    seed: Optional[int] = None
-) -> tuple[np.ndarray, np.ndarray]:
+    seed: Optional[int] = None) -> tuple[np.ndarray, np.ndarray]:
     """
     Simulate (chi_t, xi_t) paths under the physical measure.
 
@@ -285,8 +284,7 @@ def price_european_call_on_futures(
     risk_free_rate: float = 0.05,
     n_paths: int = 50000,
     n_steps: int = 252,
-    seed: Optional[int] = None
-) -> tuple[float, float]:
+    seed: Optional[int] = None) -> tuple[float, float]:
     """
     Price a European call option on a commodity futures contract via MC.
 
