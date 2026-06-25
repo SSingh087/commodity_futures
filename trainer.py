@@ -142,7 +142,11 @@ class Trainer:
         losses = []
         with torch.no_grad():
             for batch in val_loader:
-                loss = self._compute_loss(batch)
+                theta, F_true, *_ = batch
+                theta  = theta.to(self.device)
+                F_true = F_true.to(self.device)
+                F_pred = self.model(theta)
+                loss   = torch.nn.functional.mse_loss(F_pred, F_true)
                 losses.append(loss.item())
         return float(np.mean(losses))
 
@@ -175,7 +179,7 @@ class SchwartzSmithTrainer(Trainer):
 
     def _compute_loss(self, batch: tuple) -> torch.Tensor:
         theta, F_true, grads_true = batch
-        theta      = theta.to(self.device)
+        theta      = theta.to(self.device).requires_grad_(True)
         F_true     = F_true.to(self.device)
         grads_true = grads_true.to(self.device)   # (batch, M, 4)
 

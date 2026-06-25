@@ -1,14 +1,13 @@
 import sys, os
-sys.path.insert(0, os.path.abspath('../'))
+sys.path.insert(0, os.path.abspath('./'))
 from __training_imports__ import *
+from schwartz_smith import SSParams, SchwartzSmithModel, price_european_call_on_futures
 
 import numpy as np
 from pathlib import Path
 from tqdm import tqdm
 
-from schwartz_smith import SSParams, price_european_call_on_futures, SchwartzSmithModel
-
-def sample_one(rng: np.random.Generator, PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list, STATE_BOUNDS: np.ndarray) -> dict:
+def sample_one(rng: np.random.Generator, PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list) -> dict:
     """
     Sample one (theta, contract) pair and price it via MC.
 
@@ -16,19 +15,18 @@ def sample_one(rng: np.random.Generator, PRIOR: dict, CONTRACT: dict, TAU_EXTRA:
     Returns None if the pricing call fails for any reason.
     """
     # ── sample model parameters ──────────────────────────────────────────
-    def u(key):
-        lo, hi = PRIOR[key]
+    def u(key, lo, hi):
         return rng.uniform(lo, hi)
 
     params = SSParams(
-        kappa      = u("kappa"),
-        mu_xi      = u("mu_xi"),
-        sigma_chi  = u("sigma_chi"),
-        sigma_xi   = u("sigma_xi"),
-        rho        = u("rho"),
-        lambda_chi = u("lambda_chi"),
-        chi0       = u("chi0"),
-        xi0        = u("xi0"),
+        kappa      = u("kappa", *PRIOR["kappa"]),
+        mu_xi      = u("mu_xi", *PRIOR["mu_xi"]),
+        sigma_chi  = u("sigma_chi", *PRIOR["sigma_chi"]),
+        sigma_xi   = u("sigma_xi", *PRIOR["sigma_xi"]),
+        rho        = u("rho", *PRIOR["rho"]),
+        lambda_chi = u("lambda_chi", *PRIOR["lambda_chi"]),
+        chi0       = u("chi0", *PRIOR["chi0"]),
+        xi0        = u("xi0", *PRIOR["xi0"]),
     )
 
     # ── sample contract parameters ────────────────────────────────────────
@@ -37,29 +35,25 @@ def sample_one(rng: np.random.Generator, PRIOR: dict, CONTRACT: dict, TAU_EXTRA:
     T_futures = T_option + rng.uniform(*TAU_EXTRA)   # always > T_option
     r         = rng.uniform(*CONTRACT["r"])
 
-    # ── price via MC ──────────────────────────────────────────────────────
     try:
         price, stderr = price_european_call_on_futures(
-            params       = params,
-            strike_ratio = moneyness,
-            T_option     = T_option,
-            T_futures    = T_futures,
+            params         = params,
+            strike_ratio   = moneyness,
+            T_option       = T_option,
+            T_futures      = T_futures,
             risk_free_rate = r,
-            n_paths      = 20000,   # moderate paths: fast but some noise
-            n_steps      = 252,
-            seed         = None,     # different seed each call
+            n_paths        = 20000,
+            n_steps        = 252,
+            seed           = None,
         )
     except Exception:
         return None
-
-    # ── skip degenerate samples ───────────────────────────────────────────
+ 
     if not np.isfinite(price) or not np.isfinite(stderr):
         return None
     if price < 0 or stderr < 0:
         return None
-
-    # ── pack input vector ─────────────────────────────────────────────────
-    # Order matters — keep this consistent with training and inference
+ 
     X = np.array([
         params.kappa,
         params.sigma_chi,
@@ -70,13 +64,14 @@ def sample_one(rng: np.random.Generator, PRIOR: dict, CONTRACT: dict, TAU_EXTRA:
         T_futures,
         r,
     ], dtype=np.float32)
+ 
+    return {"X": X, "V": float(price), "V_std": float(stderr)}
 
-    return {"X": X, "V": price, "V_std": stderr}
 
 
-def generate(PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list, STATE_BOUNDS: np.ndarray, n_samples: int, seed: int = 42, save_path: str = "./SchwartzSmithFWD_dataset.pt") -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+def generate(PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list, n_samples: int, seed: int = 42, save_path: str = "./SchwartzSmithFWD_dataset.pt") -> tuple[np.ndarray, np.ndarray, np.ndarray]:
     """
-    Generate n_samples (input, price, stderr) triples and save to disk.
+    Generate n_samples (input, price, stderr).
     """
     rng = np.random.default_rng(seed)
 
@@ -89,7 +84,7 @@ def generate(PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list, STATE_BOUNDS: np.ndar
 
     while len(X_list) < n_samples:
         n_attempts += 1
-        result = sample_one(rng, PRIOR, CONTRACT, TAU_EXTRA, STATE_BOUNDS)
+        result = sample_one(rng, PRIOR, CONTRACT, TAU_EXTRA)
         if result is None:
             continue
         X_list.append(result["X"])
@@ -99,23 +94,41 @@ def generate(PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list, STATE_BOUNDS: np.ndar
 
     pbar.close()
 
-    X     = np.stack(X_list)                        # (N, 8)
-    V     = np.array(V_list,     dtype=np.float32)  # (N,)
-    V_std = np.array(V_std_list, dtype=np.float32)  # (N,)
-
-    # ── quick sanity prints ───────────────────────────────────────────────
-    print(f"\n  Samples generated : {n_samples:,}  (from {n_attempts:,} attempts)")
-    print(f"  Price range       : [{V.min():.4f}, {V.max():.4f}]")
-    print(f"  Mean price        : {V.mean():.4f}")
-    print(f"  Mean MC stderr    : {V_std.mean():.5f}   (this is sigma_label)")
-    print(f"  Mean SNR          : {(V / (V_std + 1e-8)).mean():.1f}   (V / sigma_label)")
-
+    X     = np.stack(X_list)
+    V     = np.array(V_list,     dtype=np.float32)
+    V_std = np.array(V_std_list, dtype=np.float32)
+ 
     col_names = ["kappa", "sigma_chi", "sigma_xi", "rho",
                  "moneyness", "T_option", "T_futures", "r"]
 
-    np.savez(save_path, X=X, V=V, V_std=V_std, col_names=col_names)
-    print(f"\n  Saved to: {save_path}")
-    return X, V, V_std
+
+    # ── normalisation stats (computed here, stored for training) ──────────
+    X_mean = X.mean(axis=0).astype(np.float32)
+    X_std  = X.std(axis=0).astype(np.float32) + 1e-8
+    V_mean = float(V.mean())
+    V_std_norm = float(V.std()) + 1e-8
+
+    print(f"\n  Samples generated : {n_samples:,}  (from {n_attempts:,} attempts)")
+    print(f"  Price range       : [{V.min():.4f}, {V.max():.4f}]")
+    print(f"  Mean price        : {V.mean():.4f}")
+    print(f"  Mean MC stderr    : {V_std.mean():.5f}   (sigma_label)")
+    print(f"  Mean SNR          : {(V / (V_std + 1e-8)).mean():.1f}   (V / sigma_label)")
+ 
+    # ── save as .pt ───────────────────────────────────────────────────────
+    torch.save({
+        "X"         : torch.tensor(X),
+        "V"         : torch.tensor(V),
+        "V_std"     : torch.tensor(V_std),
+        "col_names" : col_names,
+        "X_mean"    : torch.tensor(X_mean),
+        "X_std"     : torch.tensor(X_std),
+        "V_mean"    : V_mean,
+        "V_std_norm": V_std_norm,
+    }, save_path)
+    print(f"  Saved to: {save_path}")
+ 
+    return X, V, V_std, col_names
+
 
 
 if __name__ == "__main__":
@@ -137,6 +150,8 @@ if __name__ == "__main__":
         cfg["data"]["priors"]["sigma_xi"],
         cfg["data"]["priors"]["rho"],
         cfg["data"]["priors"]["lambda_chi"],
+        cfg["data"]["priors"]["chi0"],
+        cfg["data"]["priors"]["xi0"],
     ])
 
     PRIOR = {
@@ -146,6 +161,8 @@ if __name__ == "__main__":
         "sigma_xi"  : PARAM_BOUNDS[3],
         "rho"       : PARAM_BOUNDS[4],
         "lambda_chi": PARAM_BOUNDS[5],
+        "chi0"      : PARAM_BOUNDS[6],
+        "xi0"       : PARAM_BOUNDS[7],
     }
     
     CONTRACT = {
@@ -157,13 +174,14 @@ if __name__ == "__main__":
     TAU_EXTRA = cfg["data"]["TAU_EXTRA"]
 
 
-    STATE_BOUNDS = np.array([
-        cfg["data"]["priors"]["chi0"],
-        cfg["data"]["priors"]["xi0"],
-    ])
-
     # Start small — 2000 samples is enough to check everything works
     # before committing to the full 200k run (which takes hours)
     file_path = os.path.join(cfg["data"]["save_path"], "options_on_futures_data.pt")
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
-    generate(PRIOR, CONTRACT, TAU_EXTRA, STATE_BOUNDS, n_samples=n_samples, seed=42, save_path=file_path)
+
+    X, V, V_std, col_names = generate(
+    PRIOR, CONTRACT, TAU_EXTRA,
+    n_samples = cfg["training"]["n_samples"],
+    seed      = cfg["training"]["seed"],
+    save_path = file_path,
+    )

@@ -152,7 +152,8 @@ if __name__ == "__main__":
     grad_keys = ["dF_dkappa", "dF_dsigma_chi", "dF_dsigma_xi", "dF_drho"]
     grads_stacked = np.stack([data[k] for k in grad_keys], axis=-1)  # (N, M, 4)
 
-    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    file_path = os.path.join(save_path, "SchwartzSmithFWD_dataset.pt")
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
     torch.save({
         "theta":      data["theta"],
         "F":          data["F"],
@@ -163,5 +164,5 @@ if __name__ == "__main__":
         "F_mean":     F_mean,
         "F_std":      F_std,
         "maturities": maturities,
-    }, save_path)
+    }, file_path)
 

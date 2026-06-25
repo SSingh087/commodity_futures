@@ -189,7 +189,7 @@ class SchwartzSmithModel:
         e2  = np.exp(-2.0 * p.kappa * tau)
 
         d_log_F = (
-            p.sigma_chi / (p.kappa) * (1.0 - e2)
+            p.sigma_chi / (2.0 * p.kappa) * (1.0 - e2)  # ← σ_χ(1−e2)/(2κ)
             + p.rho * p.sigma_xi / p.kappa * (1.0 - e1)
         )
         return F * d_log_F
@@ -231,7 +231,8 @@ def simulate_state_paths(
     T: float,
     n_paths: int = 50000,
     n_steps: int = 252,
-    seed: Optional[int] = None) -> tuple[np.ndarray, np.ndarray]:
+    seed: Optional[int] = None
+) -> tuple[np.ndarray, np.ndarray]:
     """
     Simulate (chi_t, xi_t) paths under the physical measure.
 
@@ -284,7 +285,8 @@ def price_european_call_on_futures(
     risk_free_rate: float = 0.05,
     n_paths: int = 50000,
     n_steps: int = 252,
-    seed: Optional[int] = None) -> tuple[float, float]:
+    seed: Optional[int] = None
+) -> tuple[float, float]:
     """
     Price a European call option on a commodity futures contract via MC.
 
