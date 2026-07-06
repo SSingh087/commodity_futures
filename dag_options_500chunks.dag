@@ -1,0 +1,2006 @@
+JOB      OPTIONS_chunk0000  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0000  CHUNK_ID="0" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0000  options_workers
+
+JOB      OPTIONS_chunk0001  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0001  CHUNK_ID="1" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0001  options_workers
+
+JOB      OPTIONS_chunk0002  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0002  CHUNK_ID="2" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0002  options_workers
+
+JOB      OPTIONS_chunk0003  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0003  CHUNK_ID="3" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0003  options_workers
+
+JOB      OPTIONS_chunk0004  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0004  CHUNK_ID="4" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0004  options_workers
+
+JOB      OPTIONS_chunk0005  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0005  CHUNK_ID="5" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0005  options_workers
+
+JOB      OPTIONS_chunk0006  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0006  CHUNK_ID="6" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0006  options_workers
+
+JOB      OPTIONS_chunk0007  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0007  CHUNK_ID="7" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0007  options_workers
+
+JOB      OPTIONS_chunk0008  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0008  CHUNK_ID="8" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0008  options_workers
+
+JOB      OPTIONS_chunk0009  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0009  CHUNK_ID="9" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0009  options_workers
+
+JOB      OPTIONS_chunk0010  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0010  CHUNK_ID="10" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0010  options_workers
+
+JOB      OPTIONS_chunk0011  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0011  CHUNK_ID="11" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0011  options_workers
+
+JOB      OPTIONS_chunk0012  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0012  CHUNK_ID="12" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0012  options_workers
+
+JOB      OPTIONS_chunk0013  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0013  CHUNK_ID="13" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0013  options_workers
+
+JOB      OPTIONS_chunk0014  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0014  CHUNK_ID="14" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0014  options_workers
+
+JOB      OPTIONS_chunk0015  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0015  CHUNK_ID="15" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0015  options_workers
+
+JOB      OPTIONS_chunk0016  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0016  CHUNK_ID="16" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0016  options_workers
+
+JOB      OPTIONS_chunk0017  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0017  CHUNK_ID="17" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0017  options_workers
+
+JOB      OPTIONS_chunk0018  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0018  CHUNK_ID="18" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0018  options_workers
+
+JOB      OPTIONS_chunk0019  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0019  CHUNK_ID="19" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0019  options_workers
+
+JOB      OPTIONS_chunk0020  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0020  CHUNK_ID="20" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0020  options_workers
+
+JOB      OPTIONS_chunk0021  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0021  CHUNK_ID="21" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0021  options_workers
+
+JOB      OPTIONS_chunk0022  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0022  CHUNK_ID="22" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0022  options_workers
+
+JOB      OPTIONS_chunk0023  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0023  CHUNK_ID="23" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0023  options_workers
+
+JOB      OPTIONS_chunk0024  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0024  CHUNK_ID="24" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0024  options_workers
+
+JOB      OPTIONS_chunk0025  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0025  CHUNK_ID="25" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0025  options_workers
+
+JOB      OPTIONS_chunk0026  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0026  CHUNK_ID="26" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0026  options_workers
+
+JOB      OPTIONS_chunk0027  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0027  CHUNK_ID="27" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0027  options_workers
+
+JOB      OPTIONS_chunk0028  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0028  CHUNK_ID="28" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0028  options_workers
+
+JOB      OPTIONS_chunk0029  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0029  CHUNK_ID="29" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0029  options_workers
+
+JOB      OPTIONS_chunk0030  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0030  CHUNK_ID="30" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0030  options_workers
+
+JOB      OPTIONS_chunk0031  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0031  CHUNK_ID="31" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0031  options_workers
+
+JOB      OPTIONS_chunk0032  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0032  CHUNK_ID="32" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0032  options_workers
+
+JOB      OPTIONS_chunk0033  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0033  CHUNK_ID="33" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0033  options_workers
+
+JOB      OPTIONS_chunk0034  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0034  CHUNK_ID="34" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0034  options_workers
+
+JOB      OPTIONS_chunk0035  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0035  CHUNK_ID="35" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0035  options_workers
+
+JOB      OPTIONS_chunk0036  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0036  CHUNK_ID="36" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0036  options_workers
+
+JOB      OPTIONS_chunk0037  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0037  CHUNK_ID="37" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0037  options_workers
+
+JOB      OPTIONS_chunk0038  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0038  CHUNK_ID="38" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0038  options_workers
+
+JOB      OPTIONS_chunk0039  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0039  CHUNK_ID="39" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0039  options_workers
+
+JOB      OPTIONS_chunk0040  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0040  CHUNK_ID="40" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0040  options_workers
+
+JOB      OPTIONS_chunk0041  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0041  CHUNK_ID="41" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0041  options_workers
+
+JOB      OPTIONS_chunk0042  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0042  CHUNK_ID="42" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0042  options_workers
+
+JOB      OPTIONS_chunk0043  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0043  CHUNK_ID="43" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0043  options_workers
+
+JOB      OPTIONS_chunk0044  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0044  CHUNK_ID="44" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0044  options_workers
+
+JOB      OPTIONS_chunk0045  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0045  CHUNK_ID="45" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0045  options_workers
+
+JOB      OPTIONS_chunk0046  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0046  CHUNK_ID="46" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0046  options_workers
+
+JOB      OPTIONS_chunk0047  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0047  CHUNK_ID="47" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0047  options_workers
+
+JOB      OPTIONS_chunk0048  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0048  CHUNK_ID="48" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0048  options_workers
+
+JOB      OPTIONS_chunk0049  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0049  CHUNK_ID="49" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0049  options_workers
+
+JOB      OPTIONS_chunk0050  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0050  CHUNK_ID="50" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0050  options_workers
+
+JOB      OPTIONS_chunk0051  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0051  CHUNK_ID="51" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0051  options_workers
+
+JOB      OPTIONS_chunk0052  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0052  CHUNK_ID="52" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0052  options_workers
+
+JOB      OPTIONS_chunk0053  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0053  CHUNK_ID="53" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0053  options_workers
+
+JOB      OPTIONS_chunk0054  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0054  CHUNK_ID="54" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0054  options_workers
+
+JOB      OPTIONS_chunk0055  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0055  CHUNK_ID="55" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0055  options_workers
+
+JOB      OPTIONS_chunk0056  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0056  CHUNK_ID="56" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0056  options_workers
+
+JOB      OPTIONS_chunk0057  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0057  CHUNK_ID="57" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0057  options_workers
+
+JOB      OPTIONS_chunk0058  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0058  CHUNK_ID="58" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0058  options_workers
+
+JOB      OPTIONS_chunk0059  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0059  CHUNK_ID="59" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0059  options_workers
+
+JOB      OPTIONS_chunk0060  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0060  CHUNK_ID="60" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0060  options_workers
+
+JOB      OPTIONS_chunk0061  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0061  CHUNK_ID="61" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0061  options_workers
+
+JOB      OPTIONS_chunk0062  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0062  CHUNK_ID="62" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0062  options_workers
+
+JOB      OPTIONS_chunk0063  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0063  CHUNK_ID="63" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0063  options_workers
+
+JOB      OPTIONS_chunk0064  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0064  CHUNK_ID="64" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0064  options_workers
+
+JOB      OPTIONS_chunk0065  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0065  CHUNK_ID="65" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0065  options_workers
+
+JOB      OPTIONS_chunk0066  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0066  CHUNK_ID="66" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0066  options_workers
+
+JOB      OPTIONS_chunk0067  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0067  CHUNK_ID="67" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0067  options_workers
+
+JOB      OPTIONS_chunk0068  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0068  CHUNK_ID="68" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0068  options_workers
+
+JOB      OPTIONS_chunk0069  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0069  CHUNK_ID="69" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0069  options_workers
+
+JOB      OPTIONS_chunk0070  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0070  CHUNK_ID="70" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0070  options_workers
+
+JOB      OPTIONS_chunk0071  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0071  CHUNK_ID="71" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0071  options_workers
+
+JOB      OPTIONS_chunk0072  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0072  CHUNK_ID="72" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0072  options_workers
+
+JOB      OPTIONS_chunk0073  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0073  CHUNK_ID="73" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0073  options_workers
+
+JOB      OPTIONS_chunk0074  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0074  CHUNK_ID="74" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0074  options_workers
+
+JOB      OPTIONS_chunk0075  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0075  CHUNK_ID="75" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0075  options_workers
+
+JOB      OPTIONS_chunk0076  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0076  CHUNK_ID="76" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0076  options_workers
+
+JOB      OPTIONS_chunk0077  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0077  CHUNK_ID="77" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0077  options_workers
+
+JOB      OPTIONS_chunk0078  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0078  CHUNK_ID="78" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0078  options_workers
+
+JOB      OPTIONS_chunk0079  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0079  CHUNK_ID="79" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0079  options_workers
+
+JOB      OPTIONS_chunk0080  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0080  CHUNK_ID="80" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0080  options_workers
+
+JOB      OPTIONS_chunk0081  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0081  CHUNK_ID="81" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0081  options_workers
+
+JOB      OPTIONS_chunk0082  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0082  CHUNK_ID="82" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0082  options_workers
+
+JOB      OPTIONS_chunk0083  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0083  CHUNK_ID="83" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0083  options_workers
+
+JOB      OPTIONS_chunk0084  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0084  CHUNK_ID="84" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0084  options_workers
+
+JOB      OPTIONS_chunk0085  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0085  CHUNK_ID="85" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0085  options_workers
+
+JOB      OPTIONS_chunk0086  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0086  CHUNK_ID="86" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0086  options_workers
+
+JOB      OPTIONS_chunk0087  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0087  CHUNK_ID="87" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0087  options_workers
+
+JOB      OPTIONS_chunk0088  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0088  CHUNK_ID="88" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0088  options_workers
+
+JOB      OPTIONS_chunk0089  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0089  CHUNK_ID="89" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0089  options_workers
+
+JOB      OPTIONS_chunk0090  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0090  CHUNK_ID="90" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0090  options_workers
+
+JOB      OPTIONS_chunk0091  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0091  CHUNK_ID="91" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0091  options_workers
+
+JOB      OPTIONS_chunk0092  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0092  CHUNK_ID="92" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0092  options_workers
+
+JOB      OPTIONS_chunk0093  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0093  CHUNK_ID="93" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0093  options_workers
+
+JOB      OPTIONS_chunk0094  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0094  CHUNK_ID="94" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0094  options_workers
+
+JOB      OPTIONS_chunk0095  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0095  CHUNK_ID="95" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0095  options_workers
+
+JOB      OPTIONS_chunk0096  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0096  CHUNK_ID="96" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0096  options_workers
+
+JOB      OPTIONS_chunk0097  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0097  CHUNK_ID="97" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0097  options_workers
+
+JOB      OPTIONS_chunk0098  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0098  CHUNK_ID="98" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0098  options_workers
+
+JOB      OPTIONS_chunk0099  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0099  CHUNK_ID="99" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0099  options_workers
+
+JOB      OPTIONS_chunk0100  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0100  CHUNK_ID="100" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0100  options_workers
+
+JOB      OPTIONS_chunk0101  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0101  CHUNK_ID="101" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0101  options_workers
+
+JOB      OPTIONS_chunk0102  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0102  CHUNK_ID="102" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0102  options_workers
+
+JOB      OPTIONS_chunk0103  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0103  CHUNK_ID="103" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0103  options_workers
+
+JOB      OPTIONS_chunk0104  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0104  CHUNK_ID="104" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0104  options_workers
+
+JOB      OPTIONS_chunk0105  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0105  CHUNK_ID="105" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0105  options_workers
+
+JOB      OPTIONS_chunk0106  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0106  CHUNK_ID="106" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0106  options_workers
+
+JOB      OPTIONS_chunk0107  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0107  CHUNK_ID="107" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0107  options_workers
+
+JOB      OPTIONS_chunk0108  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0108  CHUNK_ID="108" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0108  options_workers
+
+JOB      OPTIONS_chunk0109  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0109  CHUNK_ID="109" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0109  options_workers
+
+JOB      OPTIONS_chunk0110  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0110  CHUNK_ID="110" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0110  options_workers
+
+JOB      OPTIONS_chunk0111  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0111  CHUNK_ID="111" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0111  options_workers
+
+JOB      OPTIONS_chunk0112  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0112  CHUNK_ID="112" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0112  options_workers
+
+JOB      OPTIONS_chunk0113  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0113  CHUNK_ID="113" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0113  options_workers
+
+JOB      OPTIONS_chunk0114  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0114  CHUNK_ID="114" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0114  options_workers
+
+JOB      OPTIONS_chunk0115  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0115  CHUNK_ID="115" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0115  options_workers
+
+JOB      OPTIONS_chunk0116  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0116  CHUNK_ID="116" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0116  options_workers
+
+JOB      OPTIONS_chunk0117  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0117  CHUNK_ID="117" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0117  options_workers
+
+JOB      OPTIONS_chunk0118  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0118  CHUNK_ID="118" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0118  options_workers
+
+JOB      OPTIONS_chunk0119  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0119  CHUNK_ID="119" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0119  options_workers
+
+JOB      OPTIONS_chunk0120  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0120  CHUNK_ID="120" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0120  options_workers
+
+JOB      OPTIONS_chunk0121  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0121  CHUNK_ID="121" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0121  options_workers
+
+JOB      OPTIONS_chunk0122  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0122  CHUNK_ID="122" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0122  options_workers
+
+JOB      OPTIONS_chunk0123  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0123  CHUNK_ID="123" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0123  options_workers
+
+JOB      OPTIONS_chunk0124  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0124  CHUNK_ID="124" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0124  options_workers
+
+JOB      OPTIONS_chunk0125  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0125  CHUNK_ID="125" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0125  options_workers
+
+JOB      OPTIONS_chunk0126  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0126  CHUNK_ID="126" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0126  options_workers
+
+JOB      OPTIONS_chunk0127  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0127  CHUNK_ID="127" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0127  options_workers
+
+JOB      OPTIONS_chunk0128  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0128  CHUNK_ID="128" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0128  options_workers
+
+JOB      OPTIONS_chunk0129  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0129  CHUNK_ID="129" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0129  options_workers
+
+JOB      OPTIONS_chunk0130  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0130  CHUNK_ID="130" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0130  options_workers
+
+JOB      OPTIONS_chunk0131  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0131  CHUNK_ID="131" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0131  options_workers
+
+JOB      OPTIONS_chunk0132  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0132  CHUNK_ID="132" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0132  options_workers
+
+JOB      OPTIONS_chunk0133  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0133  CHUNK_ID="133" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0133  options_workers
+
+JOB      OPTIONS_chunk0134  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0134  CHUNK_ID="134" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0134  options_workers
+
+JOB      OPTIONS_chunk0135  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0135  CHUNK_ID="135" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0135  options_workers
+
+JOB      OPTIONS_chunk0136  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0136  CHUNK_ID="136" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0136  options_workers
+
+JOB      OPTIONS_chunk0137  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0137  CHUNK_ID="137" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0137  options_workers
+
+JOB      OPTIONS_chunk0138  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0138  CHUNK_ID="138" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0138  options_workers
+
+JOB      OPTIONS_chunk0139  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0139  CHUNK_ID="139" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0139  options_workers
+
+JOB      OPTIONS_chunk0140  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0140  CHUNK_ID="140" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0140  options_workers
+
+JOB      OPTIONS_chunk0141  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0141  CHUNK_ID="141" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0141  options_workers
+
+JOB      OPTIONS_chunk0142  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0142  CHUNK_ID="142" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0142  options_workers
+
+JOB      OPTIONS_chunk0143  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0143  CHUNK_ID="143" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0143  options_workers
+
+JOB      OPTIONS_chunk0144  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0144  CHUNK_ID="144" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0144  options_workers
+
+JOB      OPTIONS_chunk0145  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0145  CHUNK_ID="145" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0145  options_workers
+
+JOB      OPTIONS_chunk0146  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0146  CHUNK_ID="146" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0146  options_workers
+
+JOB      OPTIONS_chunk0147  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0147  CHUNK_ID="147" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0147  options_workers
+
+JOB      OPTIONS_chunk0148  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0148  CHUNK_ID="148" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0148  options_workers
+
+JOB      OPTIONS_chunk0149  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0149  CHUNK_ID="149" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0149  options_workers
+
+JOB      OPTIONS_chunk0150  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0150  CHUNK_ID="150" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0150  options_workers
+
+JOB      OPTIONS_chunk0151  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0151  CHUNK_ID="151" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0151  options_workers
+
+JOB      OPTIONS_chunk0152  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0152  CHUNK_ID="152" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0152  options_workers
+
+JOB      OPTIONS_chunk0153  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0153  CHUNK_ID="153" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0153  options_workers
+
+JOB      OPTIONS_chunk0154  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0154  CHUNK_ID="154" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0154  options_workers
+
+JOB      OPTIONS_chunk0155  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0155  CHUNK_ID="155" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0155  options_workers
+
+JOB      OPTIONS_chunk0156  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0156  CHUNK_ID="156" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0156  options_workers
+
+JOB      OPTIONS_chunk0157  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0157  CHUNK_ID="157" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0157  options_workers
+
+JOB      OPTIONS_chunk0158  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0158  CHUNK_ID="158" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0158  options_workers
+
+JOB      OPTIONS_chunk0159  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0159  CHUNK_ID="159" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0159  options_workers
+
+JOB      OPTIONS_chunk0160  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0160  CHUNK_ID="160" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0160  options_workers
+
+JOB      OPTIONS_chunk0161  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0161  CHUNK_ID="161" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0161  options_workers
+
+JOB      OPTIONS_chunk0162  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0162  CHUNK_ID="162" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0162  options_workers
+
+JOB      OPTIONS_chunk0163  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0163  CHUNK_ID="163" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0163  options_workers
+
+JOB      OPTIONS_chunk0164  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0164  CHUNK_ID="164" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0164  options_workers
+
+JOB      OPTIONS_chunk0165  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0165  CHUNK_ID="165" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0165  options_workers
+
+JOB      OPTIONS_chunk0166  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0166  CHUNK_ID="166" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0166  options_workers
+
+JOB      OPTIONS_chunk0167  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0167  CHUNK_ID="167" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0167  options_workers
+
+JOB      OPTIONS_chunk0168  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0168  CHUNK_ID="168" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0168  options_workers
+
+JOB      OPTIONS_chunk0169  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0169  CHUNK_ID="169" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0169  options_workers
+
+JOB      OPTIONS_chunk0170  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0170  CHUNK_ID="170" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0170  options_workers
+
+JOB      OPTIONS_chunk0171  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0171  CHUNK_ID="171" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0171  options_workers
+
+JOB      OPTIONS_chunk0172  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0172  CHUNK_ID="172" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0172  options_workers
+
+JOB      OPTIONS_chunk0173  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0173  CHUNK_ID="173" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0173  options_workers
+
+JOB      OPTIONS_chunk0174  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0174  CHUNK_ID="174" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0174  options_workers
+
+JOB      OPTIONS_chunk0175  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0175  CHUNK_ID="175" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0175  options_workers
+
+JOB      OPTIONS_chunk0176  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0176  CHUNK_ID="176" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0176  options_workers
+
+JOB      OPTIONS_chunk0177  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0177  CHUNK_ID="177" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0177  options_workers
+
+JOB      OPTIONS_chunk0178  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0178  CHUNK_ID="178" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0178  options_workers
+
+JOB      OPTIONS_chunk0179  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0179  CHUNK_ID="179" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0179  options_workers
+
+JOB      OPTIONS_chunk0180  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0180  CHUNK_ID="180" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0180  options_workers
+
+JOB      OPTIONS_chunk0181  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0181  CHUNK_ID="181" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0181  options_workers
+
+JOB      OPTIONS_chunk0182  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0182  CHUNK_ID="182" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0182  options_workers
+
+JOB      OPTIONS_chunk0183  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0183  CHUNK_ID="183" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0183  options_workers
+
+JOB      OPTIONS_chunk0184  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0184  CHUNK_ID="184" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0184  options_workers
+
+JOB      OPTIONS_chunk0185  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0185  CHUNK_ID="185" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0185  options_workers
+
+JOB      OPTIONS_chunk0186  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0186  CHUNK_ID="186" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0186  options_workers
+
+JOB      OPTIONS_chunk0187  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0187  CHUNK_ID="187" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0187  options_workers
+
+JOB      OPTIONS_chunk0188  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0188  CHUNK_ID="188" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0188  options_workers
+
+JOB      OPTIONS_chunk0189  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0189  CHUNK_ID="189" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0189  options_workers
+
+JOB      OPTIONS_chunk0190  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0190  CHUNK_ID="190" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0190  options_workers
+
+JOB      OPTIONS_chunk0191  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0191  CHUNK_ID="191" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0191  options_workers
+
+JOB      OPTIONS_chunk0192  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0192  CHUNK_ID="192" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0192  options_workers
+
+JOB      OPTIONS_chunk0193  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0193  CHUNK_ID="193" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0193  options_workers
+
+JOB      OPTIONS_chunk0194  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0194  CHUNK_ID="194" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0194  options_workers
+
+JOB      OPTIONS_chunk0195  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0195  CHUNK_ID="195" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0195  options_workers
+
+JOB      OPTIONS_chunk0196  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0196  CHUNK_ID="196" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0196  options_workers
+
+JOB      OPTIONS_chunk0197  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0197  CHUNK_ID="197" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0197  options_workers
+
+JOB      OPTIONS_chunk0198  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0198  CHUNK_ID="198" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0198  options_workers
+
+JOB      OPTIONS_chunk0199  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0199  CHUNK_ID="199" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0199  options_workers
+
+JOB      OPTIONS_chunk0200  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0200  CHUNK_ID="200" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0200  options_workers
+
+JOB      OPTIONS_chunk0201  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0201  CHUNK_ID="201" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0201  options_workers
+
+JOB      OPTIONS_chunk0202  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0202  CHUNK_ID="202" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0202  options_workers
+
+JOB      OPTIONS_chunk0203  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0203  CHUNK_ID="203" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0203  options_workers
+
+JOB      OPTIONS_chunk0204  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0204  CHUNK_ID="204" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0204  options_workers
+
+JOB      OPTIONS_chunk0205  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0205  CHUNK_ID="205" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0205  options_workers
+
+JOB      OPTIONS_chunk0206  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0206  CHUNK_ID="206" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0206  options_workers
+
+JOB      OPTIONS_chunk0207  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0207  CHUNK_ID="207" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0207  options_workers
+
+JOB      OPTIONS_chunk0208  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0208  CHUNK_ID="208" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0208  options_workers
+
+JOB      OPTIONS_chunk0209  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0209  CHUNK_ID="209" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0209  options_workers
+
+JOB      OPTIONS_chunk0210  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0210  CHUNK_ID="210" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0210  options_workers
+
+JOB      OPTIONS_chunk0211  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0211  CHUNK_ID="211" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0211  options_workers
+
+JOB      OPTIONS_chunk0212  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0212  CHUNK_ID="212" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0212  options_workers
+
+JOB      OPTIONS_chunk0213  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0213  CHUNK_ID="213" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0213  options_workers
+
+JOB      OPTIONS_chunk0214  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0214  CHUNK_ID="214" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0214  options_workers
+
+JOB      OPTIONS_chunk0215  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0215  CHUNK_ID="215" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0215  options_workers
+
+JOB      OPTIONS_chunk0216  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0216  CHUNK_ID="216" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0216  options_workers
+
+JOB      OPTIONS_chunk0217  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0217  CHUNK_ID="217" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0217  options_workers
+
+JOB      OPTIONS_chunk0218  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0218  CHUNK_ID="218" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0218  options_workers
+
+JOB      OPTIONS_chunk0219  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0219  CHUNK_ID="219" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0219  options_workers
+
+JOB      OPTIONS_chunk0220  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0220  CHUNK_ID="220" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0220  options_workers
+
+JOB      OPTIONS_chunk0221  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0221  CHUNK_ID="221" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0221  options_workers
+
+JOB      OPTIONS_chunk0222  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0222  CHUNK_ID="222" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0222  options_workers
+
+JOB      OPTIONS_chunk0223  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0223  CHUNK_ID="223" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0223  options_workers
+
+JOB      OPTIONS_chunk0224  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0224  CHUNK_ID="224" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0224  options_workers
+
+JOB      OPTIONS_chunk0225  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0225  CHUNK_ID="225" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0225  options_workers
+
+JOB      OPTIONS_chunk0226  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0226  CHUNK_ID="226" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0226  options_workers
+
+JOB      OPTIONS_chunk0227  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0227  CHUNK_ID="227" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0227  options_workers
+
+JOB      OPTIONS_chunk0228  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0228  CHUNK_ID="228" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0228  options_workers
+
+JOB      OPTIONS_chunk0229  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0229  CHUNK_ID="229" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0229  options_workers
+
+JOB      OPTIONS_chunk0230  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0230  CHUNK_ID="230" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0230  options_workers
+
+JOB      OPTIONS_chunk0231  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0231  CHUNK_ID="231" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0231  options_workers
+
+JOB      OPTIONS_chunk0232  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0232  CHUNK_ID="232" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0232  options_workers
+
+JOB      OPTIONS_chunk0233  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0233  CHUNK_ID="233" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0233  options_workers
+
+JOB      OPTIONS_chunk0234  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0234  CHUNK_ID="234" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0234  options_workers
+
+JOB      OPTIONS_chunk0235  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0235  CHUNK_ID="235" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0235  options_workers
+
+JOB      OPTIONS_chunk0236  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0236  CHUNK_ID="236" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0236  options_workers
+
+JOB      OPTIONS_chunk0237  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0237  CHUNK_ID="237" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0237  options_workers
+
+JOB      OPTIONS_chunk0238  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0238  CHUNK_ID="238" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0238  options_workers
+
+JOB      OPTIONS_chunk0239  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0239  CHUNK_ID="239" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0239  options_workers
+
+JOB      OPTIONS_chunk0240  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0240  CHUNK_ID="240" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0240  options_workers
+
+JOB      OPTIONS_chunk0241  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0241  CHUNK_ID="241" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0241  options_workers
+
+JOB      OPTIONS_chunk0242  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0242  CHUNK_ID="242" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0242  options_workers
+
+JOB      OPTIONS_chunk0243  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0243  CHUNK_ID="243" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0243  options_workers
+
+JOB      OPTIONS_chunk0244  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0244  CHUNK_ID="244" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0244  options_workers
+
+JOB      OPTIONS_chunk0245  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0245  CHUNK_ID="245" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0245  options_workers
+
+JOB      OPTIONS_chunk0246  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0246  CHUNK_ID="246" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0246  options_workers
+
+JOB      OPTIONS_chunk0247  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0247  CHUNK_ID="247" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0247  options_workers
+
+JOB      OPTIONS_chunk0248  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0248  CHUNK_ID="248" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0248  options_workers
+
+JOB      OPTIONS_chunk0249  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0249  CHUNK_ID="249" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0249  options_workers
+
+JOB      OPTIONS_chunk0250  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0250  CHUNK_ID="250" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0250  options_workers
+
+JOB      OPTIONS_chunk0251  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0251  CHUNK_ID="251" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0251  options_workers
+
+JOB      OPTIONS_chunk0252  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0252  CHUNK_ID="252" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0252  options_workers
+
+JOB      OPTIONS_chunk0253  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0253  CHUNK_ID="253" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0253  options_workers
+
+JOB      OPTIONS_chunk0254  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0254  CHUNK_ID="254" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0254  options_workers
+
+JOB      OPTIONS_chunk0255  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0255  CHUNK_ID="255" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0255  options_workers
+
+JOB      OPTIONS_chunk0256  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0256  CHUNK_ID="256" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0256  options_workers
+
+JOB      OPTIONS_chunk0257  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0257  CHUNK_ID="257" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0257  options_workers
+
+JOB      OPTIONS_chunk0258  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0258  CHUNK_ID="258" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0258  options_workers
+
+JOB      OPTIONS_chunk0259  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0259  CHUNK_ID="259" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0259  options_workers
+
+JOB      OPTIONS_chunk0260  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0260  CHUNK_ID="260" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0260  options_workers
+
+JOB      OPTIONS_chunk0261  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0261  CHUNK_ID="261" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0261  options_workers
+
+JOB      OPTIONS_chunk0262  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0262  CHUNK_ID="262" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0262  options_workers
+
+JOB      OPTIONS_chunk0263  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0263  CHUNK_ID="263" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0263  options_workers
+
+JOB      OPTIONS_chunk0264  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0264  CHUNK_ID="264" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0264  options_workers
+
+JOB      OPTIONS_chunk0265  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0265  CHUNK_ID="265" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0265  options_workers
+
+JOB      OPTIONS_chunk0266  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0266  CHUNK_ID="266" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0266  options_workers
+
+JOB      OPTIONS_chunk0267  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0267  CHUNK_ID="267" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0267  options_workers
+
+JOB      OPTIONS_chunk0268  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0268  CHUNK_ID="268" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0268  options_workers
+
+JOB      OPTIONS_chunk0269  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0269  CHUNK_ID="269" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0269  options_workers
+
+JOB      OPTIONS_chunk0270  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0270  CHUNK_ID="270" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0270  options_workers
+
+JOB      OPTIONS_chunk0271  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0271  CHUNK_ID="271" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0271  options_workers
+
+JOB      OPTIONS_chunk0272  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0272  CHUNK_ID="272" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0272  options_workers
+
+JOB      OPTIONS_chunk0273  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0273  CHUNK_ID="273" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0273  options_workers
+
+JOB      OPTIONS_chunk0274  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0274  CHUNK_ID="274" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0274  options_workers
+
+JOB      OPTIONS_chunk0275  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0275  CHUNK_ID="275" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0275  options_workers
+
+JOB      OPTIONS_chunk0276  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0276  CHUNK_ID="276" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0276  options_workers
+
+JOB      OPTIONS_chunk0277  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0277  CHUNK_ID="277" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0277  options_workers
+
+JOB      OPTIONS_chunk0278  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0278  CHUNK_ID="278" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0278  options_workers
+
+JOB      OPTIONS_chunk0279  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0279  CHUNK_ID="279" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0279  options_workers
+
+JOB      OPTIONS_chunk0280  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0280  CHUNK_ID="280" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0280  options_workers
+
+JOB      OPTIONS_chunk0281  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0281  CHUNK_ID="281" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0281  options_workers
+
+JOB      OPTIONS_chunk0282  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0282  CHUNK_ID="282" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0282  options_workers
+
+JOB      OPTIONS_chunk0283  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0283  CHUNK_ID="283" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0283  options_workers
+
+JOB      OPTIONS_chunk0284  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0284  CHUNK_ID="284" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0284  options_workers
+
+JOB      OPTIONS_chunk0285  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0285  CHUNK_ID="285" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0285  options_workers
+
+JOB      OPTIONS_chunk0286  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0286  CHUNK_ID="286" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0286  options_workers
+
+JOB      OPTIONS_chunk0287  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0287  CHUNK_ID="287" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0287  options_workers
+
+JOB      OPTIONS_chunk0288  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0288  CHUNK_ID="288" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0288  options_workers
+
+JOB      OPTIONS_chunk0289  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0289  CHUNK_ID="289" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0289  options_workers
+
+JOB      OPTIONS_chunk0290  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0290  CHUNK_ID="290" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0290  options_workers
+
+JOB      OPTIONS_chunk0291  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0291  CHUNK_ID="291" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0291  options_workers
+
+JOB      OPTIONS_chunk0292  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0292  CHUNK_ID="292" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0292  options_workers
+
+JOB      OPTIONS_chunk0293  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0293  CHUNK_ID="293" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0293  options_workers
+
+JOB      OPTIONS_chunk0294  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0294  CHUNK_ID="294" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0294  options_workers
+
+JOB      OPTIONS_chunk0295  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0295  CHUNK_ID="295" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0295  options_workers
+
+JOB      OPTIONS_chunk0296  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0296  CHUNK_ID="296" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0296  options_workers
+
+JOB      OPTIONS_chunk0297  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0297  CHUNK_ID="297" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0297  options_workers
+
+JOB      OPTIONS_chunk0298  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0298  CHUNK_ID="298" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0298  options_workers
+
+JOB      OPTIONS_chunk0299  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0299  CHUNK_ID="299" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0299  options_workers
+
+JOB      OPTIONS_chunk0300  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0300  CHUNK_ID="300" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0300  options_workers
+
+JOB      OPTIONS_chunk0301  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0301  CHUNK_ID="301" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0301  options_workers
+
+JOB      OPTIONS_chunk0302  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0302  CHUNK_ID="302" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0302  options_workers
+
+JOB      OPTIONS_chunk0303  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0303  CHUNK_ID="303" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0303  options_workers
+
+JOB      OPTIONS_chunk0304  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0304  CHUNK_ID="304" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0304  options_workers
+
+JOB      OPTIONS_chunk0305  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0305  CHUNK_ID="305" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0305  options_workers
+
+JOB      OPTIONS_chunk0306  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0306  CHUNK_ID="306" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0306  options_workers
+
+JOB      OPTIONS_chunk0307  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0307  CHUNK_ID="307" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0307  options_workers
+
+JOB      OPTIONS_chunk0308  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0308  CHUNK_ID="308" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0308  options_workers
+
+JOB      OPTIONS_chunk0309  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0309  CHUNK_ID="309" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0309  options_workers
+
+JOB      OPTIONS_chunk0310  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0310  CHUNK_ID="310" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0310  options_workers
+
+JOB      OPTIONS_chunk0311  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0311  CHUNK_ID="311" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0311  options_workers
+
+JOB      OPTIONS_chunk0312  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0312  CHUNK_ID="312" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0312  options_workers
+
+JOB      OPTIONS_chunk0313  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0313  CHUNK_ID="313" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0313  options_workers
+
+JOB      OPTIONS_chunk0314  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0314  CHUNK_ID="314" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0314  options_workers
+
+JOB      OPTIONS_chunk0315  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0315  CHUNK_ID="315" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0315  options_workers
+
+JOB      OPTIONS_chunk0316  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0316  CHUNK_ID="316" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0316  options_workers
+
+JOB      OPTIONS_chunk0317  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0317  CHUNK_ID="317" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0317  options_workers
+
+JOB      OPTIONS_chunk0318  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0318  CHUNK_ID="318" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0318  options_workers
+
+JOB      OPTIONS_chunk0319  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0319  CHUNK_ID="319" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0319  options_workers
+
+JOB      OPTIONS_chunk0320  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0320  CHUNK_ID="320" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0320  options_workers
+
+JOB      OPTIONS_chunk0321  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0321  CHUNK_ID="321" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0321  options_workers
+
+JOB      OPTIONS_chunk0322  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0322  CHUNK_ID="322" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0322  options_workers
+
+JOB      OPTIONS_chunk0323  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0323  CHUNK_ID="323" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0323  options_workers
+
+JOB      OPTIONS_chunk0324  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0324  CHUNK_ID="324" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0324  options_workers
+
+JOB      OPTIONS_chunk0325  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0325  CHUNK_ID="325" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0325  options_workers
+
+JOB      OPTIONS_chunk0326  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0326  CHUNK_ID="326" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0326  options_workers
+
+JOB      OPTIONS_chunk0327  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0327  CHUNK_ID="327" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0327  options_workers
+
+JOB      OPTIONS_chunk0328  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0328  CHUNK_ID="328" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0328  options_workers
+
+JOB      OPTIONS_chunk0329  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0329  CHUNK_ID="329" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0329  options_workers
+
+JOB      OPTIONS_chunk0330  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0330  CHUNK_ID="330" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0330  options_workers
+
+JOB      OPTIONS_chunk0331  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0331  CHUNK_ID="331" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0331  options_workers
+
+JOB      OPTIONS_chunk0332  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0332  CHUNK_ID="332" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0332  options_workers
+
+JOB      OPTIONS_chunk0333  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0333  CHUNK_ID="333" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0333  options_workers
+
+JOB      OPTIONS_chunk0334  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0334  CHUNK_ID="334" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0334  options_workers
+
+JOB      OPTIONS_chunk0335  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0335  CHUNK_ID="335" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0335  options_workers
+
+JOB      OPTIONS_chunk0336  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0336  CHUNK_ID="336" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0336  options_workers
+
+JOB      OPTIONS_chunk0337  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0337  CHUNK_ID="337" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0337  options_workers
+
+JOB      OPTIONS_chunk0338  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0338  CHUNK_ID="338" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0338  options_workers
+
+JOB      OPTIONS_chunk0339  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0339  CHUNK_ID="339" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0339  options_workers
+
+JOB      OPTIONS_chunk0340  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0340  CHUNK_ID="340" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0340  options_workers
+
+JOB      OPTIONS_chunk0341  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0341  CHUNK_ID="341" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0341  options_workers
+
+JOB      OPTIONS_chunk0342  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0342  CHUNK_ID="342" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0342  options_workers
+
+JOB      OPTIONS_chunk0343  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0343  CHUNK_ID="343" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0343  options_workers
+
+JOB      OPTIONS_chunk0344  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0344  CHUNK_ID="344" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0344  options_workers
+
+JOB      OPTIONS_chunk0345  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0345  CHUNK_ID="345" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0345  options_workers
+
+JOB      OPTIONS_chunk0346  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0346  CHUNK_ID="346" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0346  options_workers
+
+JOB      OPTIONS_chunk0347  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0347  CHUNK_ID="347" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0347  options_workers
+
+JOB      OPTIONS_chunk0348  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0348  CHUNK_ID="348" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0348  options_workers
+
+JOB      OPTIONS_chunk0349  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0349  CHUNK_ID="349" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0349  options_workers
+
+JOB      OPTIONS_chunk0350  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0350  CHUNK_ID="350" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0350  options_workers
+
+JOB      OPTIONS_chunk0351  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0351  CHUNK_ID="351" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0351  options_workers
+
+JOB      OPTIONS_chunk0352  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0352  CHUNK_ID="352" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0352  options_workers
+
+JOB      OPTIONS_chunk0353  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0353  CHUNK_ID="353" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0353  options_workers
+
+JOB      OPTIONS_chunk0354  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0354  CHUNK_ID="354" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0354  options_workers
+
+JOB      OPTIONS_chunk0355  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0355  CHUNK_ID="355" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0355  options_workers
+
+JOB      OPTIONS_chunk0356  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0356  CHUNK_ID="356" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0356  options_workers
+
+JOB      OPTIONS_chunk0357  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0357  CHUNK_ID="357" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0357  options_workers
+
+JOB      OPTIONS_chunk0358  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0358  CHUNK_ID="358" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0358  options_workers
+
+JOB      OPTIONS_chunk0359  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0359  CHUNK_ID="359" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0359  options_workers
+
+JOB      OPTIONS_chunk0360  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0360  CHUNK_ID="360" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0360  options_workers
+
+JOB      OPTIONS_chunk0361  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0361  CHUNK_ID="361" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0361  options_workers
+
+JOB      OPTIONS_chunk0362  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0362  CHUNK_ID="362" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0362  options_workers
+
+JOB      OPTIONS_chunk0363  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0363  CHUNK_ID="363" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0363  options_workers
+
+JOB      OPTIONS_chunk0364  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0364  CHUNK_ID="364" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0364  options_workers
+
+JOB      OPTIONS_chunk0365  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0365  CHUNK_ID="365" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0365  options_workers
+
+JOB      OPTIONS_chunk0366  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0366  CHUNK_ID="366" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0366  options_workers
+
+JOB      OPTIONS_chunk0367  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0367  CHUNK_ID="367" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0367  options_workers
+
+JOB      OPTIONS_chunk0368  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0368  CHUNK_ID="368" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0368  options_workers
+
+JOB      OPTIONS_chunk0369  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0369  CHUNK_ID="369" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0369  options_workers
+
+JOB      OPTIONS_chunk0370  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0370  CHUNK_ID="370" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0370  options_workers
+
+JOB      OPTIONS_chunk0371  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0371  CHUNK_ID="371" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0371  options_workers
+
+JOB      OPTIONS_chunk0372  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0372  CHUNK_ID="372" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0372  options_workers
+
+JOB      OPTIONS_chunk0373  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0373  CHUNK_ID="373" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0373  options_workers
+
+JOB      OPTIONS_chunk0374  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0374  CHUNK_ID="374" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0374  options_workers
+
+JOB      OPTIONS_chunk0375  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0375  CHUNK_ID="375" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0375  options_workers
+
+JOB      OPTIONS_chunk0376  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0376  CHUNK_ID="376" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0376  options_workers
+
+JOB      OPTIONS_chunk0377  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0377  CHUNK_ID="377" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0377  options_workers
+
+JOB      OPTIONS_chunk0378  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0378  CHUNK_ID="378" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0378  options_workers
+
+JOB      OPTIONS_chunk0379  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0379  CHUNK_ID="379" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0379  options_workers
+
+JOB      OPTIONS_chunk0380  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0380  CHUNK_ID="380" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0380  options_workers
+
+JOB      OPTIONS_chunk0381  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0381  CHUNK_ID="381" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0381  options_workers
+
+JOB      OPTIONS_chunk0382  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0382  CHUNK_ID="382" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0382  options_workers
+
+JOB      OPTIONS_chunk0383  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0383  CHUNK_ID="383" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0383  options_workers
+
+JOB      OPTIONS_chunk0384  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0384  CHUNK_ID="384" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0384  options_workers
+
+JOB      OPTIONS_chunk0385  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0385  CHUNK_ID="385" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0385  options_workers
+
+JOB      OPTIONS_chunk0386  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0386  CHUNK_ID="386" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0386  options_workers
+
+JOB      OPTIONS_chunk0387  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0387  CHUNK_ID="387" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0387  options_workers
+
+JOB      OPTIONS_chunk0388  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0388  CHUNK_ID="388" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0388  options_workers
+
+JOB      OPTIONS_chunk0389  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0389  CHUNK_ID="389" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0389  options_workers
+
+JOB      OPTIONS_chunk0390  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0390  CHUNK_ID="390" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0390  options_workers
+
+JOB      OPTIONS_chunk0391  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0391  CHUNK_ID="391" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0391  options_workers
+
+JOB      OPTIONS_chunk0392  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0392  CHUNK_ID="392" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0392  options_workers
+
+JOB      OPTIONS_chunk0393  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0393  CHUNK_ID="393" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0393  options_workers
+
+JOB      OPTIONS_chunk0394  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0394  CHUNK_ID="394" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0394  options_workers
+
+JOB      OPTIONS_chunk0395  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0395  CHUNK_ID="395" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0395  options_workers
+
+JOB      OPTIONS_chunk0396  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0396  CHUNK_ID="396" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0396  options_workers
+
+JOB      OPTIONS_chunk0397  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0397  CHUNK_ID="397" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0397  options_workers
+
+JOB      OPTIONS_chunk0398  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0398  CHUNK_ID="398" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0398  options_workers
+
+JOB      OPTIONS_chunk0399  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0399  CHUNK_ID="399" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0399  options_workers
+
+JOB      OPTIONS_chunk0400  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0400  CHUNK_ID="400" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0400  options_workers
+
+JOB      OPTIONS_chunk0401  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0401  CHUNK_ID="401" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0401  options_workers
+
+JOB      OPTIONS_chunk0402  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0402  CHUNK_ID="402" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0402  options_workers
+
+JOB      OPTIONS_chunk0403  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0403  CHUNK_ID="403" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0403  options_workers
+
+JOB      OPTIONS_chunk0404  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0404  CHUNK_ID="404" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0404  options_workers
+
+JOB      OPTIONS_chunk0405  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0405  CHUNK_ID="405" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0405  options_workers
+
+JOB      OPTIONS_chunk0406  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0406  CHUNK_ID="406" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0406  options_workers
+
+JOB      OPTIONS_chunk0407  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0407  CHUNK_ID="407" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0407  options_workers
+
+JOB      OPTIONS_chunk0408  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0408  CHUNK_ID="408" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0408  options_workers
+
+JOB      OPTIONS_chunk0409  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0409  CHUNK_ID="409" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0409  options_workers
+
+JOB      OPTIONS_chunk0410  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0410  CHUNK_ID="410" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0410  options_workers
+
+JOB      OPTIONS_chunk0411  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0411  CHUNK_ID="411" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0411  options_workers
+
+JOB      OPTIONS_chunk0412  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0412  CHUNK_ID="412" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0412  options_workers
+
+JOB      OPTIONS_chunk0413  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0413  CHUNK_ID="413" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0413  options_workers
+
+JOB      OPTIONS_chunk0414  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0414  CHUNK_ID="414" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0414  options_workers
+
+JOB      OPTIONS_chunk0415  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0415  CHUNK_ID="415" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0415  options_workers
+
+JOB      OPTIONS_chunk0416  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0416  CHUNK_ID="416" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0416  options_workers
+
+JOB      OPTIONS_chunk0417  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0417  CHUNK_ID="417" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0417  options_workers
+
+JOB      OPTIONS_chunk0418  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0418  CHUNK_ID="418" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0418  options_workers
+
+JOB      OPTIONS_chunk0419  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0419  CHUNK_ID="419" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0419  options_workers
+
+JOB      OPTIONS_chunk0420  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0420  CHUNK_ID="420" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0420  options_workers
+
+JOB      OPTIONS_chunk0421  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0421  CHUNK_ID="421" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0421  options_workers
+
+JOB      OPTIONS_chunk0422  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0422  CHUNK_ID="422" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0422  options_workers
+
+JOB      OPTIONS_chunk0423  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0423  CHUNK_ID="423" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0423  options_workers
+
+JOB      OPTIONS_chunk0424  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0424  CHUNK_ID="424" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0424  options_workers
+
+JOB      OPTIONS_chunk0425  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0425  CHUNK_ID="425" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0425  options_workers
+
+JOB      OPTIONS_chunk0426  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0426  CHUNK_ID="426" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0426  options_workers
+
+JOB      OPTIONS_chunk0427  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0427  CHUNK_ID="427" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0427  options_workers
+
+JOB      OPTIONS_chunk0428  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0428  CHUNK_ID="428" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0428  options_workers
+
+JOB      OPTIONS_chunk0429  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0429  CHUNK_ID="429" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0429  options_workers
+
+JOB      OPTIONS_chunk0430  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0430  CHUNK_ID="430" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0430  options_workers
+
+JOB      OPTIONS_chunk0431  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0431  CHUNK_ID="431" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0431  options_workers
+
+JOB      OPTIONS_chunk0432  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0432  CHUNK_ID="432" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0432  options_workers
+
+JOB      OPTIONS_chunk0433  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0433  CHUNK_ID="433" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0433  options_workers
+
+JOB      OPTIONS_chunk0434  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0434  CHUNK_ID="434" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0434  options_workers
+
+JOB      OPTIONS_chunk0435  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0435  CHUNK_ID="435" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0435  options_workers
+
+JOB      OPTIONS_chunk0436  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0436  CHUNK_ID="436" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0436  options_workers
+
+JOB      OPTIONS_chunk0437  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0437  CHUNK_ID="437" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0437  options_workers
+
+JOB      OPTIONS_chunk0438  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0438  CHUNK_ID="438" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0438  options_workers
+
+JOB      OPTIONS_chunk0439  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0439  CHUNK_ID="439" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0439  options_workers
+
+JOB      OPTIONS_chunk0440  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0440  CHUNK_ID="440" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0440  options_workers
+
+JOB      OPTIONS_chunk0441  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0441  CHUNK_ID="441" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0441  options_workers
+
+JOB      OPTIONS_chunk0442  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0442  CHUNK_ID="442" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0442  options_workers
+
+JOB      OPTIONS_chunk0443  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0443  CHUNK_ID="443" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0443  options_workers
+
+JOB      OPTIONS_chunk0444  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0444  CHUNK_ID="444" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0444  options_workers
+
+JOB      OPTIONS_chunk0445  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0445  CHUNK_ID="445" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0445  options_workers
+
+JOB      OPTIONS_chunk0446  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0446  CHUNK_ID="446" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0446  options_workers
+
+JOB      OPTIONS_chunk0447  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0447  CHUNK_ID="447" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0447  options_workers
+
+JOB      OPTIONS_chunk0448  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0448  CHUNK_ID="448" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0448  options_workers
+
+JOB      OPTIONS_chunk0449  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0449  CHUNK_ID="449" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0449  options_workers
+
+JOB      OPTIONS_chunk0450  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0450  CHUNK_ID="450" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0450  options_workers
+
+JOB      OPTIONS_chunk0451  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0451  CHUNK_ID="451" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0451  options_workers
+
+JOB      OPTIONS_chunk0452  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0452  CHUNK_ID="452" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0452  options_workers
+
+JOB      OPTIONS_chunk0453  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0453  CHUNK_ID="453" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0453  options_workers
+
+JOB      OPTIONS_chunk0454  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0454  CHUNK_ID="454" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0454  options_workers
+
+JOB      OPTIONS_chunk0455  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0455  CHUNK_ID="455" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0455  options_workers
+
+JOB      OPTIONS_chunk0456  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0456  CHUNK_ID="456" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0456  options_workers
+
+JOB      OPTIONS_chunk0457  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0457  CHUNK_ID="457" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0457  options_workers
+
+JOB      OPTIONS_chunk0458  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0458  CHUNK_ID="458" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0458  options_workers
+
+JOB      OPTIONS_chunk0459  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0459  CHUNK_ID="459" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0459  options_workers
+
+JOB      OPTIONS_chunk0460  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0460  CHUNK_ID="460" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0460  options_workers
+
+JOB      OPTIONS_chunk0461  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0461  CHUNK_ID="461" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0461  options_workers
+
+JOB      OPTIONS_chunk0462  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0462  CHUNK_ID="462" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0462  options_workers
+
+JOB      OPTIONS_chunk0463  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0463  CHUNK_ID="463" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0463  options_workers
+
+JOB      OPTIONS_chunk0464  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0464  CHUNK_ID="464" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0464  options_workers
+
+JOB      OPTIONS_chunk0465  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0465  CHUNK_ID="465" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0465  options_workers
+
+JOB      OPTIONS_chunk0466  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0466  CHUNK_ID="466" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0466  options_workers
+
+JOB      OPTIONS_chunk0467  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0467  CHUNK_ID="467" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0467  options_workers
+
+JOB      OPTIONS_chunk0468  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0468  CHUNK_ID="468" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0468  options_workers
+
+JOB      OPTIONS_chunk0469  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0469  CHUNK_ID="469" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0469  options_workers
+
+JOB      OPTIONS_chunk0470  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0470  CHUNK_ID="470" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0470  options_workers
+
+JOB      OPTIONS_chunk0471  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0471  CHUNK_ID="471" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0471  options_workers
+
+JOB      OPTIONS_chunk0472  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0472  CHUNK_ID="472" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0472  options_workers
+
+JOB      OPTIONS_chunk0473  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0473  CHUNK_ID="473" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0473  options_workers
+
+JOB      OPTIONS_chunk0474  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0474  CHUNK_ID="474" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0474  options_workers
+
+JOB      OPTIONS_chunk0475  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0475  CHUNK_ID="475" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0475  options_workers
+
+JOB      OPTIONS_chunk0476  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0476  CHUNK_ID="476" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0476  options_workers
+
+JOB      OPTIONS_chunk0477  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0477  CHUNK_ID="477" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0477  options_workers
+
+JOB      OPTIONS_chunk0478  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0478  CHUNK_ID="478" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0478  options_workers
+
+JOB      OPTIONS_chunk0479  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0479  CHUNK_ID="479" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0479  options_workers
+
+JOB      OPTIONS_chunk0480  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0480  CHUNK_ID="480" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0480  options_workers
+
+JOB      OPTIONS_chunk0481  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0481  CHUNK_ID="481" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0481  options_workers
+
+JOB      OPTIONS_chunk0482  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0482  CHUNK_ID="482" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0482  options_workers
+
+JOB      OPTIONS_chunk0483  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0483  CHUNK_ID="483" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0483  options_workers
+
+JOB      OPTIONS_chunk0484  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0484  CHUNK_ID="484" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0484  options_workers
+
+JOB      OPTIONS_chunk0485  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0485  CHUNK_ID="485" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0485  options_workers
+
+JOB      OPTIONS_chunk0486  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0486  CHUNK_ID="486" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0486  options_workers
+
+JOB      OPTIONS_chunk0487  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0487  CHUNK_ID="487" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0487  options_workers
+
+JOB      OPTIONS_chunk0488  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0488  CHUNK_ID="488" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0488  options_workers
+
+JOB      OPTIONS_chunk0489  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0489  CHUNK_ID="489" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0489  options_workers
+
+JOB      OPTIONS_chunk0490  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0490  CHUNK_ID="490" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0490  options_workers
+
+JOB      OPTIONS_chunk0491  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0491  CHUNK_ID="491" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0491  options_workers
+
+JOB      OPTIONS_chunk0492  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0492  CHUNK_ID="492" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0492  options_workers
+
+JOB      OPTIONS_chunk0493  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0493  CHUNK_ID="493" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0493  options_workers
+
+JOB      OPTIONS_chunk0494  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0494  CHUNK_ID="494" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0494  options_workers
+
+JOB      OPTIONS_chunk0495  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0495  CHUNK_ID="495" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0495  options_workers
+
+JOB      OPTIONS_chunk0496  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0496  CHUNK_ID="496" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0496  options_workers
+
+JOB      OPTIONS_chunk0497  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0497  CHUNK_ID="497" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0497  options_workers
+
+JOB      OPTIONS_chunk0498  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0498  CHUNK_ID="498" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0498  options_workers
+
+JOB      OPTIONS_chunk0499  /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub
+VARS     OPTIONS_chunk0499  CHUNK_ID="499" N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+CATEGORY OPTIONS_chunk0499  options_workers
+
+MAXJOBS options_workers 50
+
+JOB  MERGE_options  /home/2673888s/commodity_futures/SUBMIT_FILES/merge_options_data.sub
+VARS MERGE_options  N_CHUNKS="500" CONFIG="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml"
+
+PARENT OPTIONS_chunk0000 OPTIONS_chunk0001 OPTIONS_chunk0002 OPTIONS_chunk0003 OPTIONS_chunk0004 OPTIONS_chunk0005 OPTIONS_chunk0006 OPTIONS_chunk0007 OPTIONS_chunk0008 OPTIONS_chunk0009 OPTIONS_chunk0010 OPTIONS_chunk0011 OPTIONS_chunk0012 OPTIONS_chunk0013 OPTIONS_chunk0014 OPTIONS_chunk0015 OPTIONS_chunk0016 OPTIONS_chunk0017 OPTIONS_chunk0018 OPTIONS_chunk0019 OPTIONS_chunk0020 OPTIONS_chunk0021 OPTIONS_chunk0022 OPTIONS_chunk0023 OPTIONS_chunk0024 OPTIONS_chunk0025 OPTIONS_chunk0026 OPTIONS_chunk0027 OPTIONS_chunk0028 OPTIONS_chunk0029 OPTIONS_chunk0030 OPTIONS_chunk0031 OPTIONS_chunk0032 OPTIONS_chunk0033 OPTIONS_chunk0034 OPTIONS_chunk0035 OPTIONS_chunk0036 OPTIONS_chunk0037 OPTIONS_chunk0038 OPTIONS_chunk0039 OPTIONS_chunk0040 OPTIONS_chunk0041 OPTIONS_chunk0042 OPTIONS_chunk0043 OPTIONS_chunk0044 OPTIONS_chunk0045 OPTIONS_chunk0046 OPTIONS_chunk0047 OPTIONS_chunk0048 OPTIONS_chunk0049 OPTIONS_chunk0050 OPTIONS_chunk0051 OPTIONS_chunk0052 OPTIONS_chunk0053 OPTIONS_chunk0054 OPTIONS_chunk0055 OPTIONS_chunk0056 OPTIONS_chunk0057 OPTIONS_chunk0058 OPTIONS_chunk0059 OPTIONS_chunk0060 OPTIONS_chunk0061 OPTIONS_chunk0062 OPTIONS_chunk0063 OPTIONS_chunk0064 OPTIONS_chunk0065 OPTIONS_chunk0066 OPTIONS_chunk0067 OPTIONS_chunk0068 OPTIONS_chunk0069 OPTIONS_chunk0070 OPTIONS_chunk0071 OPTIONS_chunk0072 OPTIONS_chunk0073 OPTIONS_chunk0074 OPTIONS_chunk0075 OPTIONS_chunk0076 OPTIONS_chunk0077 OPTIONS_chunk0078 OPTIONS_chunk0079 OPTIONS_chunk0080 OPTIONS_chunk0081 OPTIONS_chunk0082 OPTIONS_chunk0083 OPTIONS_chunk0084 OPTIONS_chunk0085 OPTIONS_chunk0086 OPTIONS_chunk0087 OPTIONS_chunk0088 OPTIONS_chunk0089 OPTIONS_chunk0090 OPTIONS_chunk0091 OPTIONS_chunk0092 OPTIONS_chunk0093 OPTIONS_chunk0094 OPTIONS_chunk0095 OPTIONS_chunk0096 OPTIONS_chunk0097 OPTIONS_chunk0098 OPTIONS_chunk0099 OPTIONS_chunk0100 OPTIONS_chunk0101 OPTIONS_chunk0102 OPTIONS_chunk0103 OPTIONS_chunk0104 OPTIONS_chunk0105 OPTIONS_chunk0106 OPTIONS_chunk0107 OPTIONS_chunk0108 OPTIONS_chunk0109 OPTIONS_chunk0110 OPTIONS_chunk0111 OPTIONS_chunk0112 OPTIONS_chunk0113 OPTIONS_chunk0114 OPTIONS_chunk0115 OPTIONS_chunk0116 OPTIONS_chunk0117 OPTIONS_chunk0118 OPTIONS_chunk0119 OPTIONS_chunk0120 OPTIONS_chunk0121 OPTIONS_chunk0122 OPTIONS_chunk0123 OPTIONS_chunk0124 OPTIONS_chunk0125 OPTIONS_chunk0126 OPTIONS_chunk0127 OPTIONS_chunk0128 OPTIONS_chunk0129 OPTIONS_chunk0130 OPTIONS_chunk0131 OPTIONS_chunk0132 OPTIONS_chunk0133 OPTIONS_chunk0134 OPTIONS_chunk0135 OPTIONS_chunk0136 OPTIONS_chunk0137 OPTIONS_chunk0138 OPTIONS_chunk0139 OPTIONS_chunk0140 OPTIONS_chunk0141 OPTIONS_chunk0142 OPTIONS_chunk0143 OPTIONS_chunk0144 OPTIONS_chunk0145 OPTIONS_chunk0146 OPTIONS_chunk0147 OPTIONS_chunk0148 OPTIONS_chunk0149 OPTIONS_chunk0150 OPTIONS_chunk0151 OPTIONS_chunk0152 OPTIONS_chunk0153 OPTIONS_chunk0154 OPTIONS_chunk0155 OPTIONS_chunk0156 OPTIONS_chunk0157 OPTIONS_chunk0158 OPTIONS_chunk0159 OPTIONS_chunk0160 OPTIONS_chunk0161 OPTIONS_chunk0162 OPTIONS_chunk0163 OPTIONS_chunk0164 OPTIONS_chunk0165 OPTIONS_chunk0166 OPTIONS_chunk0167 OPTIONS_chunk0168 OPTIONS_chunk0169 OPTIONS_chunk0170 OPTIONS_chunk0171 OPTIONS_chunk0172 OPTIONS_chunk0173 OPTIONS_chunk0174 OPTIONS_chunk0175 OPTIONS_chunk0176 OPTIONS_chunk0177 OPTIONS_chunk0178 OPTIONS_chunk0179 OPTIONS_chunk0180 OPTIONS_chunk0181 OPTIONS_chunk0182 OPTIONS_chunk0183 OPTIONS_chunk0184 OPTIONS_chunk0185 OPTIONS_chunk0186 OPTIONS_chunk0187 OPTIONS_chunk0188 OPTIONS_chunk0189 OPTIONS_chunk0190 OPTIONS_chunk0191 OPTIONS_chunk0192 OPTIONS_chunk0193 OPTIONS_chunk0194 OPTIONS_chunk0195 OPTIONS_chunk0196 OPTIONS_chunk0197 OPTIONS_chunk0198 OPTIONS_chunk0199 OPTIONS_chunk0200 OPTIONS_chunk0201 OPTIONS_chunk0202 OPTIONS_chunk0203 OPTIONS_chunk0204 OPTIONS_chunk0205 OPTIONS_chunk0206 OPTIONS_chunk0207 OPTIONS_chunk0208 OPTIONS_chunk0209 OPTIONS_chunk0210 OPTIONS_chunk0211 OPTIONS_chunk0212 OPTIONS_chunk0213 OPTIONS_chunk0214 OPTIONS_chunk0215 OPTIONS_chunk0216 OPTIONS_chunk0217 OPTIONS_chunk0218 OPTIONS_chunk0219 OPTIONS_chunk0220 OPTIONS_chunk0221 OPTIONS_chunk0222 OPTIONS_chunk0223 OPTIONS_chunk0224 OPTIONS_chunk0225 OPTIONS_chunk0226 OPTIONS_chunk0227 OPTIONS_chunk0228 OPTIONS_chunk0229 OPTIONS_chunk0230 OPTIONS_chunk0231 OPTIONS_chunk0232 OPTIONS_chunk0233 OPTIONS_chunk0234 OPTIONS_chunk0235 OPTIONS_chunk0236 OPTIONS_chunk0237 OPTIONS_chunk0238 OPTIONS_chunk0239 OPTIONS_chunk0240 OPTIONS_chunk0241 OPTIONS_chunk0242 OPTIONS_chunk0243 OPTIONS_chunk0244 OPTIONS_chunk0245 OPTIONS_chunk0246 OPTIONS_chunk0247 OPTIONS_chunk0248 OPTIONS_chunk0249 OPTIONS_chunk0250 OPTIONS_chunk0251 OPTIONS_chunk0252 OPTIONS_chunk0253 OPTIONS_chunk0254 OPTIONS_chunk0255 OPTIONS_chunk0256 OPTIONS_chunk0257 OPTIONS_chunk0258 OPTIONS_chunk0259 OPTIONS_chunk0260 OPTIONS_chunk0261 OPTIONS_chunk0262 OPTIONS_chunk0263 OPTIONS_chunk0264 OPTIONS_chunk0265 OPTIONS_chunk0266 OPTIONS_chunk0267 OPTIONS_chunk0268 OPTIONS_chunk0269 OPTIONS_chunk0270 OPTIONS_chunk0271 OPTIONS_chunk0272 OPTIONS_chunk0273 OPTIONS_chunk0274 OPTIONS_chunk0275 OPTIONS_chunk0276 OPTIONS_chunk0277 OPTIONS_chunk0278 OPTIONS_chunk0279 OPTIONS_chunk0280 OPTIONS_chunk0281 OPTIONS_chunk0282 OPTIONS_chunk0283 OPTIONS_chunk0284 OPTIONS_chunk0285 OPTIONS_chunk0286 OPTIONS_chunk0287 OPTIONS_chunk0288 OPTIONS_chunk0289 OPTIONS_chunk0290 OPTIONS_chunk0291 OPTIONS_chunk0292 OPTIONS_chunk0293 OPTIONS_chunk0294 OPTIONS_chunk0295 OPTIONS_chunk0296 OPTIONS_chunk0297 OPTIONS_chunk0298 OPTIONS_chunk0299 OPTIONS_chunk0300 OPTIONS_chunk0301 OPTIONS_chunk0302 OPTIONS_chunk0303 OPTIONS_chunk0304 OPTIONS_chunk0305 OPTIONS_chunk0306 OPTIONS_chunk0307 OPTIONS_chunk0308 OPTIONS_chunk0309 OPTIONS_chunk0310 OPTIONS_chunk0311 OPTIONS_chunk0312 OPTIONS_chunk0313 OPTIONS_chunk0314 OPTIONS_chunk0315 OPTIONS_chunk0316 OPTIONS_chunk0317 OPTIONS_chunk0318 OPTIONS_chunk0319 OPTIONS_chunk0320 OPTIONS_chunk0321 OPTIONS_chunk0322 OPTIONS_chunk0323 OPTIONS_chunk0324 OPTIONS_chunk0325 OPTIONS_chunk0326 OPTIONS_chunk0327 OPTIONS_chunk0328 OPTIONS_chunk0329 OPTIONS_chunk0330 OPTIONS_chunk0331 OPTIONS_chunk0332 OPTIONS_chunk0333 OPTIONS_chunk0334 OPTIONS_chunk0335 OPTIONS_chunk0336 OPTIONS_chunk0337 OPTIONS_chunk0338 OPTIONS_chunk0339 OPTIONS_chunk0340 OPTIONS_chunk0341 OPTIONS_chunk0342 OPTIONS_chunk0343 OPTIONS_chunk0344 OPTIONS_chunk0345 OPTIONS_chunk0346 OPTIONS_chunk0347 OPTIONS_chunk0348 OPTIONS_chunk0349 OPTIONS_chunk0350 OPTIONS_chunk0351 OPTIONS_chunk0352 OPTIONS_chunk0353 OPTIONS_chunk0354 OPTIONS_chunk0355 OPTIONS_chunk0356 OPTIONS_chunk0357 OPTIONS_chunk0358 OPTIONS_chunk0359 OPTIONS_chunk0360 OPTIONS_chunk0361 OPTIONS_chunk0362 OPTIONS_chunk0363 OPTIONS_chunk0364 OPTIONS_chunk0365 OPTIONS_chunk0366 OPTIONS_chunk0367 OPTIONS_chunk0368 OPTIONS_chunk0369 OPTIONS_chunk0370 OPTIONS_chunk0371 OPTIONS_chunk0372 OPTIONS_chunk0373 OPTIONS_chunk0374 OPTIONS_chunk0375 OPTIONS_chunk0376 OPTIONS_chunk0377 OPTIONS_chunk0378 OPTIONS_chunk0379 OPTIONS_chunk0380 OPTIONS_chunk0381 OPTIONS_chunk0382 OPTIONS_chunk0383 OPTIONS_chunk0384 OPTIONS_chunk0385 OPTIONS_chunk0386 OPTIONS_chunk0387 OPTIONS_chunk0388 OPTIONS_chunk0389 OPTIONS_chunk0390 OPTIONS_chunk0391 OPTIONS_chunk0392 OPTIONS_chunk0393 OPTIONS_chunk0394 OPTIONS_chunk0395 OPTIONS_chunk0396 OPTIONS_chunk0397 OPTIONS_chunk0398 OPTIONS_chunk0399 OPTIONS_chunk0400 OPTIONS_chunk0401 OPTIONS_chunk0402 OPTIONS_chunk0403 OPTIONS_chunk0404 OPTIONS_chunk0405 OPTIONS_chunk0406 OPTIONS_chunk0407 OPTIONS_chunk0408 OPTIONS_chunk0409 OPTIONS_chunk0410 OPTIONS_chunk0411 OPTIONS_chunk0412 OPTIONS_chunk0413 OPTIONS_chunk0414 OPTIONS_chunk0415 OPTIONS_chunk0416 OPTIONS_chunk0417 OPTIONS_chunk0418 OPTIONS_chunk0419 OPTIONS_chunk0420 OPTIONS_chunk0421 OPTIONS_chunk0422 OPTIONS_chunk0423 OPTIONS_chunk0424 OPTIONS_chunk0425 OPTIONS_chunk0426 OPTIONS_chunk0427 OPTIONS_chunk0428 OPTIONS_chunk0429 OPTIONS_chunk0430 OPTIONS_chunk0431 OPTIONS_chunk0432 OPTIONS_chunk0433 OPTIONS_chunk0434 OPTIONS_chunk0435 OPTIONS_chunk0436 OPTIONS_chunk0437 OPTIONS_chunk0438 OPTIONS_chunk0439 OPTIONS_chunk0440 OPTIONS_chunk0441 OPTIONS_chunk0442 OPTIONS_chunk0443 OPTIONS_chunk0444 OPTIONS_chunk0445 OPTIONS_chunk0446 OPTIONS_chunk0447 OPTIONS_chunk0448 OPTIONS_chunk0449 OPTIONS_chunk0450 OPTIONS_chunk0451 OPTIONS_chunk0452 OPTIONS_chunk0453 OPTIONS_chunk0454 OPTIONS_chunk0455 OPTIONS_chunk0456 OPTIONS_chunk0457 OPTIONS_chunk0458 OPTIONS_chunk0459 OPTIONS_chunk0460 OPTIONS_chunk0461 OPTIONS_chunk0462 OPTIONS_chunk0463 OPTIONS_chunk0464 OPTIONS_chunk0465 OPTIONS_chunk0466 OPTIONS_chunk0467 OPTIONS_chunk0468 OPTIONS_chunk0469 OPTIONS_chunk0470 OPTIONS_chunk0471 OPTIONS_chunk0472 OPTIONS_chunk0473 OPTIONS_chunk0474 OPTIONS_chunk0475 OPTIONS_chunk0476 OPTIONS_chunk0477 OPTIONS_chunk0478 OPTIONS_chunk0479 OPTIONS_chunk0480 OPTIONS_chunk0481 OPTIONS_chunk0482 OPTIONS_chunk0483 OPTIONS_chunk0484 OPTIONS_chunk0485 OPTIONS_chunk0486 OPTIONS_chunk0487 OPTIONS_chunk0488 OPTIONS_chunk0489 OPTIONS_chunk0490 OPTIONS_chunk0491 OPTIONS_chunk0492 OPTIONS_chunk0493 OPTIONS_chunk0494 OPTIONS_chunk0495 OPTIONS_chunk0496 OPTIONS_chunk0497 OPTIONS_chunk0498 OPTIONS_chunk0499 CHILD MERGE_options

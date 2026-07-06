@@ -80,3 +80,24 @@ if TORCH_AVAILABLE:
 
             grads = {idx: torch.stack(vals, dim=1) for idx, vals in grads.items()}  # (batch, M)
             return out, grads
+
+    
+    class OptionsOnFuturesSurrogate(nn.Module):
+        """
+        Surrogate for European call options on commodity futures.
+
+        Input  : [moneyness, T_option, T_futures, kappa, sigma_chi,
+                  sigma_xi, rho, risk_free_rate]   (8-dim)
+        Output : option price V (scalar, Softplus to enforce V > 0)
+        """
+
+        def __init__(
+            self,
+            hidden_dims: list[int] = (64, 128, 128, 64),
+        ):
+            super().__init__()
+            self.net = SurrogateMLP(8, 1, hidden_dims)
+            self.softplus = nn.Softplus()
+
+        def forward(self, x: torch.Tensor) -> torch.Tensor:
+            return self.softplus(self.net(x))

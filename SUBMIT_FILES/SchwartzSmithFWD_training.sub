@@ -1,0 +1,43 @@
+# SchwartzSmithFWD_training_sweep.sub
+#
+# Same mechanism as your options-data chunk DAG, applied to hyperparameters
+# instead of chunk IDs: one job per row of hyperparam_grid.txt, exactly like
+# submitting one PE job per row of an injection-parameter table rather than
+# N identical jobs differentiated only by $(Process).
+#
+# $(Cluster)_$(Process) tags each job uniquely so checkpoint/plot/log paths
+# never collide between combinations — the training-run analogue of tagging
+# each injection-recovery job with a unique injection ID so results don't
+# overwrite each other on a shared filesystem.
+
+executable = EXECUTABLES/SchwartzSmithFWD_training.sh
+arguments  = $(batch_size) $(alpha) $(beta) $(n_epochs) $(patience) $(lr) $(weight_decay) $(Cluster)_$(Process)
+
+log    = LOG_FILES/train_$(Cluster)_$(Process).log
+error  = ERROR_FILES/train_$(Cluster)_$(Process).err
+output = OUTPUT_FILES/train_$(Cluster)_$(Process).out
+
+notify_user  = s.singh.3@research.gla.ac.uk
+notification = Error
+getenv       = True
+
+request_GPUs   = 1
+request_cpus   = 1
+request_memory = 12GB
+
+# ── The sweep ─────────────────────────────────────────────────────────────
+# Declares 7 named vars, one job queued per row of hyperparam_grid.txt.
+# HTCondor still sets $(Process) = 0, 1, ..., (n_rows-1) automatically, so
+# it's compatible with the same $(Cluster)_$(Process) tagging pattern you
+# already use for the options-data chunks — nothing else in your workflow
+# needs to change.
+
+queue batch_size,alpha,beta,n_epochs,patience,lr,weight_decay from (
+    2048        0.10  0.10 600      40       3.0e-4   1.0e-5
+    2048        0.05  0.05 600      40       3.0e-4   1.0e-5
+    2048        0.20  0.20 600      40       3.0e-4   1.0e-5
+    1024        0.10  0.10 600      40       3.0e-4   1.0e-5
+    4096        0.10  0.10 600      40       3.0e-4   1.0e-5
+    2048        0.10  0.10 600      40       1.0e-4   1.0e-5
+    2048        0.10  0.10 600      40       3.0e-4   1.0e-4
+)

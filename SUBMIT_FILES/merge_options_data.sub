@@ -1,0 +1,16 @@
+executable = EXECUTABLES/merge_options_data.sh
+getenv     = true
+arguments  = $(N_CHUNKS) $(CONFIG)
+
+log    = LOG_FILES/options_merge.log
+error  = ERROR_FILES/options_merge.err
+output = OUTPUT_FILES/options_merge.out
+
+notify_user  = s.singh.3@research.gla.ac.uk
+getenv = True
+notification = Error
+
+request_cpus   = 1
+request_memory = 8GB
+
+queue 1

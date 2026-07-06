@@ -1,0 +1,5 @@
+Normalisation sanity checks (should all be O(1)):
+  theta_norm:  mean=0.000  std=1.000
+  F_norm:      mean=0.000  std=1.000
+  grads_norm:  mean=0.016  std=0.637  max=52.1
+Epoch    1/300 | Train: 0.19027 | Val: 0.02359 | LR: 3.00e-04 | Elapsed: 27s

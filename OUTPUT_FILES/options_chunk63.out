@@ -1,0 +1,13 @@
+================================================
+ gen_options_data  chunk 63 / 500
+ config: /home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml
+================================================
+
+[Job 63/500]  generating 1,000 / 500,000 samples
+
+  Samples generated : 1,000  (from 1,000 attempts)
+  Price range       : [0.0000, 70.8890]
+  Mean price        : 7.0254
+  Mean MC stderr    : 0.08215   (sigma_label)
+  Mean SNR          : 89.8   (V / sigma_label)
+  Saved to: /data/wiay/postgrads/shashwat/COMM_DATA/training_data/options_on_futures_data_chunk_063.pt

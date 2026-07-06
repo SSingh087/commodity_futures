@@ -1,0 +1,16 @@
+executable = EXECUTABLES/generate_options_data.sh
+getenv     = true
+arguments  = $(CHUNK_ID) $(N_CHUNKS) $(CONFIG)
+
+log    = LOG_FILES/options_chunk$(CHUNK_ID).log
+error  = ERROR_FILES/options_chunk$(CHUNK_ID).err
+output = OUTPUT_FILES/options_chunk$(CHUNK_ID).out
+
+notify_user  = s.singh.3@research.gla.ac.uk
+getenv = True
+notification = Error
+
+request_cpus   = 1
+request_memory = 4GB
+
+queue 1

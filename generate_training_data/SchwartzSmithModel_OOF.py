@@ -1,11 +1,11 @@
 import sys, os
 sys.path.insert(0, os.path.abspath('./'))
 from __training_imports__ import *
-from schwartz_smith import SSParams, SchwartzSmithModel, price_european_call_on_futures
+from schwartz_smith import SSParams, price_european_call_on_futures
 
 import numpy as np
-from pathlib import Path
 from tqdm import tqdm
+
 
 def sample_one(rng: np.random.Generator, PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list) -> dict:
     """
@@ -14,25 +14,23 @@ def sample_one(rng: np.random.Generator, PRIOR: dict, CONTRACT: dict, TAU_EXTRA:
     Returns a dict with X (8 inputs), V (price), V_std (stderr).
     Returns None if the pricing call fails for any reason.
     """
-    # ── sample model parameters ──────────────────────────────────────────
     def u(key, lo, hi):
         return rng.uniform(lo, hi)
 
     params = SSParams(
-        kappa      = u("kappa", *PRIOR["kappa"]),
-        mu_xi      = u("mu_xi", *PRIOR["mu_xi"]),
-        sigma_chi  = u("sigma_chi", *PRIOR["sigma_chi"]),
-        sigma_xi   = u("sigma_xi", *PRIOR["sigma_xi"]),
-        rho        = u("rho", *PRIOR["rho"]),
+        kappa      = u("kappa",      *PRIOR["kappa"]),
+        mu_xi      = u("mu_xi",      *PRIOR["mu_xi"]),
+        sigma_chi  = u("sigma_chi",  *PRIOR["sigma_chi"]),
+        sigma_xi   = u("sigma_xi",   *PRIOR["sigma_xi"]),
+        rho        = u("rho",        *PRIOR["rho"]),
         lambda_chi = u("lambda_chi", *PRIOR["lambda_chi"]),
-        chi0       = u("chi0", *PRIOR["chi0"]),
-        xi0        = u("xi0", *PRIOR["xi0"]),
+        chi0       = u("chi0",       *PRIOR["chi0"]),
+        xi0        = u("xi0",        *PRIOR["xi0"]),
     )
 
-    # ── sample contract parameters ────────────────────────────────────────
     moneyness = rng.uniform(*CONTRACT["moneyness"])
     T_option  = rng.uniform(*CONTRACT["T_option"])
-    T_futures = T_option + rng.uniform(*TAU_EXTRA)   # always > T_option
+    T_futures = T_option + rng.uniform(*TAU_EXTRA)
     r         = rng.uniform(*CONTRACT["r"])
 
     try:
@@ -48,12 +46,12 @@ def sample_one(rng: np.random.Generator, PRIOR: dict, CONTRACT: dict, TAU_EXTRA:
         )
     except Exception:
         return None
- 
+
     if not np.isfinite(price) or not np.isfinite(stderr):
         return None
     if price < 0 or stderr < 0:
         return None
- 
+
     X = np.array([
         params.kappa,
         params.sigma_chi,
@@ -64,17 +62,23 @@ def sample_one(rng: np.random.Generator, PRIOR: dict, CONTRACT: dict, TAU_EXTRA:
         T_futures,
         r,
     ], dtype=np.float32)
- 
+
     return {"X": X, "V": float(price), "V_std": float(stderr)}
 
 
-
-def generate(PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list, n_samples: int, seed: int = 42, save_path: str = "./SchwartzSmithFWD_dataset.pt") -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+def generate(
+    PRIOR: dict,
+    CONTRACT: dict,
+    TAU_EXTRA: list,
+    n_samples: int,
+    rng: np.random.Generator,
+    save_path: str,
+) -> tuple:
     """
-    Generate n_samples (input, price, stderr).
+    Generate n_samples (input, price, stderr) using a pre-built RNG.
+    The caller is responsible for constructing a job-specific RNG so that
+    parallel workers never share state.
     """
-    rng = np.random.default_rng(seed)
-
     X_list     = []
     V_list     = []
     V_std_list = []
@@ -97,15 +101,13 @@ def generate(PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list, n_samples: int, seed:
     X     = np.stack(X_list)
     V     = np.array(V_list,     dtype=np.float32)
     V_std = np.array(V_std_list, dtype=np.float32)
- 
+
     col_names = ["kappa", "sigma_chi", "sigma_xi", "rho",
                  "moneyness", "T_option", "T_futures", "r"]
 
-
-    # ── normalisation stats (computed here, stored for training) ──────────
-    X_mean = X.mean(axis=0).astype(np.float32)
-    X_std  = X.std(axis=0).astype(np.float32) + 1e-8
-    V_mean = float(V.mean())
+    X_mean     = X.mean(axis=0).astype(np.float32)
+    X_std      = X.std(axis=0).astype(np.float32) + 1e-8
+    V_mean     = float(V.mean())
     V_std_norm = float(V.std()) + 1e-8
 
     print(f"\n  Samples generated : {n_samples:,}  (from {n_attempts:,} attempts)")
@@ -113,8 +115,8 @@ def generate(PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list, n_samples: int, seed:
     print(f"  Mean price        : {V.mean():.4f}")
     print(f"  Mean MC stderr    : {V_std.mean():.5f}   (sigma_label)")
     print(f"  Mean SNR          : {(V / (V_std + 1e-8)).mean():.1f}   (V / sigma_label)")
- 
-    # ── save as .pt ───────────────────────────────────────────────────────
+
+    os.makedirs(os.path.dirname(os.path.abspath(save_path)), exist_ok=True)
     torch.save({
         "X"         : torch.tensor(X),
         "V"         : torch.tensor(V),
@@ -126,62 +128,63 @@ def generate(PRIOR: dict, CONTRACT: dict, TAU_EXTRA: list, n_samples: int, seed:
         "V_std_norm": V_std_norm,
     }, save_path)
     print(f"  Saved to: {save_path}")
- 
+
     return X, V, V_std, col_names
 
 
-
 if __name__ == "__main__":
-    
+
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default="./config/SchwartzSmithFWD.yaml")
+    parser.add_argument("--config",   default="./config/SchwartzSmithFWD.yaml")
+    parser.add_argument("--job_id",   type=int, default=0,
+                        help="0-indexed chunk ID (set by HTCondor via $(Process))")
+    parser.add_argument("--n_jobs",   type=int, default=1,
+                        help="Total number of parallel chunks")
     args = parser.parse_args()
-    cfg_path = args.config
-    with open(cfg_path) as f:
+
+    with open(args.config) as f:
         cfg = yaml.safe_load(f)
 
-    rng = np.random.default_rng(cfg["training"]["seed"])
-    n_samples = cfg["training"]["n_samples"]
+    # ── Parallel-safe seeding via SeedSequence ────────────────────────────
+    # SeedSequence.spawn(n_jobs) produces n_jobs independent child sequences
+    # with non-overlapping internal state — analogous to choosing orthogonal
+    # waveform polarisations so matched-filter outputs are uncorrelated.
+    base_seed = cfg["training"]["seed"]
+    ss        = np.random.SeedSequence(base_seed)
+    child_seq = ss.spawn(args.n_jobs)[args.job_id]
+    rng       = np.random.default_rng(child_seq)
 
-    PARAM_BOUNDS = np.array([
-        cfg["data"]["priors"]["kappa"],
-        cfg["data"]["priors"]["mu_xi"],
-        cfg["data"]["priors"]["sigma_chi"],
-        cfg["data"]["priors"]["sigma_xi"],
-        cfg["data"]["priors"]["rho"],
-        cfg["data"]["priors"]["lambda_chi"],
-        cfg["data"]["priors"]["chi0"],
-        cfg["data"]["priors"]["xi0"],
-    ])
+    # ── Split total sample count across jobs ──────────────────────────────
+    total_samples  = cfg["training"]["n_samples"]
+    samples_per_job = total_samples // args.n_jobs
+    # Give any remainder to the last job
+    if args.job_id == args.n_jobs - 1:
+        samples_per_job += total_samples % args.n_jobs
 
-    PRIOR = {
-        "kappa"     : PARAM_BOUNDS[0],
-        "mu_xi"     : PARAM_BOUNDS[1],
-        "sigma_chi" : PARAM_BOUNDS[2],
-        "sigma_xi"  : PARAM_BOUNDS[3],
-        "rho"       : PARAM_BOUNDS[4],
-        "lambda_chi": PARAM_BOUNDS[5],
-        "chi0"      : PARAM_BOUNDS[6],
-        "xi0"       : PARAM_BOUNDS[7],
-    }
-    
+    PRIOR = {k: cfg["data"]["priors"][k] for k in
+             ["kappa", "mu_xi", "sigma_chi", "sigma_xi",
+              "rho", "lambda_chi", "chi0", "xi0"]}
+
     CONTRACT = {
         "moneyness" : cfg["data"]["contract"]["moneyness"],
         "T_option"  : cfg["data"]["contract"]["T_option"],
         "r"         : cfg["data"]["contract"]["r"],
     }
-
     TAU_EXTRA = cfg["data"]["TAU_EXTRA"]
 
+    # Each chunk saves to its own file: options_on_futures_data_chunk_003.pt
+    save_dir  = cfg["data"]["save_path"]
+    file_path = os.path.join(
+        save_dir,
+        f"options_on_futures_data_chunk_{args.job_id:03d}.pt"
+    )
 
-    # Start small — 2000 samples is enough to check everything works
-    # before committing to the full 200k run (which takes hours)
-    file_path = os.path.join(cfg["data"]["save_path"], "options_on_futures_data.pt")
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    print(f"\n[Job {args.job_id}/{args.n_jobs}]  "
+          f"generating {samples_per_job:,} / {total_samples:,} samples")
 
-    X, V, V_std, col_names = generate(
-    PRIOR, CONTRACT, TAU_EXTRA,
-    n_samples = cfg["training"]["n_samples"],
-    seed      = cfg["training"]["seed"],
-    save_path = file_path,
+    generate(
+        PRIOR, CONTRACT, TAU_EXTRA,
+        n_samples = samples_per_job,
+        rng       = rng,
+        save_path = file_path,
     )

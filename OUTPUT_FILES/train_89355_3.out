@@ -1,0 +1,24 @@
+==========================================
+ SchwartzSmithFWD training — job tag 89355_3
+ batch_size=1024  alpha=0.10  beta=0.10
+ n_epochs=600  patience=40
+ lr=3.0e-4  weight_decay=1.0e-5
+==========================================
+Job tag: 89355_3
+Effective hyperparameters: batch_size=1024  alpha=0.1  beta=0.1  n_epochs=600  patience=40  lr=0.0003  weight_decay=1e-05
+Normalisation sanity checks (should all be O(1)):
+  theta_norm:  mean=0.000  std=1.000
+  F_norm:      mean=0.000  std=1.000
+  grads_norm:  mean=0.030  std=0.130  max=2.5
+Per-channel |grads_norm| max (should now be comparable across channels):
+  dF_dlnkappa    : max=2.53
+  dF_dsigma_chi  : max=0.96
+  dF_dsigma_xi   : max=0.81
+  dF_drho        : max=1.05
+Epoch    1/600 | Train: 0.10346 | Val: 0.00646 | LR: 3.00e-04 | Elapsed: 21s
+Epoch   10/600 | Train: 0.00025 | Val: 0.00022 | LR: 3.00e-04 | Elapsed: 205s
+Epoch   20/600 | Train: 0.00006 | Val: 0.00005 | LR: 2.99e-04 | Elapsed: 399s
+Epoch   30/600 | Train: 0.00003 | Val: 0.00003 | LR: 2.98e-04 | Elapsed: 599s
+Epoch   40/600 | Train: 0.00002 | Val: 0.00002 | LR: 2.97e-04 | Elapsed: 787s
+Epoch   50/600 | Train: 0.00001 | Val: 0.00001 | LR: 2.95e-04 | Elapsed: 983s
+Epoch   60/600 | Train: 0.00001 | Val: 0.00001 | LR: 2.93e-04 | Elapsed: 1181s

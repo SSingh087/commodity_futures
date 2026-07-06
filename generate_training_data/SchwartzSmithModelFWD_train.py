@@ -7,14 +7,60 @@ from trainer import SchwartzSmithTrainer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--config", default="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml")
+# ── Sweep overrides ──────────────────────────────────────────────────────
+# Optional CLI overrides for the hyperparameters you're sweeping over via
+# HTCondor's queue-from-file. Each is None by default, meaning "use the
+# yaml value" — so this script still runs standalone with just --config,
+# exactly as before, and only deviates from the yaml when a sweep job
+# explicitly passes a value. Same pattern as an injection script accepting
+# optional --mass1/--mass2 overrides on top of a base config, rather than
+# needing a fully separate yaml file per grid point.
+parser.add_argument("--batch_size",   type=int,   default=None)
+parser.add_argument("--alpha",        type=float, default=None)
+parser.add_argument("--beta",         type=float, default=None)
+parser.add_argument("--n_epochs",     type=int,   default=None)
+parser.add_argument("--patience",     type=int,   default=None)
+parser.add_argument("--lr",           type=float, default=None)
+parser.add_argument("--weight_decay", type=float, default=None)
+parser.add_argument("--tag",          type=str,   default=None,
+                     help="Unique job tag (e.g. Cluster_Process) — appended "
+                          "to checkpoint_dir/plot_dir so sweep jobs never "
+                          "collide, the same way each injection-recovery "
+                          "job in a PE campaign needs its own output path.")
 args = parser.parse_args()
 with open(args.config) as f:
     cfg = yaml.safe_load(f)
 
+# Apply overrides — only touches cfg["training"] keys explicitly passed.
+overrides = {
+    "batch_size":   args.batch_size,
+    "differential_loss_alpha": args.alpha,
+    "differential_loss_beta":  args.beta,
+    "n_epochs":     args.n_epochs,
+    "patience":     args.patience,
+    "learning_rate": args.lr,
+    "weight_decay": args.weight_decay,
+}
+for key, val in overrides.items():
+    if val is not None:
+        cfg["training"][key] = val
+
 plot_dir = Path(cfg["output"]["plot_dir"])
 ckpt_dir = Path(cfg["output"]["checkpoint_dir"])
+if args.tag:
+    # Isolate this job's outputs — critical for the sweep to actually
+    # produce n_rows distinct results instead of n_rows-1 overwritten ones.
+    plot_dir = plot_dir / args.tag
+    ckpt_dir = ckpt_dir / args.tag
 plot_dir.mkdir(parents=True, exist_ok=True)
 ckpt_dir.mkdir(parents=True, exist_ok=True)
+
+print(f"Job tag: {args.tag or '(none — single run)'}")
+print(f"Effective hyperparameters: batch_size={cfg['training']['batch_size']}  "
+      f"alpha={cfg['training']['differential_loss_alpha']}  "
+      f"beta={cfg['training']['differential_loss_beta']}  "
+      f"n_epochs={cfg['training']['n_epochs']}  patience={cfg['training']['patience']}  "
+      f"lr={cfg['training']['learning_rate']}  weight_decay={cfg['training']['weight_decay']}")
 
 
 def plot_training_loss(
@@ -82,14 +128,23 @@ data = torch.load(
     weights_only=False,
 )
 
+# theta_net is the NETWORK-FACING array: identical to theta_raw except
+# column 0 is ln(kappa) instead of raw kappa. theta_mean/theta_std were
+# already computed on theta_net at generation time — this is the load-
+# bearing consistency point: the same array must be used for normalising
+# BOTH the training inputs and any inference-time inputs later, the same
+# way a GW sampler must consistently work in ln(mass) throughout a run
+# rather than switching coordinate conventions partway through.
+theta_net  = data["theta_net"]
+theta_raw  = data["theta_raw"]     # physical units — diagnostics/printouts only
 theta_mean = data["theta_mean"]
 theta_std  = data["theta_std"]
 maturities = data["maturities"]
-grad_keys  = data["grad_keys"]          # ["dF_dkappa", "dF_dsigma_chi", "dF_dsigma_xi", "dF_drho"]
-param_indices = [0, 2, 3, 4]           # positions of those params in theta
+grad_keys  = data["grad_keys"]          # ["dF_dlnkappa", "dF_dsigma_chi", "dF_dsigma_xi", "dF_drho"]
+param_indices = [0, 2, 3, 4]           # positions in theta_net: ln(kappa), sigma_chi, sigma_xi, rho
 
-# ── Normalise theta ────────────────────────────────────────────────
-theta_norm = (data["theta"] - theta_mean) / theta_std
+# ── Normalise theta_net ────────────────────────────────────────────
+theta_norm = (theta_net - theta_mean) / theta_std
 
 # ── Log-transform and normalise F ─────────────────────────────────
 # GW analogy: this is like working in log-amplitude space for h(t).
@@ -101,13 +156,24 @@ log_F_std  = log_F.std(axis=0)                         # (M,)  — per-maturity 
 F_norm     = (log_F - log_F_mean) / log_F_std          # (N, M)
 
 # ── Normalise gradients (per-sample, chain rule exact) ────────────
-# We need: d(log_F_norm)/d(theta_norm) = dF/dtheta * theta_std / (F * log_F_std)
+# We need: d(log_F_norm)/d(theta_norm) = dF/dtheta_net * theta_std / (F * log_F_std)
+#
+# This formula is UNCHANGED from before the reparametrization — it's already
+# generic in terms of whichever "theta"/"theta_std"/"grads_stacked" it's
+# handed. The reparametrization is entirely upstream: grads_stacked[...,0]
+# is now dF/d(ln kappa) rather than dF/dkappa (computed at generation time
+# as kappa * dF/dkappa), and theta_std[0] is now std(ln kappa) rather than
+# std(kappa). Both changes are self-consistent by construction, the same
+# way a Fisher-matrix computation doesn't need its own formula rewritten
+# when you switch from raw-mass to ln-mass coordinates — only the inputs
+# (the Jacobian-transformed derivative and the coordinate's own scale)
+# change, not the machinery combining them.
 
-theta_std_subset = theta_std[param_indices]            # (4,)
+theta_std_subset = theta_std[param_indices]            # (4,) — now includes std(ln kappa)
 F_actual         = data["F"]                           # (N, M)  — raw prices
 
 grads_norm = (
-    data["grads_stacked"]                              # (N, M, 4) raw dF/dtheta
+    data["grads_stacked"]                              # (N, M, 4) — col 0 now dF/d(ln kappa)
     / F_actual[:, :, None]                             # divide by ACTUAL F, not mean F
     * theta_std_subset[None, None, :]                  # scale by theta_std (chain rule)
     / log_F_std[None, :, None]                         # scale by log_F_std (chain rule)
@@ -118,9 +184,17 @@ print(f"  theta_norm:  mean={theta_norm.mean():.3f}  std={theta_norm.std():.3f}"
 print(f"  F_norm:      mean={F_norm.mean():.3f}  std={F_norm.std():.3f}")
 print(f"  grads_norm:  mean={grads_norm.mean():.3f}  std={grads_norm.std():.3f}  max={np.abs(grads_norm).max():.1f}")
 
-# If grads_norm.std() >> 5 or max >> 50, the differential loss will explode.
-# In that case either (a) clip grads at data-generation time or
-# (b) reduce alpha/beta/gamma/delta in the config until the loss terms are balanced.
+# Per-channel breakdown — this is the check that matters most right now:
+# confirm the ln-kappa reparametrization actually tamed dF_dlnkappa's scale
+# down to be comparable with the other three channels (which were all
+# max <= 1.0 previously), rather than just trusting the aggregate number.
+print("Per-channel |grads_norm| max (should now be comparable across channels):")
+for i, key in enumerate(grad_keys):
+    print(f"  {key:15s}: max={np.abs(grads_norm[..., i]).max():.2f}")
+
+# If any channel's max is still wildly larger than the others, the
+# reparametrization didn't fully fix it — go back to the stratified
+# check_gradients.py diagnostic before turning alpha/beta up further.
 
 # ── To tensors ────────────────────────────────────────────────────
 theta_t = torch.tensor(theta_norm, dtype=torch.float32)
@@ -154,6 +228,12 @@ model = SurrogateMLP(
 )
 
 # ── Train ─────────────────────────────────────────────────────────
+# grad_keys passed straight through from the saved dataset — now
+# ["dF_dlnkappa", "dF_dsigma_chi", "dF_dsigma_xi", "dF_drho"]. This must
+# match EXACTLY what SchwartzSmithTrainer's param_indices dict and
+# DifferentialLoss's weights dict use as keys (both patched to
+# "dF_dlnkappa"), or the differential loss silently drops the kappa term
+# again — same silent-skip failure mode as before, just relocated.
 trainer = SchwartzSmithTrainer(
     model,
     alpha          = cfg["training"]["differential_loss_alpha"],
@@ -163,7 +243,9 @@ trainer = SchwartzSmithTrainer(
     checkpoint_dir = ckpt_dir,
     grad_keys      = grad_keys,
 )
-history = trainer.train(train_loader, val_loader, n_epochs=cfg["training"]["n_epochs"])
+history = trainer.train(train_loader, val_loader,
+                         n_epochs=cfg["training"]["n_epochs"],
+                         patience=cfg["training"]["patience"])
 
 # ── Validation plots ──────────────────────────────────────────────
 fig = plot_training_loss(history)
@@ -172,16 +254,19 @@ fig.savefig(plot_dir / "training_loss.png", dpi=150, bbox_inches="tight")
 device = next(model.parameters()).device
 model.eval()
 
+# Test inputs must come from theta_net (ln-kappa space) — feeding raw
+# theta_raw here would silently hand the network un-logged kappa values,
+# which is the exact same class of mismatch as evaluating a trained
+# ln-mass surrogate waveform model with a raw mass input: it won't error,
+# it'll just silently produce a nonsense forward curve.
 test_theta = torch.tensor(
-    (data["theta"][:200] - theta_mean) / theta_std, dtype=torch.float32
+    (theta_net[:200] - theta_mean) / theta_std, dtype=torch.float32
 ).to(device)
 
 with torch.no_grad():
     F_pred_norm = model(test_theta).cpu().numpy()      # (200, M) normalised log-price
 
 # ── Invert log-transform to get prices ────────────────────────────
-# Chain: network output (normalised) -> log F -> F
-# log_F_mean and log_F_std are (M,) arrays saved above; used consistently.
 log_F_pred = F_pred_norm * log_F_std + log_F_mean     # (200, M) log-price
 F_pred     = np.exp(log_F_pred)                        # (200, M) price
 
@@ -190,17 +275,29 @@ fig.savefig(plot_dir / "surrogate_accuracy.png", dpi=150, bbox_inches="tight")
 
 print(f"\nAll plots saved to {plot_dir}")
 print(f"Best checkpoint at {ckpt_dir}/best_model.pt")
+print("Physical-unit parameter ranges for these 200 test samples (theta_raw):")
+for i, name in enumerate(cfg["param_names"]):
+    print(f"  {name}: [{theta_raw[:200, i].min():.4f}, {theta_raw[:200, i].max():.4f}]")
 
 # ── Save normalisation stats for use at inference/Stage 3 ─────────
-# Everything needed to (a) normalise inputs and (b) invert outputs
-# must be saved alongside the model — exactly like saving PSD
-# calibration data alongside a matched-filter template bank.
+# Everything needed to (a) normalise inputs and (b) invert outputs, in
+# BOTH coordinate systems — Stage 3's MCMC will sample in physical kappa
+# (the natural prior), so it needs to know to apply log() and these exact
+# stats before calling the surrogate. Saving both conventions here avoids
+# the sampler having to guess which space the checkpoint expects, the same
+# way you'd save both the raw and whitened representations of a template
+# bank rather than forcing every downstream consumer to re-derive one from
+# the other.
 norm_stats = {
-    "theta_mean": theta_mean,
-    "theta_std":  theta_std,
+    "theta_mean": theta_mean,   # ln(kappa) space
+    "theta_std":  theta_std,    # ln(kappa) space
     "log_F_mean": log_F_mean,   # (M,)
     "log_F_std":  log_F_std,    # (M,)
     "maturities": maturities,
+    "kappa_is_log": True,       # explicit flag: column 0 requires np.log() before normalising
+    "kappa_index":  0,
 }
 np.savez(ckpt_dir / "norm_stats.npz", **norm_stats)
 print(f"Normalisation stats saved to {ckpt_dir}/norm_stats.npz")
+# print("NOTE: theta_mean/theta_std are in ln(kappa) space (kappa_is_log=True) — "
+#       "apply np.log() to raw kappa before normalising at Stage 3 inference time.")

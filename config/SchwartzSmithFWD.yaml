@@ -1,3 +1,4 @@
+
 param_names: [kappa, mu_xi, sigma_chi, sigma_xi, rho, lambda_chi, chi0, xi0]
 
 model:
@@ -5,17 +6,15 @@ model:
   activation: gelu
 
 training:
-  n_samples: 500
+  n_samples: 500000
   batch_size: 2048
-  differential_loss_alpha: 0.0
-  differential_loss_beta:  0.0  
-  n_epochs: 300
+  differential_loss_alpha: 0.10
+  differential_loss_beta:  0.10
+  n_epochs: 600
   patience: 40
   learning_rate: 3.0e-4
   weight_decay: 1.0e-5
-  scheduler: cosine            # cosine annealing
-  differential_loss_alpha: 0.1 # weight on gradient-matching term
-  differential_loss_beta: 0.1
+  scheduler: cosine # for cosine annealing, or step for step decay
   val_fraction: 0.1
   seed: 42
 
@@ -35,9 +34,11 @@ data:
     T_option  : [0.25, 2.0]    # option expiry in years
     r         : [0.02, 0.08]   # risk-free rate
   TAU_EXTRA  : [0.0, 0.5]     # extra time to expiry for the underlying futures contract (in years)
-  save_path: /home/singh/QUANT_PROJECT/commodity_futures/training_data
+
+  save_path: /data/wiay/postgrads/shashwat/COMM_DATA/training_data
 
 output:
-  checkpoint_dir: home/singh/QUANT_PROJECT/commodity_futures/results/checkpoints/SchwartzSmithFWD
-  log_dir: home/singh/QUANT_PROJECT/commodity_futures/results/logs
-  plot_dir: home/singh/QUANT_PROJECT/commodity_futures/results/plots/SchwartzSmithFWD
+
+  checkpoint_dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD
+  log_dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/logs
+  plot_dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/plots/SchwartzSmithFWD

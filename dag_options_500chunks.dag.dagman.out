@@ -1,0 +1,1760 @@
+07/06/26 13:48:29 ******************************************************
+07/06/26 13:48:29 ** condor_scheduniv_exec.89356.0 (CONDOR_DAGMAN) STARTING UP
+07/06/26 13:48:29 ** /usr/bin/condor_dagman
+07/06/26 13:48:29 ** SubsystemInfo: name=DAGMAN type=DAGMAN(9) class=CLIENT(2)
+07/06/26 13:48:29 ** Configuration: subsystem:DAGMAN local:<NONE> class:CLIENT
+07/06/26 13:48:29 ** $CondorVersion: 24.12.15 2025-12-12 BuildID: 856731 PackageID: 24.12.15-1+deb12 GitSHA: 9a75c7f5 $
+07/06/26 13:48:29 ** $CondorPlatform: X86_64-Debian_12 $
+07/06/26 13:48:29 ** PID = 1038405 RealUID = 24273
+07/06/26 13:48:29 ** Log last touched time unavailable (No such file or directory)
+07/06/26 13:48:29 ******************************************************
+07/06/26 13:48:29 Using config source: /etc/condor/condor_config
+07/06/26 13:48:29 Using local config sources: 
+07/06/26 13:48:29    /etc/condor/config.d/00-security
+07/06/26 13:48:29    /etc/condor/config.d/02-submit.conf
+07/06/26 13:48:29    /etc/condor/config.d/10-stash-plugin.conf
+07/06/26 13:48:29    /etc/condor/config.d/99-astro.conf
+07/06/26 13:48:29    /etc/condor/condor_config.local
+07/06/26 13:48:29 config Macros = 85, Sorted = 85, StringBytes = 2679, TablesBytes = 3132
+07/06/26 13:48:29 CLASSAD_CACHING is ENABLED
+07/06/26 13:48:29 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/06/26 13:48:29 Daemoncore: Listening at <0.0.0.0:23557> on TCP (ReliSock) and UDP (SafeSock).
+07/06/26 13:48:29 DaemonCore: command socket at <130.209.203.177:23557?addrs=130.209.203.177-23557&alias=condor-submit.astro.gla.ac.uk>
+07/06/26 13:48:29 DaemonCore: private command socket at <130.209.203.177:23557?addrs=130.209.203.177-23557&alias=condor-submit.astro.gla.ac.uk>
+07/06/26 13:48:29 DAGMAN_USE_STRICT setting: 1
+07/06/26 13:48:29 DAGMAN_VERBOSITY setting: 3
+07/06/26 13:48:29 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/06/26 13:48:29 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/06/26 13:48:29 DAGMAN_SUBMIT_DELAY setting: 0
+07/06/26 13:48:29 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/06/26 13:48:29 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/06/26 13:48:29 DAGMAN_USE_JOIN_NODES setting: True
+07/06/26 13:48:29 DAGMAN_REPORT_GRAPH_METRICS setting: False
+07/06/26 13:48:29 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 100
+07/06/26 13:48:29 DAGMAN_AGGRESSIVE_SUBMIT setting: False
+07/06/26 13:48:29 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/06/26 13:48:29 DAGMAN_QUEUE_UPDATE_INTERVAL setting: 300.000000
+07/06/26 13:48:29 DAGMAN_DEFAULT_PRIORITY setting: 0
+07/06/26 13:48:29 DAGMAN_SUPPRESS_NOTIFICATION setting: False
+07/06/26 13:48:29 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/06/26 13:48:29 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/06/26 13:48:29 DAGMAN_RETRY_NODE_FIRST setting: False
+07/06/26 13:48:29 DAGMAN_MAX_JOBS_IDLE setting: 1000
+07/06/26 13:48:29 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+07/06/26 13:48:29 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/06/26 13:48:29 DAGMAN_MAX_POST_SCRIPTS setting: 20
+07/06/26 13:48:29 DAGMAN_MAX_HOLD_SCRIPTS setting: 20
+07/06/26 13:48:29 DAGMAN_MUNGE_NODE_NAMES setting: True
+07/06/26 13:48:29 DAGMAN_ALLOW_ANY_NODE_NAME_CHARACTERS setting: False
+07/06/26 13:48:29 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+07/06/26 13:48:29 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/06/26 13:48:29 DAGMAN_ALWAYS_RUN_POST setting: False
+07/06/26 13:48:29 DAGMAN_CONDOR_SUBMIT_EXE setting: /usr/bin/condor_submit
+07/06/26 13:48:29 DAGMAN_CONDOR_RM_EXE setting: /usr/bin/condor_rm
+07/06/26 13:48:29 DAGMAN_USE_DIRECT_SUBMIT setting: True
+07/06/26 13:48:29 DAGMAN_PRODUCE_JOB_CREDENTIALS setting: True
+07/06/26 13:48:29 DAGMAN_DEFAULT_APPEND_VARS setting: False
+07/06/26 13:48:29 DAGMAN_INHERIT_ATTRS_PREFIX setting: 
+07/06/26 13:48:29 DAGMAN_INHERIT_ATTRS setting: 
+07/06/26 13:48:29 DAGMAN_ABORT_DUPLICATES setting: True
+07/06/26 13:48:29 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/06/26 13:48:29 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/06/26 13:48:29 DAGMAN_CHECK_QUEUE_INTERVAL setting: 28800
+07/06/26 13:48:29 DAGMAN_PRINT_JOB_TABLE_INTERVAL setting: 900
+07/06/26 13:48:29 DAGMAN_AUTO_RESCUE setting: True
+07/06/26 13:48:29 DAGMAN_MAX_RESCUE_NUM setting: 100
+07/06/26 13:48:29 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/06/26 13:48:29 DAGMAN_RESET_RETRIES_UPON_RESCUE setting: True
+07/06/26 13:48:29 DAGMAN_METRICS_FILE_VERSION setting: 2
+07/06/26 13:48:29 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/06/26 13:48:29 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/06/26 13:48:29 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/06/26 13:48:30 DAGMAN_MAX_JOB_HOLDS setting: 100
+07/06/26 13:48:30 DAGMAN_NODE_JOB_FAILURE_TOLERANCE setting: 0
+07/06/26 13:48:30 DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/06/26 13:48:30 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/06/26 13:48:30 DAGMAN_REMOVE_NODE_JOBS setting: True
+07/06/26 13:48:30 DAGMAN_PUT_FAILED_JOBS_ON_HOLD setting: False
+07/06/26 13:48:30 DAGMAN_REMOVE_JOBS_AFTER_LIMIT_CHANGE setting: False
+07/06/26 13:48:30 DAGMAN will adjust edges after parsing
+07/06/26 13:48:30 argv[0] == "condor_scheduniv_exec.89356.0"
+07/06/26 13:48:30 argv[1] == "-Lockfile"
+07/06/26 13:48:30 argv[2] == "dag_options_500chunks.dag.lock"
+07/06/26 13:48:30 argv[3] == "-Dag"
+07/06/26 13:48:30 argv[4] == "dag_options_500chunks.dag"
+07/06/26 13:48:30 argv[5] == "-CsdVersion"
+07/06/26 13:48:30 argv[6] == "$CondorVersion: 24.12.15 2025-12-12 BuildID: 856731 PackageID: 24.12.15-1+deb12 GitSHA: 9a75c7f5 $"
+07/06/26 13:48:30 argv[7] == "-dagman"
+07/06/26 13:48:30 argv[8] == "/usr/bin/condor_dagman"
+07/06/26 13:48:30 argv[9] == "-AutoRescue"
+07/06/26 13:48:30 argv[10] == "1"
+07/06/26 13:48:30 argv[11] == "-DoRescueFrom"
+07/06/26 13:48:30 argv[12] == "0"
+07/06/26 13:48:30 Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+07/06/26 13:48:30 Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+07/06/26 13:48:30 Workflow batch-id: <89356.0>
+07/06/26 13:48:30 Workflow batch-name: <dag_options_500chunks.dag+89356>
+07/06/26 13:48:30 Workflow accounting_group: <>
+07/06/26 13:48:30 Workflow accounting_group_user: <>
+07/06/26 13:48:30 Warning: failed to get attribute DAGNodeName
+07/06/26 13:48:30 Default node log file is: </home/2673888s/commodity_futures/./dag_options_500chunks.dag.nodes.log>
+07/06/26 13:48:30 DAG Lockfile will be written to dag_options_500chunks.dag.lock
+07/06/26 13:48:30 DAG Input file is dag_options_500chunks.dag
+07/06/26 13:48:30 Parsing 1 dagfiles
+07/06/26 13:48:30 Parsing dag_options_500chunks.dag ...
+07/06/26 13:48:30 Adjusting edges
+07/06/26 13:48:30 Dag contains 501 total nodes
+07/06/26 13:48:30 Bootstrapping...
+07/06/26 13:48:30 Number of pre-completed nodes: 0
+07/06/26 13:48:30 MultiLogFiles: truncating log file /home/2673888s/commodity_futures/./dag_options_500chunks.dag.nodes.log
+07/06/26 13:48:30 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:48:30 Of 501 nodes total:
+07/06/26 13:48:30  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:48:30   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:48:30     0       0        0       0     500          1        0        0
+07/06/26 13:48:30 0 job proc(s) currently held
+07/06/26 13:48:30 DAGMan Runtime Statistics: [EventCycleTimeSum=0.000; SleepCycleTimeSum=0.000; SubmitCycleTimeSum=0.000; EventCycleTimeCount=0.000; SleepCycleTimeCount=0.000; SubmitCycleTimeCount=0.000; LogProcessCycleTimeSum=0.000; LogProcessCycleTimeCount=0.000; ]
+07/06/26 13:48:30 Registering condor_event_timer...
+07/06/26 13:48:31 Submitting HTCondor Node OPTIONS_chunk0000 job(s)...
+07/06/26 13:48:31 Submitting node OPTIONS_chunk0000 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:31 	assigned HTCondor ID (89357.0.0)
+07/06/26 13:48:31 Submitting HTCondor Node OPTIONS_chunk0001 job(s)...
+07/06/26 13:48:31 Submitting node OPTIONS_chunk0001 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:31 	assigned HTCondor ID (89358.0.0)
+07/06/26 13:48:31 Submitting HTCondor Node OPTIONS_chunk0002 job(s)...
+07/06/26 13:48:31 Submitting node OPTIONS_chunk0002 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:31 	assigned HTCondor ID (89359.0.0)
+07/06/26 13:48:31 Submitting HTCondor Node OPTIONS_chunk0003 job(s)...
+07/06/26 13:48:31 Submitting node OPTIONS_chunk0003 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:31 	assigned HTCondor ID (89360.0.0)
+07/06/26 13:48:31 Submitting HTCondor Node OPTIONS_chunk0004 job(s)...
+07/06/26 13:48:31 Submitting node OPTIONS_chunk0004 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:31 	assigned HTCondor ID (89361.0.0)
+07/06/26 13:48:31 Submitting HTCondor Node OPTIONS_chunk0005 job(s)...
+07/06/26 13:48:31 Submitting node OPTIONS_chunk0005 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:31 	assigned HTCondor ID (89362.0.0)
+07/06/26 13:48:31 Submitting HTCondor Node OPTIONS_chunk0006 job(s)...
+07/06/26 13:48:31 Submitting node OPTIONS_chunk0006 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:31 	assigned HTCondor ID (89363.0.0)
+07/06/26 13:48:31 Submitting HTCondor Node OPTIONS_chunk0007 job(s)...
+07/06/26 13:48:31 Submitting node OPTIONS_chunk0007 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:31 	assigned HTCondor ID (89364.0.0)
+07/06/26 13:48:31 Submitting HTCondor Node OPTIONS_chunk0008 job(s)...
+07/06/26 13:48:31 Submitting node OPTIONS_chunk0008 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:31 	assigned HTCondor ID (89365.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0009 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0009 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89366.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0010 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0010 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89367.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0011 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0011 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89368.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0012 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0012 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89369.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0013 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0013 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89370.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0014 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0014 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89371.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0015 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0015 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89372.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0016 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0016 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89373.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0017 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0017 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89374.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0018 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0018 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89375.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0019 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0019 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89376.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0020 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0020 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89377.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0021 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0021 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89378.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0022 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0022 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89379.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0023 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0023 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89380.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0024 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0024 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:32 	assigned HTCondor ID (89381.0.0)
+07/06/26 13:48:32 Submitting HTCondor Node OPTIONS_chunk0025 job(s)...
+07/06/26 13:48:32 Submitting node OPTIONS_chunk0025 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89382.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0026 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0026 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89383.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0027 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0027 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89384.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0028 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0028 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89385.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0029 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0029 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89386.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0030 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0030 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89387.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0031 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0031 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89388.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0032 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0032 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89389.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0033 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0033 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89390.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0034 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0034 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89391.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0035 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0035 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89392.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0036 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0036 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89393.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0037 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0037 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89394.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0038 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0038 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89395.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0039 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0039 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89396.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0040 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0040 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89397.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0041 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0041 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89398.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0042 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0042 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:33 	assigned HTCondor ID (89399.0.0)
+07/06/26 13:48:33 Submitting HTCondor Node OPTIONS_chunk0043 job(s)...
+07/06/26 13:48:33 Submitting node OPTIONS_chunk0043 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:34 	assigned HTCondor ID (89400.0.0)
+07/06/26 13:48:34 Submitting HTCondor Node OPTIONS_chunk0044 job(s)...
+07/06/26 13:48:34 Submitting node OPTIONS_chunk0044 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:34 	assigned HTCondor ID (89401.0.0)
+07/06/26 13:48:34 Submitting HTCondor Node OPTIONS_chunk0045 job(s)...
+07/06/26 13:48:34 Submitting node OPTIONS_chunk0045 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:34 	assigned HTCondor ID (89402.0.0)
+07/06/26 13:48:34 Submitting HTCondor Node OPTIONS_chunk0046 job(s)...
+07/06/26 13:48:34 Submitting node OPTIONS_chunk0046 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:34 	assigned HTCondor ID (89403.0.0)
+07/06/26 13:48:34 Submitting HTCondor Node OPTIONS_chunk0047 job(s)...
+07/06/26 13:48:34 Submitting node OPTIONS_chunk0047 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:34 	assigned HTCondor ID (89404.0.0)
+07/06/26 13:48:34 Submitting HTCondor Node OPTIONS_chunk0048 job(s)...
+07/06/26 13:48:34 Submitting node OPTIONS_chunk0048 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:34 	assigned HTCondor ID (89405.0.0)
+07/06/26 13:48:34 Submitting HTCondor Node OPTIONS_chunk0049 job(s)...
+07/06/26 13:48:34 Submitting node OPTIONS_chunk0049 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:48:34 	assigned HTCondor ID (89406.0.0)
+07/06/26 13:48:34 Just submitted 50 jobs this cycle...
+07/06/26 13:48:34 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:48:34 Of 501 nodes total:
+07/06/26 13:48:34  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:48:34   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:48:34     0       0       50       0     450          1        0        0
+07/06/26 13:48:34 0 job proc(s) currently held
+07/06/26 13:48:34 Note: 450 total node deferrals because of node category throttles
+07/06/26 13:48:34 DAGMan Runtime Statistics: [EventCycleTimeSum=0.000; SleepCycleTimeSum=0.000; SubmitCycleTimeAvg=2.850; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=2.850; SubmitCycleTimeStd=2.850; SubmitCycleTimeSum=2.850; EventCycleTimeCount=0.000; SleepCycleTimeCount=0.000; SubmitCycleTimeCount=1.000; LogProcessCycleTimeSum=0.000; LogProcessCycleTimeCount=0.000; ]
+07/06/26 13:48:39 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0000 from (89357.0.0) to (89357.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0000 (89357.0.0) {07/06/26 13:48:31}
+07/06/26 13:48:39 Number of idle job procs: 1
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0001 from (89358.0.0) to (89358.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0001 (89358.0.0) {07/06/26 13:48:31}
+07/06/26 13:48:39 Number of idle job procs: 2
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0002 from (89359.0.0) to (89359.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0002 (89359.0.0) {07/06/26 13:48:31}
+07/06/26 13:48:39 Number of idle job procs: 3
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0003 from (89360.0.0) to (89360.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0003 (89360.0.0) {07/06/26 13:48:31}
+07/06/26 13:48:39 Number of idle job procs: 4
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0004 from (89361.0.0) to (89361.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0004 (89361.0.0) {07/06/26 13:48:31}
+07/06/26 13:48:39 Number of idle job procs: 5
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0005 from (89362.0.0) to (89362.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0005 (89362.0.0) {07/06/26 13:48:31}
+07/06/26 13:48:39 Number of idle job procs: 6
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0006 from (89363.0.0) to (89363.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0006 (89363.0.0) {07/06/26 13:48:31}
+07/06/26 13:48:39 Number of idle job procs: 7
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0007 from (89364.0.0) to (89364.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0007 (89364.0.0) {07/06/26 13:48:31}
+07/06/26 13:48:39 Number of idle job procs: 8
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0008 from (89365.0.0) to (89365.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0008 (89365.0.0) {07/06/26 13:48:31}
+07/06/26 13:48:39 Number of idle job procs: 9
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0009 from (89366.0.0) to (89366.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0009 (89366.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 10
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0010 from (89367.0.0) to (89367.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0010 (89367.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 11
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0011 from (89368.0.0) to (89368.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0011 (89368.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 12
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0012 from (89369.0.0) to (89369.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0012 (89369.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 13
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0013 from (89370.0.0) to (89370.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0013 (89370.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 14
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0014 from (89371.0.0) to (89371.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0014 (89371.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 15
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0015 from (89372.0.0) to (89372.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0015 (89372.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 16
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0016 from (89373.0.0) to (89373.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0016 (89373.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 17
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0017 from (89374.0.0) to (89374.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0017 (89374.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 18
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0018 from (89375.0.0) to (89375.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0018 (89375.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 19
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0019 from (89376.0.0) to (89376.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0019 (89376.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 20
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0020 from (89377.0.0) to (89377.0.0)
+07/06/26 13:48:39 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0020 (89377.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:39 Number of idle job procs: 21
+07/06/26 13:48:39 Reassigning the id of job OPTIONS_chunk0021 from (89378.0.0) to (89378.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0021 (89378.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:40 Number of idle job procs: 22
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0022 from (89379.0.0) to (89379.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0022 (89379.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:40 Number of idle job procs: 23
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0023 from (89380.0.0) to (89380.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0023 (89380.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:40 Number of idle job procs: 24
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0024 from (89381.0.0) to (89381.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0024 (89381.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:40 Number of idle job procs: 25
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0025 from (89382.0.0) to (89382.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0025 (89382.0.0) {07/06/26 13:48:32}
+07/06/26 13:48:40 Number of idle job procs: 26
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0026 from (89383.0.0) to (89383.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0026 (89383.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 27
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0027 from (89384.0.0) to (89384.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0027 (89384.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 28
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0028 from (89385.0.0) to (89385.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0028 (89385.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 29
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0029 from (89386.0.0) to (89386.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0029 (89386.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 30
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0030 from (89387.0.0) to (89387.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0030 (89387.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 31
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0031 from (89388.0.0) to (89388.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0031 (89388.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 32
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0032 from (89389.0.0) to (89389.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0032 (89389.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 33
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0033 from (89390.0.0) to (89390.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0033 (89390.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 34
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0034 from (89391.0.0) to (89391.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0034 (89391.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 35
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0035 from (89392.0.0) to (89392.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0035 (89392.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 36
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0036 from (89393.0.0) to (89393.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0036 (89393.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 37
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0037 from (89394.0.0) to (89394.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0037 (89394.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 38
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0038 from (89395.0.0) to (89395.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0038 (89395.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 39
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0039 from (89396.0.0) to (89396.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0039 (89396.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 40
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0040 from (89397.0.0) to (89397.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0040 (89397.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 41
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0041 from (89398.0.0) to (89398.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0041 (89398.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 42
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0042 from (89399.0.0) to (89399.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0042 (89399.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 43
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0043 from (89400.0.0) to (89400.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0043 (89400.0.0) {07/06/26 13:48:33}
+07/06/26 13:48:40 Number of idle job procs: 44
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0044 from (89401.0.0) to (89401.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0044 (89401.0.0) {07/06/26 13:48:34}
+07/06/26 13:48:40 Number of idle job procs: 45
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0045 from (89402.0.0) to (89402.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0045 (89402.0.0) {07/06/26 13:48:34}
+07/06/26 13:48:40 Number of idle job procs: 46
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0046 from (89403.0.0) to (89403.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0046 (89403.0.0) {07/06/26 13:48:34}
+07/06/26 13:48:40 Number of idle job procs: 47
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0047 from (89404.0.0) to (89404.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0047 (89404.0.0) {07/06/26 13:48:34}
+07/06/26 13:48:40 Number of idle job procs: 48
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0048 from (89405.0.0) to (89405.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0048 (89405.0.0) {07/06/26 13:48:34}
+07/06/26 13:48:40 Number of idle job procs: 49
+07/06/26 13:48:40 Reassigning the id of job OPTIONS_chunk0049 from (89406.0.0) to (89406.0.0)
+07/06/26 13:48:40 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0049 (89406.0.0) {07/06/26 13:48:34}
+07/06/26 13:48:40 Number of idle job procs: 50
+07/06/26 13:48:50 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:48:50 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0000 (89357.0.0) {07/06/26 13:48:50}
+07/06/26 13:48:50 Number of idle job procs: 49
+07/06/26 13:48:50 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0003 (89360.0.0) {07/06/26 13:48:50}
+07/06/26 13:48:50 Number of idle job procs: 48
+07/06/26 13:48:50 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0006 (89363.0.0) {07/06/26 13:48:50}
+07/06/26 13:48:50 Number of idle job procs: 47
+07/06/26 13:48:50 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0013 (89370.0.0) {07/06/26 13:48:50}
+07/06/26 13:48:50 Number of idle job procs: 46
+07/06/26 13:48:55 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:48:55 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0019 (89376.0.0) {07/06/26 13:48:50}
+07/06/26 13:48:55 Number of idle job procs: 45
+07/06/26 13:48:55 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0028 (89385.0.0) {07/06/26 13:48:51}
+07/06/26 13:48:55 Number of idle job procs: 44
+07/06/26 13:48:55 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0029 (89386.0.0) {07/06/26 13:48:51}
+07/06/26 13:48:55 Number of idle job procs: 43
+07/06/26 13:48:55 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0030 (89387.0.0) {07/06/26 13:48:51}
+07/06/26 13:48:55 Number of idle job procs: 42
+07/06/26 13:48:55 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0031 (89388.0.0) {07/06/26 13:48:51}
+07/06/26 13:48:55 Number of idle job procs: 41
+07/06/26 13:48:55 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0032 (89389.0.0) {07/06/26 13:48:51}
+07/06/26 13:48:55 Number of idle job procs: 40
+07/06/26 13:48:55 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0033 (89390.0.0) {07/06/26 13:48:52}
+07/06/26 13:48:55 Number of idle job procs: 39
+07/06/26 13:48:56 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0034 (89391.0.0) {07/06/26 13:48:52}
+07/06/26 13:48:56 Number of idle job procs: 38
+07/06/26 13:49:11 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0004 (89361.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0005 (89362.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0001 (89358.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0007 (89364.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0002 (89359.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0008 (89365.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0009 (89366.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0011 (89368.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0010 (89367.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0012 (89369.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0014 (89371.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0015 (89372.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0016 (89373.0.0) {07/06/26 13:49:09}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0005 (89362.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11   Hold reason: Error from slot1_4@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk5.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0017 (89374.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0018 (89375.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0020 (89377.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0021 (89378.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0022 (89379.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0024 (89381.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0023 (89380.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0026 (89383.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11 Number of idle job procs: 38
+07/06/26 13:49:11 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0001 (89358.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:11   Hold reason: Error from slot1_1@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk1.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0025 (89382.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0027 (89384.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0004 (89361.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:12   Hold reason: Error from slot1_3@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk4.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0007 (89364.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:12   Hold reason: Error from slot1_5@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk7.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0002 (89359.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:12   Hold reason: Error from slot1_2@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk2.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0008 (89365.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:12   Hold reason: Error from slot1_6@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk8.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0009 (89366.0.0) {07/06/26 13:49:10}
+07/06/26 13:49:12   Hold reason: Error from slot1_7@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk9.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0010 (89367.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_8@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk10.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0011 (89368.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_9@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk11.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0012 (89369.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_10@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk12.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0014 (89371.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_11@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk14.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0015 (89372.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_12@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk15.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0016 (89373.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_13@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk16.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0017 (89374.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_14@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk17.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0018 (89375.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_15@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk18.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0020 (89377.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_16@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk20.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0021 (89378.0.0) {07/06/26 13:49:11}
+07/06/26 13:49:12   Hold reason: Error from slot1_17@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk21.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0022 (89379.0.0) {07/06/26 13:49:12}
+07/06/26 13:49:12   Hold reason: Error from slot1_18@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk22.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0023 (89380.0.0) {07/06/26 13:49:12}
+07/06/26 13:49:12   Hold reason: Error from slot1_19@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk23.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:12 Number of idle job procs: 38
+07/06/26 13:49:12 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0024 (89381.0.0) {07/06/26 13:49:12}
+07/06/26 13:49:13   Hold reason: Error from slot1_20@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk24.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:13 Number of idle job procs: 38
+07/06/26 13:49:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0025 (89382.0.0) {07/06/26 13:49:12}
+07/06/26 13:49:13   Hold reason: Error from slot1_21@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk25.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:13 Number of idle job procs: 38
+07/06/26 13:49:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0026 (89383.0.0) {07/06/26 13:49:12}
+07/06/26 13:49:13   Hold reason: Error from slot1_22@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk26.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:13 Number of idle job procs: 38
+07/06/26 13:49:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0027 (89384.0.0) {07/06/26 13:49:12}
+07/06/26 13:49:13   Hold reason: Error from slot1_23@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk27.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:49:13 Number of idle job procs: 38
+07/06/26 13:49:13 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:49:13 Of 501 nodes total:
+07/06/26 13:49:13  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:49:13   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:49:13     0       0       50       0     450          1        0        0
+07/06/26 13:49:13 23 job proc(s) currently held
+07/06/26 13:49:13 Note: 3600 total node deferrals because of node category throttles
+07/06/26 13:49:13 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.643; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=1.112; EventCycleTimeSum=4.499; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.001; SleepCycleTimeSum=35.035; SubmitCycleTimeAvg=0.356; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=1.008; SubmitCycleTimeSum=2.850; EventCycleTimeCount=7.000; SleepCycleTimeCount=7.000; SubmitCycleTimeCount=8.000; LogProcessCycleTimeAvg=0.914; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.084; LogProcessCycleTimeStd=0.959; LogProcessCycleTimeSum=3.657; LogProcessCycleTimeCount=4.000; ]
+07/06/26 13:49:18 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:50:13 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0035 (89392.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0036 (89393.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0038 (89395.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0037 (89394.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0039 (89396.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0035 (89392.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13   Hold reason: Error from slot1_1@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk35.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0040 (89397.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0036 (89393.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13   Hold reason: Error from slot1_2@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk36.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0041 (89398.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0042 (89399.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0038 (89395.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13   Hold reason: Error from slot1_4@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk38.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0043 (89400.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0044 (89401.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0037 (89394.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13   Hold reason: Error from slot1_3@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk37.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0039 (89396.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13   Hold reason: Error from slot1_5@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk39.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0046 (89403.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0045 (89402.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0047 (89404.0.0) {07/06/26 13:50:09}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0040 (89397.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:13   Hold reason: Error from slot1_6@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk40.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0048 (89405.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0049 (89406.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0041 (89398.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:13   Hold reason: Error from slot1_7@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk41.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:13 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0042 (89399.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:13   Hold reason: Error from slot1_8@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk42.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:13 Number of idle job procs: 38
+07/06/26 13:50:14 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0043 (89400.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:14   Hold reason: Error from slot1_9@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk43.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:14 Number of idle job procs: 38
+07/06/26 13:50:14 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0044 (89401.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:14   Hold reason: Error from slot1_10@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk44.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:14 Number of idle job procs: 38
+07/06/26 13:50:14 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0046 (89403.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:14   Hold reason: Error from slot1_12@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk46.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:14 Number of idle job procs: 38
+07/06/26 13:50:14 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0045 (89402.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:14   Hold reason: Error from slot1_11@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk45.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:14 Number of idle job procs: 38
+07/06/26 13:50:14 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0047 (89404.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:14   Hold reason: Error from slot1_13@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk47.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:14 Number of idle job procs: 38
+07/06/26 13:50:14 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0048 (89405.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:14   Hold reason: Error from slot1_14@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk48.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:14 Number of idle job procs: 38
+07/06/26 13:50:14 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0049 (89406.0.0) {07/06/26 13:50:10}
+07/06/26 13:50:14   Hold reason: Error from slot1_15@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk49.out' as standard output: No such file or directory (errno 2)
+07/06/26 13:50:14 Number of idle job procs: 38
+07/06/26 13:50:14 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:50:14 Of 501 nodes total:
+07/06/26 13:50:14  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:50:14   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:50:14     0       0       50       0     450          1        0        0
+07/06/26 13:50:14 38 job proc(s) currently held
+07/06/26 13:50:14 Note: 9000 total node deferrals because of node category throttles
+07/06/26 13:50:14 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.352; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.838; EventCycleTimeSum=6.684; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=95.096; SubmitCycleTimeAvg=0.143; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.637; SubmitCycleTimeSum=2.851; EventCycleTimeCount=19.000; SleepCycleTimeCount=19.000; SubmitCycleTimeCount=20.000; LogProcessCycleTimeAvg=0.832; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.857; LogProcessCycleTimeSum=4.993; LogProcessCycleTimeCount=6.000; ]
+07/06/26 13:53:24 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:53:24 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0030 (89387.0.0) {07/06/26 13:53:24}
+07/06/26 13:53:24 Number of idle job procs: 38
+07/06/26 13:53:24 Node OPTIONS_chunk0030 job proc (89387.0.0) completed successfully.
+07/06/26 13:53:24 Node OPTIONS_chunk0030 job(s) have exited the queue
+07/06/26 13:53:24 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:53:24 Of 501 nodes total:
+07/06/26 13:53:24  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:53:24   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:53:24     1       0       49       0     450          1        0        0
+07/06/26 13:53:24 38 job proc(s) currently held
+07/06/26 13:53:24 Note: 26100 total node deferrals because of node category throttles
+07/06/26 13:53:24 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.142; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.530; EventCycleTimeSum=8.069; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=285.294; SubmitCycleTimeAvg=0.049; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.374; SubmitCycleTimeSum=2.853; EventCycleTimeCount=57.000; SleepCycleTimeCount=57.000; SubmitCycleTimeCount=58.000; LogProcessCycleTimeAvg=0.719; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.838; LogProcessCycleTimeSum=5.033; LogProcessCycleTimeCount=7.000; ]
+07/06/26 13:53:29 Submitting HTCondor Node OPTIONS_chunk0050 job(s)...
+07/06/26 13:53:29 Submitting node OPTIONS_chunk0050 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:53:30 	assigned HTCondor ID (89407.0.0)
+07/06/26 13:53:30 Just submitted 1 job this cycle...
+07/06/26 13:53:30 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:53:30 Of 501 nodes total:
+07/06/26 13:53:30  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:53:30   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:53:30     1       0       50       0     449          1        0        0
+07/06/26 13:53:30 38 job proc(s) currently held
+07/06/26 13:53:30 Note: 26549 total node deferrals because of node category throttles
+07/06/26 13:53:30 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.141; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.526; EventCycleTimeSum=8.173; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=290.299; SubmitCycleTimeAvg=0.050; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.371; SubmitCycleTimeSum=2.952; EventCycleTimeCount=58.000; SleepCycleTimeCount=58.000; SubmitCycleTimeCount=59.000; LogProcessCycleTimeAvg=0.719; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.838; LogProcessCycleTimeSum=5.033; LogProcessCycleTimeCount=7.000; ]
+07/06/26 13:53:35 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:53:35 Reassigning the id of job OPTIONS_chunk0050 from (89407.0.0) to (89407.0.0)
+07/06/26 13:53:35 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0050 (89407.0.0) {07/06/26 13:53:30}
+07/06/26 13:53:35 Number of idle job procs: 39
+07/06/26 13:53:35 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0000 (89357.0.0) {07/06/26 13:53:30}
+07/06/26 13:53:35 Number of idle job procs: 39
+07/06/26 13:53:35 Node OPTIONS_chunk0000 job proc (89357.0.0) completed successfully.
+07/06/26 13:53:35 Node OPTIONS_chunk0000 job(s) have exited the queue
+07/06/26 13:53:35 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0003 (89360.0.0) {07/06/26 13:53:31}
+07/06/26 13:53:35 Number of idle job procs: 39
+07/06/26 13:53:35 Node OPTIONS_chunk0003 job proc (89360.0.0) completed successfully.
+07/06/26 13:53:35 Node OPTIONS_chunk0003 job(s) have exited the queue
+07/06/26 13:53:35 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0050 (89407.0.0) {07/06/26 13:53:32}
+07/06/26 13:53:35 Number of idle job procs: 38
+07/06/26 13:53:35 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0034 (89391.0.0) {07/06/26 13:53:32}
+07/06/26 13:53:35 Number of idle job procs: 38
+07/06/26 13:53:35 Node OPTIONS_chunk0034 job proc (89391.0.0) completed successfully.
+07/06/26 13:53:35 Node OPTIONS_chunk0034 job(s) have exited the queue
+07/06/26 13:53:35 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0029 (89386.0.0) {07/06/26 13:53:33}
+07/06/26 13:53:35 Number of idle job procs: 38
+07/06/26 13:53:35 Node OPTIONS_chunk0029 job proc (89386.0.0) completed successfully.
+07/06/26 13:53:35 Node OPTIONS_chunk0029 job(s) have exited the queue
+07/06/26 13:53:35 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:53:35 Of 501 nodes total:
+07/06/26 13:53:35  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:53:35   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:53:35     5       0       46       0     449          1        0        0
+07/06/26 13:53:35 38 job proc(s) currently held
+07/06/26 13:53:35 Note: 26998 total node deferrals because of node category throttles
+07/06/26 13:53:35 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.141; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.521; EventCycleTimeSum=8.340; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=295.305; SubmitCycleTimeAvg=0.049; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.368; SubmitCycleTimeSum=2.952; EventCycleTimeCount=59.000; SleepCycleTimeCount=59.000; SubmitCycleTimeCount=60.000; LogProcessCycleTimeAvg=0.652; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.798; LogProcessCycleTimeSum=5.219; LogProcessCycleTimeCount=8.000; ]
+07/06/26 13:53:40 Submitting HTCondor Node OPTIONS_chunk0051 job(s)...
+07/06/26 13:53:40 Submitting node OPTIONS_chunk0051 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:53:40 	assigned HTCondor ID (89408.0.0)
+07/06/26 13:53:40 Submitting HTCondor Node OPTIONS_chunk0052 job(s)...
+07/06/26 13:53:40 Submitting node OPTIONS_chunk0052 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:53:40 	assigned HTCondor ID (89409.0.0)
+07/06/26 13:53:40 Submitting HTCondor Node OPTIONS_chunk0053 job(s)...
+07/06/26 13:53:40 Submitting node OPTIONS_chunk0053 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:53:40 	assigned HTCondor ID (89410.0.0)
+07/06/26 13:53:40 Submitting HTCondor Node OPTIONS_chunk0054 job(s)...
+07/06/26 13:53:40 Submitting node OPTIONS_chunk0054 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:53:40 	assigned HTCondor ID (89411.0.0)
+07/06/26 13:53:40 Just submitted 4 jobs this cycle...
+07/06/26 13:53:40 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:53:40 Of 501 nodes total:
+07/06/26 13:53:40  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:53:40   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:53:40     5       0       50       0     445          1        0        0
+07/06/26 13:53:40 38 job proc(s) currently held
+07/06/26 13:53:40 Note: 27443 total node deferrals because of node category throttles
+07/06/26 13:53:40 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.143; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.517; EventCycleTimeSum=8.594; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=300.310; SubmitCycleTimeAvg=0.052; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.365; SubmitCycleTimeSum=3.166; EventCycleTimeCount=60.000; SleepCycleTimeCount=60.000; SubmitCycleTimeCount=61.000; LogProcessCycleTimeAvg=0.652; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.798; LogProcessCycleTimeSum=5.219; LogProcessCycleTimeCount=8.000; ]
+07/06/26 13:53:45 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:53:45 Reassigning the id of job OPTIONS_chunk0051 from (89408.0.0) to (89408.0.0)
+07/06/26 13:53:45 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0051 (89408.0.0) {07/06/26 13:53:40}
+07/06/26 13:53:45 Number of idle job procs: 39
+07/06/26 13:53:45 Reassigning the id of job OPTIONS_chunk0052 from (89409.0.0) to (89409.0.0)
+07/06/26 13:53:45 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0052 (89409.0.0) {07/06/26 13:53:40}
+07/06/26 13:53:45 Number of idle job procs: 40
+07/06/26 13:53:45 Reassigning the id of job OPTIONS_chunk0053 from (89410.0.0) to (89410.0.0)
+07/06/26 13:53:45 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0053 (89410.0.0) {07/06/26 13:53:40}
+07/06/26 13:53:45 Number of idle job procs: 41
+07/06/26 13:53:45 Reassigning the id of job OPTIONS_chunk0054 from (89411.0.0) to (89411.0.0)
+07/06/26 13:53:45 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0054 (89411.0.0) {07/06/26 13:53:40}
+07/06/26 13:53:45 Number of idle job procs: 42
+07/06/26 13:53:45 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0053 (89410.0.0) {07/06/26 13:53:42}
+07/06/26 13:53:45 Number of idle job procs: 41
+07/06/26 13:53:45 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0054 (89411.0.0) {07/06/26 13:53:42}
+07/06/26 13:53:45 Number of idle job procs: 40
+07/06/26 13:53:45 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0051 (89408.0.0) {07/06/26 13:53:42}
+07/06/26 13:53:45 Number of idle job procs: 39
+07/06/26 13:53:45 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0052 (89409.0.0) {07/06/26 13:53:42}
+07/06/26 13:53:45 Number of idle job procs: 38
+07/06/26 13:53:45 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0031 (89388.0.0) {07/06/26 13:53:43}
+07/06/26 13:53:45 Number of idle job procs: 38
+07/06/26 13:53:45 Node OPTIONS_chunk0031 job proc (89388.0.0) completed successfully.
+07/06/26 13:53:45 Node OPTIONS_chunk0031 job(s) have exited the queue
+07/06/26 13:53:45 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:53:45 Of 501 nodes total:
+07/06/26 13:53:45  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:53:45   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:53:45     6       0       49       0     445          1        0        0
+07/06/26 13:53:45 38 job proc(s) currently held
+07/06/26 13:53:45 Note: 27888 total node deferrals because of node category throttles
+07/06/26 13:53:46 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.146; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.513; EventCycleTimeSum=8.881; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=305.315; SubmitCycleTimeAvg=0.051; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.363; SubmitCycleTimeSum=3.166; EventCycleTimeCount=61.000; SleepCycleTimeCount=61.000; SubmitCycleTimeCount=62.000; LogProcessCycleTimeAvg=0.603; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.761; LogProcessCycleTimeSum=5.429; LogProcessCycleTimeCount=9.000; ]
+07/06/26 13:53:51 Submitting HTCondor Node OPTIONS_chunk0055 job(s)...
+07/06/26 13:53:51 Submitting node OPTIONS_chunk0055 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:53:51 	assigned HTCondor ID (89412.0.0)
+07/06/26 13:53:51 Just submitted 1 job this cycle...
+07/06/26 13:53:51 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:53:51 Of 501 nodes total:
+07/06/26 13:53:51  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:53:51   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:53:51     6       0       50       0     444          1        0        0
+07/06/26 13:53:51 38 job proc(s) currently held
+07/06/26 13:53:51 Note: 28332 total node deferrals because of node category throttles
+07/06/26 13:53:51 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.149; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.509; EventCycleTimeSum=9.221; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=310.320; SubmitCycleTimeAvg=0.051; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.360; SubmitCycleTimeSum=3.233; EventCycleTimeCount=62.000; SleepCycleTimeCount=62.000; SubmitCycleTimeCount=63.000; LogProcessCycleTimeAvg=0.603; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.761; LogProcessCycleTimeSum=5.429; LogProcessCycleTimeCount=9.000; ]
+07/06/26 13:53:56 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:53:56 Reassigning the id of job OPTIONS_chunk0055 from (89412.0.0) to (89412.0.0)
+07/06/26 13:53:56 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0055 (89412.0.0) {07/06/26 13:53:51}
+07/06/26 13:53:56 Number of idle job procs: 39
+07/06/26 13:53:56 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0055 (89412.0.0) {07/06/26 13:53:51}
+07/06/26 13:53:56 Number of idle job procs: 38
+07/06/26 13:54:06 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:54:06 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0006 (89363.0.0) {07/06/26 13:54:04}
+07/06/26 13:54:06 Number of idle job procs: 38
+07/06/26 13:54:06 Node OPTIONS_chunk0006 job proc (89363.0.0) completed successfully.
+07/06/26 13:54:06 Node OPTIONS_chunk0006 job(s) have exited the queue
+07/06/26 13:54:06 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0032 (89389.0.0) {07/06/26 13:54:05}
+07/06/26 13:54:06 Number of idle job procs: 38
+07/06/26 13:54:06 Node OPTIONS_chunk0032 job proc (89389.0.0) completed successfully.
+07/06/26 13:54:06 Node OPTIONS_chunk0032 job(s) have exited the queue
+07/06/26 13:54:06 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:54:06 Of 501 nodes total:
+07/06/26 13:54:06  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:54:06   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:54:06     8       0       48       0     444          1        0        0
+07/06/26 13:54:06 38 job proc(s) currently held
+07/06/26 13:54:06 Note: 29664 total node deferrals because of node category throttles
+07/06/26 13:54:06 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.145; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.498; EventCycleTimeSum=9.440; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=325.335; SubmitCycleTimeAvg=0.049; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.351; SubmitCycleTimeSum=3.234; EventCycleTimeCount=65.000; SleepCycleTimeCount=65.000; SubmitCycleTimeCount=66.000; LogProcessCycleTimeAvg=0.508; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.713; LogProcessCycleTimeSum=5.591; LogProcessCycleTimeCount=11.000; ]
+07/06/26 13:54:11 Submitting HTCondor Node OPTIONS_chunk0056 job(s)...
+07/06/26 13:54:11 Submitting node OPTIONS_chunk0056 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:54:11 	assigned HTCondor ID (89413.0.0)
+07/06/26 13:54:11 Submitting HTCondor Node OPTIONS_chunk0057 job(s)...
+07/06/26 13:54:11 Submitting node OPTIONS_chunk0057 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:54:11 	assigned HTCondor ID (89414.0.0)
+07/06/26 13:54:11 Just submitted 2 jobs this cycle...
+07/06/26 13:54:12 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:54:12 Of 501 nodes total:
+07/06/26 13:54:12  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:54:12   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:54:12     8       0       50       0     442          1        0        0
+07/06/26 13:54:12 38 job proc(s) currently held
+07/06/26 13:54:12 Note: 30106 total node deferrals because of node category throttles
+07/06/26 13:54:12 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.146; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.494; EventCycleTimeSum=9.605; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=330.341; SubmitCycleTimeAvg=0.055; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.352; SubmitCycleTimeSum=3.698; EventCycleTimeCount=66.000; SleepCycleTimeCount=66.000; SubmitCycleTimeCount=67.000; LogProcessCycleTimeAvg=0.508; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.713; LogProcessCycleTimeSum=5.591; LogProcessCycleTimeCount=11.000; ]
+07/06/26 13:54:17 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:54:17 Reassigning the id of job OPTIONS_chunk0056 from (89413.0.0) to (89413.0.0)
+07/06/26 13:54:17 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0056 (89413.0.0) {07/06/26 13:54:11}
+07/06/26 13:54:17 Number of idle job procs: 39
+07/06/26 13:54:17 Reassigning the id of job OPTIONS_chunk0057 from (89414.0.0) to (89414.0.0)
+07/06/26 13:54:17 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0057 (89414.0.0) {07/06/26 13:54:11}
+07/06/26 13:54:17 Number of idle job procs: 40
+07/06/26 13:54:17 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0057 (89414.0.0) {07/06/26 13:54:12}
+07/06/26 13:54:17 Number of idle job procs: 39
+07/06/26 13:54:17 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0056 (89413.0.0) {07/06/26 13:54:12}
+07/06/26 13:54:17 Number of idle job procs: 38
+07/06/26 13:54:32 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:54:32 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0019 (89376.0.0) {07/06/26 13:54:28}
+07/06/26 13:54:32 Number of idle job procs: 38
+07/06/26 13:54:32 Node OPTIONS_chunk0019 job proc (89376.0.0) completed successfully.
+07/06/26 13:54:32 Node OPTIONS_chunk0019 job(s) have exited the queue
+07/06/26 13:54:32 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:54:32 Of 501 nodes total:
+07/06/26 13:54:32  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:54:32   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:54:32     9       0       49       0     442          1        0        0
+07/06/26 13:54:32 38 job proc(s) currently held
+07/06/26 13:54:32 Note: 31874 total node deferrals because of node category throttles
+07/06/26 13:54:32 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.151; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.486; EventCycleTimeSum=10.545; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=350.362; SubmitCycleTimeAvg=0.052; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.342; SubmitCycleTimeSum=3.698; EventCycleTimeCount=70.000; SleepCycleTimeCount=70.000; SubmitCycleTimeCount=71.000; LogProcessCycleTimeAvg=0.447; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.668; LogProcessCycleTimeSum=5.815; LogProcessCycleTimeCount=13.000; ]
+07/06/26 13:54:37 Submitting HTCondor Node OPTIONS_chunk0499 job(s)...
+07/06/26 13:54:37 Submitting node OPTIONS_chunk0499 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:54:37 	assigned HTCondor ID (89415.0.0)
+07/06/26 13:54:37 Just submitted 1 job this cycle...
+07/06/26 13:54:37 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:54:37 Of 501 nodes total:
+07/06/26 13:54:37  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:54:37   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:54:37     9       0       50       0     441          1        0        0
+07/06/26 13:54:37 38 job proc(s) currently held
+07/06/26 13:54:37 Note: 32315 total node deferrals because of node category throttles
+07/06/26 13:54:37 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.151; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.483; EventCycleTimeSum=10.688; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=355.366; SubmitCycleTimeAvg=0.053; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.340; SubmitCycleTimeSum=3.782; EventCycleTimeCount=71.000; SleepCycleTimeCount=71.000; SubmitCycleTimeCount=72.000; LogProcessCycleTimeAvg=0.447; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.668; LogProcessCycleTimeSum=5.815; LogProcessCycleTimeCount=13.000; ]
+07/06/26 13:54:42 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:54:42 Reassigning the id of job OPTIONS_chunk0499 from (89415.0.0) to (89415.0.0)
+07/06/26 13:54:42 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0499 (89415.0.0) {07/06/26 13:54:37}
+07/06/26 13:54:42 Number of idle job procs: 39
+07/06/26 13:54:42 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0499 (89415.0.0) {07/06/26 13:54:38}
+07/06/26 13:54:42 Number of idle job procs: 38
+07/06/26 13:55:07 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:55:07 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0033 (89390.0.0) {07/06/26 13:55:03}
+07/06/26 13:55:07 Number of idle job procs: 38
+07/06/26 13:55:07 Node OPTIONS_chunk0033 job proc (89390.0.0) completed successfully.
+07/06/26 13:55:07 Node OPTIONS_chunk0033 job(s) have exited the queue
+07/06/26 13:55:07 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:55:07 Of 501 nodes total:
+07/06/26 13:55:07  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:55:07   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:55:07    10       0       49       0     441          1        0        0
+07/06/26 13:55:07 38 job proc(s) currently held
+07/06/26 13:55:07 Note: 34961 total node deferrals because of node category throttles
+07/06/26 13:55:07 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.142; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.465; EventCycleTimeSum=10.905; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=385.397; SubmitCycleTimeAvg=0.048; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.327; SubmitCycleTimeSum=3.782; EventCycleTimeCount=77.000; SleepCycleTimeCount=77.000; SubmitCycleTimeCount=78.000; LogProcessCycleTimeAvg=0.396; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.633; LogProcessCycleTimeSum=5.946; LogProcessCycleTimeCount=15.000; ]
+07/06/26 13:55:12 Submitting HTCondor Node OPTIONS_chunk0058 job(s)...
+07/06/26 13:55:12 Submitting node OPTIONS_chunk0058 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:55:13 	assigned HTCondor ID (89416.0.0)
+07/06/26 13:55:13 Just submitted 1 job this cycle...
+07/06/26 13:55:13 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:55:13 Of 501 nodes total:
+07/06/26 13:55:13  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:55:13   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:55:13    10       0       50       0     440          1        0        0
+07/06/26 13:55:13 38 job proc(s) currently held
+07/06/26 13:55:13 Note: 35401 total node deferrals because of node category throttles
+07/06/26 13:55:13 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.142; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.461; EventCycleTimeSum=11.054; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=390.403; SubmitCycleTimeAvg=0.050; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.325; SubmitCycleTimeSum=3.956; EventCycleTimeCount=78.000; SleepCycleTimeCount=78.000; SubmitCycleTimeCount=79.000; LogProcessCycleTimeAvg=0.396; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.633; LogProcessCycleTimeSum=5.946; LogProcessCycleTimeCount=15.000; ]
+07/06/26 13:55:18 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:55:18 Reassigning the id of job OPTIONS_chunk0058 from (89416.0.0) to (89416.0.0)
+07/06/26 13:55:18 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0058 (89416.0.0) {07/06/26 13:55:13}
+07/06/26 13:55:18 Number of idle job procs: 39
+07/06/26 13:55:18 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0028 (89385.0.0) {07/06/26 13:55:14}
+07/06/26 13:55:18 Number of idle job procs: 39
+07/06/26 13:55:18 Node OPTIONS_chunk0028 job proc (89385.0.0) completed successfully.
+07/06/26 13:55:18 Node OPTIONS_chunk0028 job(s) have exited the queue
+07/06/26 13:55:18 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0058 (89416.0.0) {07/06/26 13:55:15}
+07/06/26 13:55:18 Number of idle job procs: 38
+07/06/26 13:55:18 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:55:18 Of 501 nodes total:
+07/06/26 13:55:18  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:55:18   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:55:18    11       0       49       0     440          1        0        0
+07/06/26 13:55:18 38 job proc(s) currently held
+07/06/26 13:55:18 Note: 35841 total node deferrals because of node category throttles
+07/06/26 13:55:18 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.143; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.459; EventCycleTimeSum=11.299; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.003; SleepCycleTimeStd=0.000; SleepCycleTimeSum=395.408; SubmitCycleTimeAvg=0.049; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.323; SubmitCycleTimeSum=3.956; EventCycleTimeCount=79.000; SleepCycleTimeCount=79.000; SubmitCycleTimeCount=80.000; LogProcessCycleTimeAvg=0.377; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.616; LogProcessCycleTimeSum=6.027; LogProcessCycleTimeCount=16.000; ]
+07/06/26 13:55:23 Submitting HTCondor Node OPTIONS_chunk0059 job(s)...
+07/06/26 13:55:23 Submitting node OPTIONS_chunk0059 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:55:23 	assigned HTCondor ID (89417.0.0)
+07/06/26 13:55:23 Just submitted 1 job this cycle...
+07/06/26 13:55:23 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:55:23 Of 501 nodes total:
+07/06/26 13:55:23  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:55:23   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:55:23    11       0       50       0     439          1        0        0
+07/06/26 13:55:23 38 job proc(s) currently held
+07/06/26 13:55:23 Note: 36280 total node deferrals because of node category throttles
+07/06/26 13:55:23 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.143; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.456; EventCycleTimeSum=11.457; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=400.409; SubmitCycleTimeAvg=0.050; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.321; SubmitCycleTimeSum=4.045; EventCycleTimeCount=80.000; SleepCycleTimeCount=80.000; SubmitCycleTimeCount=81.000; LogProcessCycleTimeAvg=0.377; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.616; LogProcessCycleTimeSum=6.027; LogProcessCycleTimeCount=16.000; ]
+07/06/26 13:55:28 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:55:28 Reassigning the id of job OPTIONS_chunk0059 from (89417.0.0) to (89417.0.0)
+07/06/26 13:55:28 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0059 (89417.0.0) {07/06/26 13:55:23}
+07/06/26 13:55:28 Number of idle job procs: 39
+07/06/26 13:55:28 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0059 (89417.0.0) {07/06/26 13:55:23}
+07/06/26 13:55:28 Number of idle job procs: 38
+07/06/26 13:55:28 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0013 (89370.0.0) {07/06/26 13:55:24}
+07/06/26 13:55:28 Number of idle job procs: 38
+07/06/26 13:55:28 Node OPTIONS_chunk0013 job proc (89370.0.0) completed successfully.
+07/06/26 13:55:28 Node OPTIONS_chunk0013 job(s) have exited the queue
+07/06/26 13:55:28 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:55:28 Of 501 nodes total:
+07/06/26 13:55:28  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:55:28   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:55:28    12       0       49       0     439          1        0        0
+07/06/26 13:55:28 38 job proc(s) currently held
+07/06/26 13:55:28 Note: 36719 total node deferrals because of node category throttles
+07/06/26 13:55:28 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.143; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.453; EventCycleTimeSum=11.620; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=405.414; SubmitCycleTimeAvg=0.049; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.319; SubmitCycleTimeSum=4.045; EventCycleTimeCount=81.000; SleepCycleTimeCount=81.000; SubmitCycleTimeCount=82.000; LogProcessCycleTimeAvg=0.362; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.599; LogProcessCycleTimeSum=6.161; LogProcessCycleTimeCount=17.000; ]
+07/06/26 13:55:33 Submitting HTCondor Node OPTIONS_chunk0060 job(s)...
+07/06/26 13:55:33 Submitting node OPTIONS_chunk0060 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:55:33 	assigned HTCondor ID (89418.0.0)
+07/06/26 13:55:33 Just submitted 1 job this cycle...
+07/06/26 13:55:33 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:55:33 Of 501 nodes total:
+07/06/26 13:55:33  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:55:33   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:55:33    12       0       50       0     438          1        0        0
+07/06/26 13:55:33 38 job proc(s) currently held
+07/06/26 13:55:33 Note: 37157 total node deferrals because of node category throttles
+07/06/26 13:55:33 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.144; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.450; EventCycleTimeSum=11.834; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=410.420; SubmitCycleTimeAvg=0.049; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.317; SubmitCycleTimeSum=4.099; EventCycleTimeCount=82.000; SleepCycleTimeCount=82.000; SubmitCycleTimeCount=83.000; LogProcessCycleTimeAvg=0.362; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.599; LogProcessCycleTimeSum=6.161; LogProcessCycleTimeCount=17.000; ]
+07/06/26 13:55:38 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:55:38 Reassigning the id of job OPTIONS_chunk0060 from (89418.0.0) to (89418.0.0)
+07/06/26 13:55:38 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0060 (89418.0.0) {07/06/26 13:55:33}
+07/06/26 13:55:38 Number of idle job procs: 39
+07/06/26 13:55:38 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0060 (89418.0.0) {07/06/26 13:55:34}
+07/06/26 13:55:38 Number of idle job procs: 38
+07/06/26 13:58:24 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:58:24 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0052 (89409.0.0) {07/06/26 13:58:20}
+07/06/26 13:58:24 Number of idle job procs: 38
+07/06/26 13:58:24 Node OPTIONS_chunk0052 job proc (89409.0.0) completed successfully.
+07/06/26 13:58:24 Node OPTIONS_chunk0052 job(s) have exited the queue
+07/06/26 13:58:24 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:58:24 Of 501 nodes total:
+07/06/26 13:58:24  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:58:24   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:58:24    13       0       49       0     438          1        0        0
+07/06/26 13:58:24 38 job proc(s) currently held
+07/06/26 13:58:24 Note: 52049 total node deferrals because of node category throttles
+07/06/26 13:58:24 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.104; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.383; EventCycleTimeSum=12.032; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=580.597; SubmitCycleTimeAvg=0.035; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.268; SubmitCycleTimeSum=4.100; EventCycleTimeCount=116.000; SleepCycleTimeCount=116.000; SubmitCycleTimeCount=117.000; LogProcessCycleTimeAvg=0.331; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.573; LogProcessCycleTimeSum=6.285; LogProcessCycleTimeCount=19.000; ]
+07/06/26 13:58:29 Submitting HTCondor Node OPTIONS_chunk0498 job(s)...
+07/06/26 13:58:29 Submitting node OPTIONS_chunk0498 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:58:29 	assigned HTCondor ID (89419.0.0)
+07/06/26 13:58:29 Just submitted 1 job this cycle...
+07/06/26 13:58:29 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:58:29 Of 501 nodes total:
+07/06/26 13:58:29  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:58:29   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:58:29    13       0       50       0     437          1        0        0
+07/06/26 13:58:29 38 job proc(s) currently held
+07/06/26 13:58:29 Note: 52486 total node deferrals because of node category throttles
+07/06/26 13:58:29 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.104; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.382; EventCycleTimeSum=12.162; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=585.602; SubmitCycleTimeAvg=0.036; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.266; SubmitCycleTimeSum=4.190; EventCycleTimeCount=117.000; SleepCycleTimeCount=117.000; SubmitCycleTimeCount=118.000; LogProcessCycleTimeAvg=0.331; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.573; LogProcessCycleTimeSum=6.285; LogProcessCycleTimeCount=19.000; ]
+07/06/26 13:58:34 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:58:34 Reassigning the id of job OPTIONS_chunk0498 from (89419.0.0) to (89419.0.0)
+07/06/26 13:58:34 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0498 (89419.0.0) {07/06/26 13:58:29}
+07/06/26 13:58:34 Number of idle job procs: 39
+07/06/26 13:58:34 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0498 (89419.0.0) {07/06/26 13:58:31}
+07/06/26 13:58:34 Number of idle job procs: 38
+07/06/26 13:58:44 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:58:44 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0056 (89413.0.0) {07/06/26 13:58:42}
+07/06/26 13:58:44 Number of idle job procs: 38
+07/06/26 13:58:44 Node OPTIONS_chunk0056 job proc (89413.0.0) completed successfully.
+07/06/26 13:58:44 Node OPTIONS_chunk0056 job(s) have exited the queue
+07/06/26 13:58:44 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:58:44 Of 501 nodes total:
+07/06/26 13:58:44  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:58:44   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:58:44    14       0       49       0     437          1        0        0
+07/06/26 13:58:44 38 job proc(s) currently held
+07/06/26 13:58:44 Note: 53797 total node deferrals because of node category throttles
+07/06/26 13:58:44 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.103; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.377; EventCycleTimeSum=12.383; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=600.617; SubmitCycleTimeAvg=0.035; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.263; SubmitCycleTimeSum=4.190; EventCycleTimeCount=120.000; SleepCycleTimeCount=120.000; SubmitCycleTimeCount=121.000; LogProcessCycleTimeAvg=0.304; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.550; LogProcessCycleTimeSum=6.386; LogProcessCycleTimeCount=21.000; ]
+07/06/26 13:58:49 Submitting HTCondor Node OPTIONS_chunk0497 job(s)...
+07/06/26 13:58:49 Submitting node OPTIONS_chunk0497 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:58:49 	assigned HTCondor ID (89420.0.0)
+07/06/26 13:58:49 Just submitted 1 job this cycle...
+07/06/26 13:58:49 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:58:49 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0051 (89408.0.0) {07/06/26 13:58:46}
+07/06/26 13:58:49 Number of idle job procs: 38
+07/06/26 13:58:49 Node OPTIONS_chunk0051 job proc (89408.0.0) completed successfully.
+07/06/26 13:58:49 Node OPTIONS_chunk0051 job(s) have exited the queue
+07/06/26 13:58:49 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0055 (89412.0.0) {07/06/26 13:58:47}
+07/06/26 13:58:49 Number of idle job procs: 38
+07/06/26 13:58:49 Node OPTIONS_chunk0055 job proc (89412.0.0) completed successfully.
+07/06/26 13:58:49 Node OPTIONS_chunk0055 job(s) have exited the queue
+07/06/26 13:58:49 Reassigning the id of job OPTIONS_chunk0497 from (89420.0.0) to (89420.0.0)
+07/06/26 13:58:49 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0497 (89420.0.0) {07/06/26 13:58:49}
+07/06/26 13:58:49 Number of idle job procs: 39
+07/06/26 13:58:49 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:58:49 Of 501 nodes total:
+07/06/26 13:58:49  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:58:49   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:58:49    16       0       48       0     436          1        0        0
+07/06/26 13:58:49 38 job proc(s) currently held
+07/06/26 13:58:49 Note: 54233 total node deferrals because of node category throttles
+07/06/26 13:58:49 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.103; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.375; EventCycleTimeSum=12.489; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=605.623; SubmitCycleTimeAvg=0.035; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.262; SubmitCycleTimeSum=4.243; EventCycleTimeCount=121.000; SleepCycleTimeCount=121.000; SubmitCycleTimeCount=122.000; LogProcessCycleTimeAvg=0.295; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.539; LogProcessCycleTimeSum=6.490; LogProcessCycleTimeCount=22.000; ]
+07/06/26 13:58:54 Submitting HTCondor Node OPTIONS_chunk0061 job(s)...
+07/06/26 13:58:54 Submitting node OPTIONS_chunk0061 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:58:54 	assigned HTCondor ID (89421.0.0)
+07/06/26 13:58:54 Submitting HTCondor Node OPTIONS_chunk0062 job(s)...
+07/06/26 13:58:54 Submitting node OPTIONS_chunk0062 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:58:55 	assigned HTCondor ID (89422.0.0)
+07/06/26 13:58:55 Just submitted 2 jobs this cycle...
+07/06/26 13:58:55 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:58:55 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0497 (89420.0.0) {07/06/26 13:58:52}
+07/06/26 13:58:55 Number of idle job procs: 38
+07/06/26 13:58:55 Reassigning the id of job OPTIONS_chunk0061 from (89421.0.0) to (89421.0.0)
+07/06/26 13:58:55 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0061 (89421.0.0) {07/06/26 13:58:54}
+07/06/26 13:58:55 Number of idle job procs: 39
+07/06/26 13:58:55 Reassigning the id of job OPTIONS_chunk0062 from (89422.0.0) to (89422.0.0)
+07/06/26 13:58:55 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0062 (89422.0.0) {07/06/26 13:58:54}
+07/06/26 13:58:55 Number of idle job procs: 40
+07/06/26 13:58:55 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:58:55 Of 501 nodes total:
+07/06/26 13:58:55  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:58:55   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:58:55    16       0       50       0     434          1        0        0
+07/06/26 13:58:55 38 job proc(s) currently held
+07/06/26 13:58:55 Note: 54667 total node deferrals because of node category throttles
+07/06/26 13:58:55 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.104; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.374; EventCycleTimeSum=12.729; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=610.628; SubmitCycleTimeAvg=0.036; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.261; SubmitCycleTimeSum=4.404; EventCycleTimeCount=122.000; SleepCycleTimeCount=122.000; SubmitCycleTimeCount=123.000; LogProcessCycleTimeAvg=0.285; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.528; LogProcessCycleTimeSum=6.560; LogProcessCycleTimeCount=23.000; ]
+07/06/26 13:59:00 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:59:00 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0061 (89421.0.0) {07/06/26 13:58:55}
+07/06/26 13:59:00 Number of idle job procs: 39
+07/06/26 13:59:00 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0062 (89422.0.0) {07/06/26 13:58:55}
+07/06/26 13:59:00 Number of idle job procs: 38
+07/06/26 13:59:25 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:59:25 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0054 (89411.0.0) {07/06/26 13:59:21}
+07/06/26 13:59:25 Number of idle job procs: 38
+07/06/26 13:59:25 Node OPTIONS_chunk0054 job proc (89411.0.0) completed successfully.
+07/06/26 13:59:25 Node OPTIONS_chunk0054 job(s) have exited the queue
+07/06/26 13:59:25 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:59:25 Of 501 nodes total:
+07/06/26 13:59:25  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:59:25   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:59:25    17       0       49       0     434          1        0        0
+07/06/26 13:59:25 38 job proc(s) currently held
+07/06/26 13:59:25 Note: 57271 total node deferrals because of node category throttles
+07/06/26 13:59:25 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.102; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.366; EventCycleTimeSum=13.082; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=640.659; SubmitCycleTimeAvg=0.034; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.255; SubmitCycleTimeSum=4.404; EventCycleTimeCount=128.000; SleepCycleTimeCount=128.000; SubmitCycleTimeCount=129.000; LogProcessCycleTimeAvg=0.266; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.510; LogProcessCycleTimeSum=6.654; LogProcessCycleTimeCount=25.000; ]
+07/06/26 13:59:30 Submitting HTCondor Node OPTIONS_chunk0496 job(s)...
+07/06/26 13:59:30 Submitting node OPTIONS_chunk0496 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:59:30 	assigned HTCondor ID (89423.0.0)
+07/06/26 13:59:30 Just submitted 1 job this cycle...
+07/06/26 13:59:30 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:59:30 Of 501 nodes total:
+07/06/26 13:59:30  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:59:30   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:59:30    17       0       50       0     433          1        0        0
+07/06/26 13:59:30 38 job proc(s) currently held
+07/06/26 13:59:30 Note: 57704 total node deferrals because of node category throttles
+07/06/26 13:59:30 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.102; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.365; EventCycleTimeSum=13.200; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=645.664; SubmitCycleTimeAvg=0.034; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.254; SubmitCycleTimeSum=4.460; EventCycleTimeCount=129.000; SleepCycleTimeCount=129.000; SubmitCycleTimeCount=130.000; LogProcessCycleTimeAvg=0.266; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.510; LogProcessCycleTimeSum=6.654; LogProcessCycleTimeCount=25.000; ]
+07/06/26 13:59:35 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:59:35 Reassigning the id of job OPTIONS_chunk0496 from (89423.0.0) to (89423.0.0)
+07/06/26 13:59:35 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0496 (89423.0.0) {07/06/26 13:59:30}
+07/06/26 13:59:35 Number of idle job procs: 39
+07/06/26 13:59:35 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0496 (89423.0.0) {07/06/26 13:59:32}
+07/06/26 13:59:35 Number of idle job procs: 38
+07/06/26 13:59:45 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:59:45 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0058 (89416.0.0) {07/06/26 13:59:40}
+07/06/26 13:59:45 Number of idle job procs: 38
+07/06/26 13:59:45 Node OPTIONS_chunk0058 job proc (89416.0.0) completed successfully.
+07/06/26 13:59:45 Node OPTIONS_chunk0058 job(s) have exited the queue
+07/06/26 13:59:45 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0499 (89415.0.0) {07/06/26 13:59:42}
+07/06/26 13:59:45 Number of idle job procs: 38
+07/06/26 13:59:45 Node OPTIONS_chunk0499 job proc (89415.0.0) completed successfully.
+07/06/26 13:59:45 Node OPTIONS_chunk0499 job(s) have exited the queue
+07/06/26 13:59:45 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0050 (89407.0.0) {07/06/26 13:59:45}
+07/06/26 13:59:45 Number of idle job procs: 38
+07/06/26 13:59:45 Node OPTIONS_chunk0050 job proc (89407.0.0) completed successfully.
+07/06/26 13:59:45 Node OPTIONS_chunk0050 job(s) have exited the queue
+07/06/26 13:59:45 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:59:45 Of 501 nodes total:
+07/06/26 13:59:45  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:59:45   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:59:45    20       0       47       0     433          1        0        0
+07/06/26 13:59:45 38 job proc(s) currently held
+07/06/26 13:59:45 Note: 59003 total node deferrals because of node category throttles
+07/06/26 13:59:45 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.101; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.361; EventCycleTimeSum=13.383; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=660.680; SubmitCycleTimeAvg=0.034; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.251; SubmitCycleTimeSum=4.460; EventCycleTimeCount=132.000; SleepCycleTimeCount=132.000; SubmitCycleTimeCount=133.000; LogProcessCycleTimeAvg=0.252; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.493; LogProcessCycleTimeSum=6.814; LogProcessCycleTimeCount=27.000; ]
+07/06/26 13:59:50 Submitting HTCondor Node OPTIONS_chunk0495 job(s)...
+07/06/26 13:59:50 Submitting node OPTIONS_chunk0495 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:59:50 	assigned HTCondor ID (89424.0.0)
+07/06/26 13:59:50 Submitting HTCondor Node OPTIONS_chunk0494 job(s)...
+07/06/26 13:59:50 Submitting node OPTIONS_chunk0494 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:59:50 	assigned HTCondor ID (89425.0.0)
+07/06/26 13:59:50 Submitting HTCondor Node OPTIONS_chunk0493 job(s)...
+07/06/26 13:59:50 Submitting node OPTIONS_chunk0493 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:59:50 	assigned HTCondor ID (89426.0.0)
+07/06/26 13:59:50 Just submitted 3 jobs this cycle...
+07/06/26 13:59:50 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:59:50 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0053 (89410.0.0) {07/06/26 13:59:45}
+07/06/26 13:59:50 Number of idle job procs: 38
+07/06/26 13:59:50 Node OPTIONS_chunk0053 job proc (89410.0.0) completed successfully.
+07/06/26 13:59:50 Node OPTIONS_chunk0053 job(s) have exited the queue
+07/06/26 13:59:50 Reassigning the id of job OPTIONS_chunk0495 from (89424.0.0) to (89424.0.0)
+07/06/26 13:59:50 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0495 (89424.0.0) {07/06/26 13:59:50}
+07/06/26 13:59:50 Number of idle job procs: 39
+07/06/26 13:59:50 Reassigning the id of job OPTIONS_chunk0494 from (89425.0.0) to (89425.0.0)
+07/06/26 13:59:50 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0494 (89425.0.0) {07/06/26 13:59:50}
+07/06/26 13:59:50 Number of idle job procs: 40
+07/06/26 13:59:50 Reassigning the id of job OPTIONS_chunk0493 from (89426.0.0) to (89426.0.0)
+07/06/26 13:59:50 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0493 (89426.0.0) {07/06/26 13:59:50}
+07/06/26 13:59:51 Number of idle job procs: 41
+07/06/26 13:59:51 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:59:51 Of 501 nodes total:
+07/06/26 13:59:51  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:59:51   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:59:51    21       0       49       0     430          1        0        0
+07/06/26 13:59:51 38 job proc(s) currently held
+07/06/26 13:59:51 Note: 59433 total node deferrals because of node category throttles
+07/06/26 13:59:51 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.102; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.359; EventCycleTimeSum=13.558; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=665.685; SubmitCycleTimeAvg=0.034; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.251; SubmitCycleTimeSum=4.604; EventCycleTimeCount=133.000; SleepCycleTimeCount=133.000; SubmitCycleTimeCount=134.000; LogProcessCycleTimeAvg=0.247; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.484; LogProcessCycleTimeSum=6.929; LogProcessCycleTimeCount=28.000; ]
+07/06/26 13:59:56 Submitting HTCondor Node OPTIONS_chunk0063 job(s)...
+07/06/26 13:59:56 Submitting node OPTIONS_chunk0063 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 13:59:56 	assigned HTCondor ID (89427.0.0)
+07/06/26 13:59:56 Just submitted 1 job this cycle...
+07/06/26 13:59:56 Currently monitoring 1 HTCondor log file(s)
+07/06/26 13:59:56 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0494 (89425.0.0) {07/06/26 13:59:52}
+07/06/26 13:59:56 Number of idle job procs: 40
+07/06/26 13:59:56 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0495 (89424.0.0) {07/06/26 13:59:52}
+07/06/26 13:59:56 Number of idle job procs: 39
+07/06/26 13:59:56 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0493 (89426.0.0) {07/06/26 13:59:52}
+07/06/26 13:59:56 Number of idle job procs: 38
+07/06/26 13:59:56 Reassigning the id of job OPTIONS_chunk0063 from (89427.0.0) to (89427.0.0)
+07/06/26 13:59:56 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0063 (89427.0.0) {07/06/26 13:59:56}
+07/06/26 13:59:56 Number of idle job procs: 39
+07/06/26 13:59:56 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0057 (89414.0.0) {07/06/26 13:59:56}
+07/06/26 13:59:56 Number of idle job procs: 39
+07/06/26 13:59:56 Node OPTIONS_chunk0057 job proc (89414.0.0) completed successfully.
+07/06/26 13:59:56 Node OPTIONS_chunk0057 job(s) have exited the queue
+07/06/26 13:59:56 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 13:59:56 Of 501 nodes total:
+07/06/26 13:59:56  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 13:59:56   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 13:59:56    22       0       49       0     429          1        0        0
+07/06/26 13:59:56 38 job proc(s) currently held
+07/06/26 13:59:56 Note: 59862 total node deferrals because of node category throttles
+07/06/26 13:59:56 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.104; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.359; EventCycleTimeSum=13.906; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=670.690; SubmitCycleTimeAvg=0.035; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.250; SubmitCycleTimeSum=4.666; EventCycleTimeCount=134.000; SleepCycleTimeCount=134.000; SubmitCycleTimeCount=135.000; LogProcessCycleTimeAvg=0.244; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.476; LogProcessCycleTimeSum=7.073; LogProcessCycleTimeCount=29.000; ]
+07/06/26 14:00:01 Submitting HTCondor Node OPTIONS_chunk0492 job(s)...
+07/06/26 14:00:01 Submitting node OPTIONS_chunk0492 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:00:01 	assigned HTCondor ID (89428.0.0)
+07/06/26 14:00:01 Just submitted 1 job this cycle...
+07/06/26 14:00:01 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:00:01 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0063 (89427.0.0) {07/06/26 13:59:58}
+07/06/26 14:00:01 Number of idle job procs: 38
+07/06/26 14:00:01 Reassigning the id of job OPTIONS_chunk0492 from (89428.0.0) to (89428.0.0)
+07/06/26 14:00:01 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0492 (89428.0.0) {07/06/26 14:00:01}
+07/06/26 14:00:01 Number of idle job procs: 39
+07/06/26 14:00:01 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:00:01 Of 501 nodes total:
+07/06/26 14:00:01  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:00:01   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:00:01    22       0       50       0     428          1        0        0
+07/06/26 14:00:01 38 job proc(s) currently held
+07/06/26 14:00:01 Note: 60290 total node deferrals because of node category throttles
+07/06/26 14:00:01 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.105; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.358; EventCycleTimeSum=14.188; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=675.695; SubmitCycleTimeAvg=0.035; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.249; SubmitCycleTimeSum=4.787; EventCycleTimeCount=135.000; SleepCycleTimeCount=135.000; SubmitCycleTimeCount=136.000; LogProcessCycleTimeAvg=0.238; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.469; LogProcessCycleTimeSum=7.130; LogProcessCycleTimeCount=30.000; ]
+07/06/26 14:00:06 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:00:06 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0492 (89428.0.0) {07/06/26 14:00:02}
+07/06/26 14:00:06 Number of idle job procs: 38
+07/06/26 14:00:16 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:00:16 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0059 (89417.0.0) {07/06/26 14:00:13}
+07/06/26 14:00:16 Number of idle job procs: 38
+07/06/26 14:00:16 Node OPTIONS_chunk0059 job proc (89417.0.0) completed successfully.
+07/06/26 14:00:16 Node OPTIONS_chunk0059 job(s) have exited the queue
+07/06/26 14:00:16 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0060 (89418.0.0) {07/06/26 14:00:13}
+07/06/26 14:00:16 Number of idle job procs: 38
+07/06/26 14:00:16 Node OPTIONS_chunk0060 job proc (89418.0.0) completed successfully.
+07/06/26 14:00:16 Node OPTIONS_chunk0060 job(s) have exited the queue
+07/06/26 14:00:16 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:00:16 Of 501 nodes total:
+07/06/26 14:00:16  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:00:16   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:00:16    24       0       48       0     428          1        0        0
+07/06/26 14:00:16 38 job proc(s) currently held
+07/06/26 14:00:16 Note: 61574 total node deferrals because of node category throttles
+07/06/26 14:00:16 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.105; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.354; EventCycleTimeSum=14.480; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=690.711; SubmitCycleTimeAvg=0.034; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.246; SubmitCycleTimeSum=4.787; EventCycleTimeCount=138.000; SleepCycleTimeCount=138.000; SubmitCycleTimeCount=139.000; LogProcessCycleTimeAvg=0.226; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.456; LogProcessCycleTimeSum=7.244; LogProcessCycleTimeCount=32.000; ]
+07/06/26 14:00:21 Submitting HTCondor Node OPTIONS_chunk0491 job(s)...
+07/06/26 14:00:21 Submitting node OPTIONS_chunk0491 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:00:21 	assigned HTCondor ID (89429.0.0)
+07/06/26 14:00:21 Submitting HTCondor Node OPTIONS_chunk0490 job(s)...
+07/06/26 14:00:21 Submitting node OPTIONS_chunk0490 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:00:21 	assigned HTCondor ID (89430.0.0)
+07/06/26 14:00:21 Just submitted 2 jobs this cycle...
+07/06/26 14:00:21 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:00:22 Of 501 nodes total:
+07/06/26 14:00:22  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:00:22   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:00:22    24       0       50       0     426          1        0        0
+07/06/26 14:00:22 38 job proc(s) currently held
+07/06/26 14:00:22 Note: 62000 total node deferrals because of node category throttles
+07/06/26 14:00:22 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.105; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.353; EventCycleTimeSum=14.628; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=695.716; SubmitCycleTimeAvg=0.035; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.245; SubmitCycleTimeSum=4.927; EventCycleTimeCount=139.000; SleepCycleTimeCount=139.000; SubmitCycleTimeCount=140.000; LogProcessCycleTimeAvg=0.226; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.456; LogProcessCycleTimeSum=7.244; LogProcessCycleTimeCount=32.000; ]
+07/06/26 14:00:27 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:00:27 Reassigning the id of job OPTIONS_chunk0491 from (89429.0.0) to (89429.0.0)
+07/06/26 14:00:27 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0491 (89429.0.0) {07/06/26 14:00:21}
+07/06/26 14:00:27 Number of idle job procs: 39
+07/06/26 14:00:27 Reassigning the id of job OPTIONS_chunk0490 from (89430.0.0) to (89430.0.0)
+07/06/26 14:00:27 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0490 (89430.0.0) {07/06/26 14:00:21}
+07/06/26 14:00:27 Number of idle job procs: 40
+07/06/26 14:00:27 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0490 (89430.0.0) {07/06/26 14:00:22}
+07/06/26 14:00:27 Number of idle job procs: 39
+07/06/26 14:00:27 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0491 (89429.0.0) {07/06/26 14:00:22}
+07/06/26 14:00:27 Number of idle job procs: 38
+07/06/26 14:03:27 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:03:27 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0062 (89422.0.0) {07/06/26 14:03:26}
+07/06/26 14:03:27 Number of idle job procs: 38
+07/06/26 14:03:27 Node OPTIONS_chunk0062 job proc (89422.0.0) completed successfully.
+07/06/26 14:03:27 Node OPTIONS_chunk0062 job(s) have exited the queue
+07/06/26 14:03:27 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:03:27 Of 501 nodes total:
+07/06/26 14:03:27  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:03:27   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:03:27    25       0       49       0     426          1        0        0
+07/06/26 14:03:27 38 job proc(s) currently held
+07/06/26 14:03:27 Note: 77762 total node deferrals because of node category throttles
+07/06/26 14:03:27 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.085; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.316; EventCycleTimeSum=15.006; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=880.907; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.219; SubmitCycleTimeSum=4.929; EventCycleTimeCount=176.000; SleepCycleTimeCount=176.000; SubmitCycleTimeCount=177.000; LogProcessCycleTimeAvg=0.223; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.442; LogProcessCycleTimeSum=7.577; LogProcessCycleTimeCount=34.000; ]
+07/06/26 14:03:32 Submitting HTCondor Node OPTIONS_chunk0489 job(s)...
+07/06/26 14:03:32 Submitting node OPTIONS_chunk0489 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:03:32 	assigned HTCondor ID (89431.0.0)
+07/06/26 14:03:32 Just submitted 1 job this cycle...
+07/06/26 14:03:32 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:03:32 Of 501 nodes total:
+07/06/26 14:03:32  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:03:32   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:03:32    25       0       50       0     425          1        0        0
+07/06/26 14:03:32 38 job proc(s) currently held
+07/06/26 14:03:32 Note: 78187 total node deferrals because of node category throttles
+07/06/26 14:03:32 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.086; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.316; EventCycleTimeSum=15.275; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.000; SleepCycleTimeSum=885.913; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.218; SubmitCycleTimeSum=5.021; EventCycleTimeCount=177.000; SleepCycleTimeCount=177.000; SubmitCycleTimeCount=178.000; LogProcessCycleTimeAvg=0.223; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.442; LogProcessCycleTimeSum=7.577; LogProcessCycleTimeCount=34.000; ]
+07/06/26 14:03:32 Total jobs placed to AP: 74
+07/06/26 14:03:32      Idle     Held     Running     Successful     Failed
+07/06/26 14:03:32       ===      ===         ===            ===        ===
+07/06/26 14:03:32         0       38          11             25          0
+07/06/26 14:03:37 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:03:37 Reassigning the id of job OPTIONS_chunk0489 from (89431.0.0) to (89431.0.0)
+07/06/26 14:03:37 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0489 (89431.0.0) {07/06/26 14:03:32}
+07/06/26 14:03:37 Number of idle job procs: 39
+07/06/26 14:03:37 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0489 (89431.0.0) {07/06/26 14:03:33}
+07/06/26 14:03:37 Number of idle job procs: 38
+07/06/26 14:03:52 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0026 (89383.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0024 (89381.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0022 (89379.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0020 (89377.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0018 (89375.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0016 (89373.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0014 (89371.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0012 (89369.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0010 (89367.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0008 (89365.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0004 (89361.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0002 (89359.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0049 (89406.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0047 (89404.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0045 (89402.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0043 (89400.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0041 (89398.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0039 (89396.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0037 (89394.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0035 (89392.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0027 (89384.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:52 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0025 (89382.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0023 (89380.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0021 (89378.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0017 (89374.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0015 (89372.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0011 (89368.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0009 (89366.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0007 (89364.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0005 (89362.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0001 (89358.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0048 (89405.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0046 (89403.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0044 (89401.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0042 (89399.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0040 (89397.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0038 (89395.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 Event: ULOG_JOB_RELEASED for HTCondor Node OPTIONS_chunk0036 (89393.0.0) {07/06/26 14:03:51}
+07/06/26 14:03:53 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:03:53 Of 501 nodes total:
+07/06/26 14:03:53  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:03:53   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:03:53    25       0       50       0     425          1        0        0
+07/06/26 14:03:53 0 job proc(s) currently held
+07/06/26 14:03:53 Note: 79887 total node deferrals because of node category throttles
+07/06/26 14:03:53 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.086; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.312; EventCycleTimeSum=15.578; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.074; SleepCycleTimeSum=904.932; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.216; SubmitCycleTimeSum=5.021; EventCycleTimeCount=181.000; SleepCycleTimeCount=181.000; SubmitCycleTimeCount=182.000; LogProcessCycleTimeAvg=0.259; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.490; LogProcessCycleTimeSum=9.321; LogProcessCycleTimeCount=36.000; ]
+07/06/26 14:04:03 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:04:03 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0497 (89420.0.0) {07/06/26 14:04:01}
+07/06/26 14:04:03 Number of idle job procs: 38
+07/06/26 14:04:03 Node OPTIONS_chunk0497 job proc (89420.0.0) completed successfully.
+07/06/26 14:04:03 Node OPTIONS_chunk0497 job(s) have exited the queue
+07/06/26 14:04:03 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:04:03 Of 501 nodes total:
+07/06/26 14:04:03  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:04:03   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:04:03    26       0       49       0     425          1        0        0
+07/06/26 14:04:03 0 job proc(s) currently held
+07/06/26 14:04:03 Note: 80737 total node deferrals because of node category throttles
+07/06/26 14:04:03 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.095; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.334; EventCycleTimeSum=17.331; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.074; SleepCycleTimeSum=914.942; SubmitCycleTimeAvg=0.027; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.214; SubmitCycleTimeSum=5.021; EventCycleTimeCount=183.000; SleepCycleTimeCount=183.000; SubmitCycleTimeCount=184.000; LogProcessCycleTimeAvg=0.254; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.484; LogProcessCycleTimeSum=9.405; LogProcessCycleTimeCount=37.000; ]
+07/06/26 14:04:08 Submitting HTCondor Node OPTIONS_chunk0064 job(s)...
+07/06/26 14:04:08 Submitting node OPTIONS_chunk0064 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:04:08 	assigned HTCondor ID (89432.0.0)
+07/06/26 14:04:09 Just submitted 1 job this cycle...
+07/06/26 14:04:09 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:04:09 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0001 (89358.0.0) {07/06/26 14:04:04}
+07/06/26 14:04:09 Number of idle job procs: 37
+07/06/26 14:04:09 Reassigning the id of job OPTIONS_chunk0064 from (89432.0.0) to (89432.0.0)
+07/06/26 14:04:09 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0064 (89432.0.0) {07/06/26 14:04:08}
+07/06/26 14:04:09 Number of idle job procs: 38
+07/06/26 14:04:09 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:04:09 Of 501 nodes total:
+07/06/26 14:04:09  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:04:09   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:04:09    26       0       50       0     424          1        0        0
+07/06/26 14:04:09 0 job proc(s) currently held
+07/06/26 14:04:09 Note: 81161 total node deferrals because of node category throttles
+07/06/26 14:04:09 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.095; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.333; EventCycleTimeSum=17.486; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.074; SleepCycleTimeSum=919.947; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.214; SubmitCycleTimeSum=5.093; EventCycleTimeCount=184.000; SleepCycleTimeCount=184.000; SubmitCycleTimeCount=185.000; LogProcessCycleTimeAvg=0.249; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.022; LogProcessCycleTimeStd=0.478; LogProcessCycleTimeSum=9.455; LogProcessCycleTimeCount=38.000; ]
+07/06/26 14:04:14 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:04:29 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:04:29 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0498 (89419.0.0) {07/06/26 14:04:28}
+07/06/26 14:04:29 Number of idle job procs: 38
+07/06/26 14:04:29 Node OPTIONS_chunk0498 job proc (89419.0.0) completed successfully.
+07/06/26 14:04:29 Node OPTIONS_chunk0498 job(s) have exited the queue
+07/06/26 14:04:29 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0036 (89393.0.0) {07/06/26 14:04:29}
+07/06/26 14:04:29 Number of idle job procs: 37
+07/06/26 14:04:29 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:04:29 Of 501 nodes total:
+07/06/26 14:04:29  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:04:29   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:04:29    27       0       49       0     424          1        0        0
+07/06/26 14:04:29 0 job proc(s) currently held
+07/06/26 14:04:29 Note: 82857 total node deferrals because of node category throttles
+07/06/26 14:04:29 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.094; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.330; EventCycleTimeSum=17.695; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.073; SleepCycleTimeSum=939.967; SubmitCycleTimeAvg=0.027; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.212; SubmitCycleTimeSum=5.093; EventCycleTimeCount=188.000; SleepCycleTimeCount=188.000; SubmitCycleTimeCount=189.000; LogProcessCycleTimeAvg=0.238; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.468; LogProcessCycleTimeSum=9.532; LogProcessCycleTimeCount=40.000; ]
+07/06/26 14:04:34 Submitting HTCondor Node OPTIONS_chunk0488 job(s)...
+07/06/26 14:04:34 Submitting node OPTIONS_chunk0488 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:04:34 	assigned HTCondor ID (89433.0.0)
+07/06/26 14:04:34 Just submitted 1 job this cycle...
+07/06/26 14:04:34 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0002 (89359.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0002 (89359.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34   Hold reason: Error from slot1_1@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk2.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0005 (89362.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0004 (89361.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0007 (89364.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0008 (89365.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0009 (89366.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0005 (89362.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34   Hold reason: Error from slot1_3@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk5.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0011 (89368.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0010 (89367.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0012 (89369.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0014 (89371.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0015 (89372.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0016 (89373.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0004 (89361.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34   Hold reason: Error from slot1_2@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk4.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0007 (89364.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34   Hold reason: Error from slot1_4@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk7.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0018 (89375.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0017 (89374.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0008 (89365.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34   Hold reason: Error from slot1_5@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk8.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0020 (89377.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0022 (89379.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0021 (89378.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0023 (89380.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0009 (89366.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34   Hold reason: Error from slot1_6@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk9.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0024 (89381.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0025 (89382.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0027 (89384.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0026 (89383.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0035 (89392.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:34 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0010 (89367.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:34   Hold reason: Error from slot1_7@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk10.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:34 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0011 (89368.0.0) {07/06/26 14:04:30}
+07/06/26 14:04:35   Hold reason: Error from slot1_8@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk11.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0012 (89369.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_9@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk12.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0014 (89371.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_10@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk14.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0015 (89372.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_11@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk15.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0016 (89373.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_12@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk16.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0017 (89374.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_13@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk17.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0018 (89375.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_14@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk18.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0020 (89377.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_15@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk20.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0021 (89378.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_16@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk21.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0022 (89379.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_17@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk22.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0023 (89380.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_18@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk23.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0024 (89381.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_19@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk24.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0025 (89382.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_20@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk25.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0027 (89384.0.0) {07/06/26 14:04:31}
+07/06/26 14:04:35   Hold reason: Error from slot1_22@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk27.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0035 (89392.0.0) {07/06/26 14:04:32}
+07/06/26 14:04:35   Hold reason: Error from slot1_23@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk35.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0026 (89383.0.0) {07/06/26 14:04:32}
+07/06/26 14:04:35   Hold reason: Error from slot1_21@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk26.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 Reassigning the id of job OPTIONS_chunk0488 from (89433.0.0) to (89433.0.0)
+07/06/26 14:04:35 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0488 (89433.0.0) {07/06/26 14:04:34}
+07/06/26 14:04:35 Number of idle job procs: 38
+07/06/26 14:04:35 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0488 (89433.0.0) {07/06/26 14:04:34}
+07/06/26 14:04:35 Number of idle job procs: 37
+07/06/26 14:04:35 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:04:35 Of 501 nodes total:
+07/06/26 14:04:35  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:04:35   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:04:35    27       0       50       0     423          1        0        0
+07/06/26 14:04:35 23 job proc(s) currently held
+07/06/26 14:04:35 Note: 83280 total node deferrals because of node category throttles
+07/06/26 14:04:35 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.094; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.329; EventCycleTimeSum=17.835; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.073; SleepCycleTimeSum=944.971; SubmitCycleTimeAvg=0.027; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.211; SubmitCycleTimeSum=5.149; EventCycleTimeCount=189.000; SleepCycleTimeCount=189.000; SubmitCycleTimeCount=190.000; LogProcessCycleTimeAvg=0.260; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.482; LogProcessCycleTimeSum=10.646; LogProcessCycleTimeCount=41.000; ]
+07/06/26 14:04:40 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:04:40 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0061 (89421.0.0) {07/06/26 14:04:39}
+07/06/26 14:04:40 Number of idle job procs: 37
+07/06/26 14:04:40 Node OPTIONS_chunk0061 job proc (89421.0.0) completed successfully.
+07/06/26 14:04:40 Node OPTIONS_chunk0061 job(s) have exited the queue
+07/06/26 14:04:40 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0490 (89430.0.0) {07/06/26 14:04:40}
+07/06/26 14:04:40 Number of idle job procs: 37
+07/06/26 14:04:40 Node OPTIONS_chunk0490 job proc (89430.0.0) completed successfully.
+07/06/26 14:04:40 Node OPTIONS_chunk0490 job(s) have exited the queue
+07/06/26 14:04:40 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:04:40 Of 501 nodes total:
+07/06/26 14:04:40  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:04:40   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:04:40    29       0       48       0     423          1        0        0
+07/06/26 14:04:40 23 job proc(s) currently held
+07/06/26 14:04:40 Note: 83703 total node deferrals because of node category throttles
+07/06/26 14:04:40 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.100; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.339; EventCycleTimeSum=19.073; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.073; SleepCycleTimeSum=949.976; SubmitCycleTimeAvg=0.027; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.211; SubmitCycleTimeSum=5.149; EventCycleTimeCount=190.000; SleepCycleTimeCount=190.000; SubmitCycleTimeCount=191.000; LogProcessCycleTimeAvg=0.256; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.477; LogProcessCycleTimeSum=10.738; LogProcessCycleTimeCount=42.000; ]
+07/06/26 14:04:45 Submitting HTCondor Node OPTIONS_chunk0487 job(s)...
+07/06/26 14:04:45 Submitting node OPTIONS_chunk0487 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:04:45 	assigned HTCondor ID (89434.0.0)
+07/06/26 14:04:45 Submitting HTCondor Node OPTIONS_chunk0486 job(s)...
+07/06/26 14:04:45 Submitting node OPTIONS_chunk0486 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:04:45 	assigned HTCondor ID (89435.0.0)
+07/06/26 14:04:45 Just submitted 2 jobs this cycle...
+07/06/26 14:04:45 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:04:45 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0492 (89428.0.0) {07/06/26 14:04:40}
+07/06/26 14:04:45 Number of idle job procs: 37
+07/06/26 14:04:45 Node OPTIONS_chunk0492 job proc (89428.0.0) completed successfully.
+07/06/26 14:04:45 Node OPTIONS_chunk0492 job(s) have exited the queue
+07/06/26 14:04:45 Reassigning the id of job OPTIONS_chunk0487 from (89434.0.0) to (89434.0.0)
+07/06/26 14:04:45 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0487 (89434.0.0) {07/06/26 14:04:45}
+07/06/26 14:04:45 Number of idle job procs: 38
+07/06/26 14:04:45 Reassigning the id of job OPTIONS_chunk0486 from (89435.0.0) to (89435.0.0)
+07/06/26 14:04:45 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0486 (89435.0.0) {07/06/26 14:04:45}
+07/06/26 14:04:45 Number of idle job procs: 39
+07/06/26 14:04:45 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:04:45 Of 501 nodes total:
+07/06/26 14:04:45  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:04:45   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:04:45    30       0       49       0     421          1        0        0
+07/06/26 14:04:45 23 job proc(s) currently held
+07/06/26 14:04:45 Note: 84124 total node deferrals because of node category throttles
+07/06/26 14:04:45 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.101; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.338; EventCycleTimeSum=19.227; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.072; SleepCycleTimeSum=954.980; SubmitCycleTimeAvg=0.027; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.210; SubmitCycleTimeSum=5.276; EventCycleTimeCount=191.000; SleepCycleTimeCount=191.000; SubmitCycleTimeCount=192.000; LogProcessCycleTimeAvg=0.252; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.472; LogProcessCycleTimeSum=10.830; LogProcessCycleTimeCount=43.000; ]
+07/06/26 14:04:51 Submitting HTCondor Node OPTIONS_chunk0065 job(s)...
+07/06/26 14:04:51 Submitting node OPTIONS_chunk0065 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:04:51 	assigned HTCondor ID (89436.0.0)
+07/06/26 14:04:51 Just submitted 1 job this cycle...
+07/06/26 14:04:51 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:04:51 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0487 (89434.0.0) {07/06/26 14:04:46}
+07/06/26 14:04:51 Number of idle job procs: 38
+07/06/26 14:04:51 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0486 (89435.0.0) {07/06/26 14:04:46}
+07/06/26 14:04:51 Number of idle job procs: 37
+07/06/26 14:04:51 Reassigning the id of job OPTIONS_chunk0065 from (89436.0.0) to (89436.0.0)
+07/06/26 14:04:51 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0065 (89436.0.0) {07/06/26 14:04:51}
+07/06/26 14:04:51 Number of idle job procs: 38
+07/06/26 14:04:51 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:04:51 Of 501 nodes total:
+07/06/26 14:04:51  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:04:51   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:04:51    30       0       50       0     420          1        0        0
+07/06/26 14:04:51 23 job proc(s) currently held
+07/06/26 14:04:51 Note: 84544 total node deferrals because of node category throttles
+07/06/26 14:04:51 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.102; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.337; EventCycleTimeSum=19.523; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.072; SleepCycleTimeSum=959.985; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.210; SubmitCycleTimeSum=5.355; EventCycleTimeCount=192.000; SleepCycleTimeCount=192.000; SubmitCycleTimeCount=193.000; LogProcessCycleTimeAvg=0.248; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.467; LogProcessCycleTimeSum=10.898; LogProcessCycleTimeCount=44.000; ]
+07/06/26 14:04:56 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:04:56 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0491 (89429.0.0) {07/06/26 14:04:51}
+07/06/26 14:04:56 Number of idle job procs: 38
+07/06/26 14:04:56 Node OPTIONS_chunk0491 job proc (89429.0.0) completed successfully.
+07/06/26 14:04:56 Node OPTIONS_chunk0491 job(s) have exited the queue
+07/06/26 14:04:56 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0037 (89394.0.0) {07/06/26 14:04:51}
+07/06/26 14:04:56 Number of idle job procs: 37
+07/06/26 14:04:56 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0038 (89395.0.0) {07/06/26 14:04:52}
+07/06/26 14:04:56 Number of idle job procs: 36
+07/06/26 14:04:56 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:04:56 Of 501 nodes total:
+07/06/26 14:04:56  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:04:56   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:04:56    31       0       49       0     420          1        0        0
+07/06/26 14:04:56 23 job proc(s) currently held
+07/06/26 14:04:56 Note: 84964 total node deferrals because of node category throttles
+07/06/26 14:04:56 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.102; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.336; EventCycleTimeSum=19.746; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.072; SleepCycleTimeSum=964.990; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.209; SubmitCycleTimeSum=5.355; EventCycleTimeCount=193.000; SleepCycleTimeCount=193.000; SubmitCycleTimeCount=194.000; LogProcessCycleTimeAvg=0.244; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.462; LogProcessCycleTimeSum=10.981; LogProcessCycleTimeCount=45.000; ]
+07/06/26 14:05:01 Submitting HTCondor Node OPTIONS_chunk0066 job(s)...
+07/06/26 14:05:01 Submitting node OPTIONS_chunk0066 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:05:01 	assigned HTCondor ID (89437.0.0)
+07/06/26 14:05:01 Just submitted 1 job this cycle...
+07/06/26 14:05:01 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:05:01 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0493 (89426.0.0) {07/06/26 14:05:00}
+07/06/26 14:05:01 Number of idle job procs: 36
+07/06/26 14:05:01 Node OPTIONS_chunk0493 job proc (89426.0.0) completed successfully.
+07/06/26 14:05:01 Node OPTIONS_chunk0493 job(s) have exited the queue
+07/06/26 14:05:01 Reassigning the id of job OPTIONS_chunk0066 from (89437.0.0) to (89437.0.0)
+07/06/26 14:05:01 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0066 (89437.0.0) {07/06/26 14:05:01}
+07/06/26 14:05:01 Number of idle job procs: 37
+07/06/26 14:05:01 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:05:01 Of 501 nodes total:
+07/06/26 14:05:01  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:05:01   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:05:01    32       0       49       0     419          1        0        0
+07/06/26 14:05:01 23 job proc(s) currently held
+07/06/26 14:05:01 Note: 85383 total node deferrals because of node category throttles
+07/06/26 14:05:01 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.103; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.336; EventCycleTimeSum=19.897; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.072; SleepCycleTimeSum=969.995; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.209; SubmitCycleTimeSum=5.417; EventCycleTimeCount=194.000; SleepCycleTimeCount=194.000; SubmitCycleTimeCount=195.000; LogProcessCycleTimeAvg=0.240; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.458; LogProcessCycleTimeSum=11.048; LogProcessCycleTimeCount=46.000; ]
+07/06/26 14:05:06 Submitting HTCondor Node OPTIONS_chunk0485 job(s)...
+07/06/26 14:05:06 Submitting node OPTIONS_chunk0485 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:05:06 	assigned HTCondor ID (89438.0.0)
+07/06/26 14:05:06 Just submitted 1 job this cycle...
+07/06/26 14:05:06 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:05:06 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0066 (89437.0.0) {07/06/26 14:05:02}
+07/06/26 14:05:06 Number of idle job procs: 36
+07/06/26 14:05:06 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0495 (89424.0.0) {07/06/26 14:05:05}
+07/06/26 14:05:06 Number of idle job procs: 36
+07/06/26 14:05:06 Node OPTIONS_chunk0495 job proc (89424.0.0) completed successfully.
+07/06/26 14:05:06 Node OPTIONS_chunk0495 job(s) have exited the queue
+07/06/26 14:05:06 Reassigning the id of job OPTIONS_chunk0485 from (89438.0.0) to (89438.0.0)
+07/06/26 14:05:06 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0485 (89438.0.0) {07/06/26 14:05:06}
+07/06/26 14:05:06 Number of idle job procs: 37
+07/06/26 14:05:06 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:05:06 Of 501 nodes total:
+07/06/26 14:05:06  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:05:06   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:05:06    33       0       49       0     418          1        0        0
+07/06/26 14:05:06 23 job proc(s) currently held
+07/06/26 14:05:06 Note: 85801 total node deferrals because of node category throttles
+07/06/26 14:05:06 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.103; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.335; EventCycleTimeSum=20.104; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.072; SleepCycleTimeSum=975.001; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.208; SubmitCycleTimeSum=5.550; EventCycleTimeCount=195.000; SleepCycleTimeCount=195.000; SubmitCycleTimeCount=196.000; LogProcessCycleTimeAvg=0.237; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.453; LogProcessCycleTimeSum=11.131; LogProcessCycleTimeCount=47.000; ]
+07/06/26 14:05:11 Submitting HTCondor Node OPTIONS_chunk0067 job(s)...
+07/06/26 14:05:11 Submitting node OPTIONS_chunk0067 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:05:11 	assigned HTCondor ID (89439.0.0)
+07/06/26 14:05:11 Just submitted 1 job this cycle...
+07/06/26 14:05:12 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:05:12 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0485 (89438.0.0) {07/06/26 14:05:07}
+07/06/26 14:05:12 Number of idle job procs: 36
+07/06/26 14:05:12 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0063 (89427.0.0) {07/06/26 14:05:07}
+07/06/26 14:05:12 Number of idle job procs: 36
+07/06/26 14:05:12 Node OPTIONS_chunk0063 job proc (89427.0.0) completed successfully.
+07/06/26 14:05:12 Node OPTIONS_chunk0063 job(s) have exited the queue
+07/06/26 14:05:12 Reassigning the id of job OPTIONS_chunk0067 from (89439.0.0) to (89439.0.0)
+07/06/26 14:05:12 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0067 (89439.0.0) {07/06/26 14:05:11}
+07/06/26 14:05:12 Number of idle job procs: 37
+07/06/26 14:05:12 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:05:12 Of 501 nodes total:
+07/06/26 14:05:12  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:05:12   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:05:12    34       0       49       0     417          1        0        0
+07/06/26 14:05:12 23 job proc(s) currently held
+07/06/26 14:05:12 Note: 86218 total node deferrals because of node category throttles
+07/06/26 14:05:12 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.104; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.334; EventCycleTimeSum=20.409; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.071; SleepCycleTimeSum=980.006; SubmitCycleTimeAvg=0.029; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.208; SubmitCycleTimeSum=5.633; EventCycleTimeCount=196.000; SleepCycleTimeCount=196.000; SubmitCycleTimeCount=197.000; LogProcessCycleTimeAvg=0.234; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.449; LogProcessCycleTimeSum=11.215; LogProcessCycleTimeCount=48.000; ]
+07/06/26 14:05:17 Submitting HTCondor Node OPTIONS_chunk0484 job(s)...
+07/06/26 14:05:17 Submitting node OPTIONS_chunk0484 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:05:17 	assigned HTCondor ID (89440.0.0)
+07/06/26 14:05:17 Just submitted 1 job this cycle...
+07/06/26 14:05:17 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:05:17 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0067 (89439.0.0) {07/06/26 14:05:12}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0039 (89396.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0039 (89396.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17   Hold reason: Error from slot1_1@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk39.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0043 (89400.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0040 (89397.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0042 (89399.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0041 (89398.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0044 (89401.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0040 (89397.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17   Hold reason: Error from slot1_2@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk40.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0045 (89402.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0043 (89400.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17   Hold reason: Error from slot1_5@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk43.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0041 (89398.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17   Hold reason: Error from slot1_3@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk41.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0042 (89399.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17   Hold reason: Error from slot1_4@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk42.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0044 (89401.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17   Hold reason: Error from slot1_6@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk44.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0045 (89402.0.0) {07/06/26 14:05:14}
+07/06/26 14:05:17   Hold reason: Error from slot1_7@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk45.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0046 (89403.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0046 (89403.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17   Hold reason: Error from slot1_8@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk46.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0048 (89405.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0048 (89405.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17   Hold reason: Error from slot1_10@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk48.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0047 (89404.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0049 (89406.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0064 (89432.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0065 (89436.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0047 (89404.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17   Hold reason: Error from slot1_9@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk47.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0049 (89406.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17   Hold reason: Error from slot1_11@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk49.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0064 (89432.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17   Hold reason: Error from slot1_12@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk64.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0065 (89436.0.0) {07/06/26 14:05:15}
+07/06/26 14:05:17   Hold reason: Error from slot1_13@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk65.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:17 Number of idle job procs: 36
+07/06/26 14:05:17 Reassigning the id of job OPTIONS_chunk0484 from (89440.0.0) to (89440.0.0)
+07/06/26 14:05:17 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0484 (89440.0.0) {07/06/26 14:05:17}
+07/06/26 14:05:17 Number of idle job procs: 37
+07/06/26 14:05:17 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:05:17 Of 501 nodes total:
+07/06/26 14:05:17  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:05:17   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:05:17    34       0       50       0     416          1        0        0
+07/06/26 14:05:17 36 job proc(s) currently held
+07/06/26 14:05:17 Note: 86634 total node deferrals because of node category throttles
+07/06/26 14:05:17 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.105; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.334; EventCycleTimeSum=20.657; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.071; SleepCycleTimeSum=985.011; SubmitCycleTimeAvg=0.029; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.207; SubmitCycleTimeSum=5.697; EventCycleTimeCount=197.000; SleepCycleTimeCount=197.000; SubmitCycleTimeCount=198.000; LogProcessCycleTimeAvg=0.241; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.447; LogProcessCycleTimeSum=11.811; LogProcessCycleTimeCount=49.000; ]
+07/06/26 14:05:22 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:05:27 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:05:27 Event: ULOG_JOB_TERMINATED for HTCondor Node OPTIONS_chunk0494 (89425.0.0) {07/06/26 14:05:22}
+07/06/26 14:05:27 Number of idle job procs: 37
+07/06/26 14:05:27 Node OPTIONS_chunk0494 job proc (89425.0.0) completed successfully.
+07/06/26 14:05:27 Node OPTIONS_chunk0494 job(s) have exited the queue
+07/06/26 14:05:27 Event: ULOG_EXECUTE for HTCondor Node OPTIONS_chunk0484 (89440.0.0) {07/06/26 14:05:25}
+07/06/26 14:05:27 Number of idle job procs: 36
+07/06/26 14:05:27 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:05:28 Of 501 nodes total:
+07/06/26 14:05:28  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:05:28   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:05:28    35       0       49       0     416          1        0        0
+07/06/26 14:05:28 36 job proc(s) currently held
+07/06/26 14:05:28 Note: 87466 total node deferrals because of node category throttles
+07/06/26 14:05:28 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.108; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.335; EventCycleTimeSum=21.411; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.071; SleepCycleTimeSum=995.021; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.206; SubmitCycleTimeSum=5.697; EventCycleTimeCount=199.000; SleepCycleTimeCount=199.000; SubmitCycleTimeCount=200.000; LogProcessCycleTimeAvg=0.233; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.440; LogProcessCycleTimeSum=11.889; LogProcessCycleTimeCount=51.000; ]
+07/06/26 14:05:33 Submitting HTCondor Node OPTIONS_chunk0068 job(s)...
+07/06/26 14:05:33 Submitting node OPTIONS_chunk0068 from file /home/2673888s/commodity_futures/SUBMIT_FILES/generate_options_data.sub using direct job submission
+07/06/26 14:05:33 	assigned HTCondor ID (89441.0.0)
+07/06/26 14:05:33 Just submitted 1 job this cycle...
+07/06/26 14:05:33 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:05:33 Of 501 nodes total:
+07/06/26 14:05:33  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:05:33   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:05:33    35       0       50       0     415          1        0        0
+07/06/26 14:05:33 36 job proc(s) currently held
+07/06/26 14:05:33 Note: 87881 total node deferrals because of node category throttles
+07/06/26 14:05:33 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.108; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.334; EventCycleTimeSum=21.537; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.071; SleepCycleTimeSum=1000.027; SubmitCycleTimeAvg=0.029; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.206; SubmitCycleTimeSum=5.746; EventCycleTimeCount=200.000; SleepCycleTimeCount=200.000; SubmitCycleTimeCount=201.000; LogProcessCycleTimeAvg=0.233; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.440; LogProcessCycleTimeSum=11.889; LogProcessCycleTimeCount=51.000; ]
+07/06/26 14:05:38 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:05:38 Reassigning the id of job OPTIONS_chunk0068 from (89441.0.0) to (89441.0.0)
+07/06/26 14:05:38 Event: ULOG_SUBMIT for HTCondor Node OPTIONS_chunk0068 (89441.0.0) {07/06/26 14:05:33}
+07/06/26 14:05:38 Number of idle job procs: 37
+07/06/26 14:05:58 Currently monitoring 1 HTCondor log file(s)
+07/06/26 14:05:58 Event: ULOG_JOB_EVICTED for HTCondor Node OPTIONS_chunk0068 (89441.0.0) {07/06/26 14:05:54}
+07/06/26 14:05:58 Number of idle job procs: 37
+07/06/26 14:05:58 Event: ULOG_JOB_HELD for HTCondor Node OPTIONS_chunk0068 (89441.0.0) {07/06/26 14:05:54}
+07/06/26 14:05:58   Hold reason: Error from slot1_14@butterfly.astro.gla.ac.uk: Failed to open '/home/2673888s/commodity_futures/OUTPUT_FILES/options_chunk68.out' as standard output: No such file or directory (errno 2)
+07/06/26 14:05:58 Number of idle job procs: 37
+07/06/26 14:05:58 DAG status: 0 (DAG_STATUS_OK)
+07/06/26 14:05:58 Of 501 nodes total:
+07/06/26 14:05:58  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+07/06/26 14:05:58   ===     ===      ===     ===     ===        ===      ===      ===
+07/06/26 14:05:58    35       0       50       0     415          1        0        0
+07/06/26 14:05:58 37 job proc(s) currently held
+07/06/26 14:05:58 Note: 89956 total node deferrals because of node category throttles
+07/06/26 14:05:58 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.106; EventCycleTimeMax=2.925; EventCycleTimeMin=0.000; EventCycleTimeStd=0.330; EventCycleTimeSum=21.708; SleepCycleTimeAvg=5.000; SleepCycleTimeMax=5.006; SleepCycleTimeMin=4.004; SleepCycleTimeStd=0.070; SleepCycleTimeSum=1025.053; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=2.850; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.203; SubmitCycleTimeSum=5.746; EventCycleTimeCount=205.000; SleepCycleTimeCount=205.000; SubmitCycleTimeCount=206.000; LogProcessCycleTimeAvg=0.226; LogProcessCycleTimeMax=2.089; LogProcessCycleTimeMin=0.009; LogProcessCycleTimeStd=0.433; LogProcessCycleTimeSum=11.985; LogProcessCycleTimeCount=53.000; ]

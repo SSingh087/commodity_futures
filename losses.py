@@ -9,14 +9,17 @@ The standard MSE loss on F(T) is augmented with terms that penalise
 errors in the model's gradients dF/dtheta. This forces the surrogate
 to learn the *geometry* of the forward curve surface, not just its values.
 
-    L = MSE(F) + alpha * MSE(dF/dkappa) + beta * MSE(dF/dsigma_chi)
+    L = MSE(F) + alpha * MSE(dF/d(ln kappa)) + beta * MSE(dF/dsigma_chi) + ...
 
-GW analogy: this is the equivalent of not just fitting the waveform h(t)
-but also constraining dh/dM and dh/dchi. It ensures the Fisher information
-matrix (curvature of the likelihood) is correctly captured, which is
-essential for accurate posterior shapes in the MCMC step.
+Note the kappa channel is now dF/d(ln kappa), not dF/dkappa — reparametrized
+to tame the intrinsic 1/kappa divergence in the raw gradient (kappa's
+sensitivity blows up as mean-reversion weakens, the continuous-time analogue
+of a Fisher-matrix element diverging near a near-unit-root / long-relaxation-
+time boundary). See generate_forward_curve_data.py for where kappa * dF/dkappa
+is computed.
 
-EnsembleLoss (Stage 2)
+
+EnsembleLoss with Label Noise
 ----------------------
 For MC-labelled training data, the labels V_i are themselves noisy with
 known standard error V_std_i. We explicitly model this aleatoric noise:
@@ -41,7 +44,7 @@ try:
 
         Parameters
         ----------
-        alpha : weight on kappa gradient term
+        alpha : weight on d(ln kappa) gradient term
         beta  : weight on sigma_chi gradient term
         gamma : weight on sigma_xi gradient term
         delta : weight on rho gradient term
@@ -56,7 +59,7 @@ try:
         ):
             super().__init__()
             self.weights = {
-                "dF_dkappa":    alpha,
+                "dF_dlnkappa":   alpha,
                 "dF_dsigma_chi": beta,
                 "dF_dsigma_xi":  gamma,
                 "dF_drho":       delta,
@@ -95,6 +98,57 @@ try:
             loss_dict["total"] = total.item()
             return total, loss_dict
 
+    class EnsembleLossWithLabelNoise(nn.Module):
+        """
+        Heteroscedastic loss for Stage 2 options surrogate.
+
+        Network predicts (mean, log_var). Label noise V_std is known
+        from MC sampling and is treated as fixed aleatoric uncertainty.
+
+        Loss = sum [ (V - mu)^2 / (exp(log_var) + sigma_label^2)
+                     + log(exp(log_var) + sigma_label^2) ]
+        """
+
+        def forward(
+            self,
+            mu_pred: torch.Tensor,
+            log_var_pred: torch.Tensor,
+            V_true: torch.Tensor,
+            V_std: torch.Tensor,
+        ) -> torch.Tensor:
+            sigma2_model = torch.exp(log_var_pred)
+            sigma2_label = V_std ** 2
+            sigma2_total = sigma2_model + sigma2_label + 1e-8
+
+            loss = ((V_true - mu_pred) ** 2 / sigma2_total
+                    + torch.log(sigma2_total)).mean()
+            return loss
+
+
+    class CalibrationLoss(nn.Module):
+        """
+        Auxiliary calibration loss that penalises miscoverage.
+
+        After training, we check: P(V* in [mu +/- z*sigma]) ~= target_coverage.
+        This loss can be used to fine-tune the uncertainty estimates.
+        """
+
+        def __init__(self, target_coverage: float = 0.90):
+            super().__init__()
+            from scipy.stats import norm
+            self.z = norm.ppf(0.5 + target_coverage / 2.0)
+            self.target = target_coverage
+
+        def forward(
+            self,
+            mu: torch.Tensor,
+            sigma: torch.Tensor,
+            V_true: torch.Tensor,
+        ) -> torch.Tensor:
+            in_interval = ((V_true >= mu - self.z * sigma) &
+                           (V_true <= mu + self.z * sigma)).float()
+            achieved_coverage = in_interval.mean()
+            return (achieved_coverage - self.target) ** 2
 
 except ImportError:
-    pass  # No-op if PyTorch not installed
+    pass

@@ -1,0 +1,15 @@
+log = LOG_FILES/train_SchwartzSmithFWD_data_gen.log
+error = ERROR_FILES/train_SchwartzSmithFWD_data_gen.err
+output = OUTPUT_FILES/train_SchwartzSmithFWD_data_gen.out
+
+notify_user = s.singh.3@research.gla.ac.uk
+notification = Error
+
+executable = EXECUTABLES/SchwartzSmithFWD_data.sh
+getenv = True
+notification = Error
+
+request_cpus = 1
+request_memory = 16GB
+
+queue 1
