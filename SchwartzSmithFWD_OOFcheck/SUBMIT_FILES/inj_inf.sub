@@ -1,0 +1,13 @@
+executable   = EXECUTABLES/inj_inf.sh
+getenv     = true
+arguments    = $(checkpoint_dir) $(seed) $(output_root) $(n_contracts) $(n_live) $(n_pool)
+
+log          = LOG_FILES/inj_$(Cluster)_$(Process).log
+error        = ERROR_FILES/inj_$(Cluster)_$(Process).err
+output       = OUTPUT_FILES/inj_$(Cluster)_$(Process).out
+
+getenv         = True
+request_cpus   = $(n_pool)
+request_memory = 16GB
+
+queue

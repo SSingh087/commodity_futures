@@ -1,0 +1,110 @@
+000 (319897.000.000) 2026-08-04 10:38:54 Job submitted from host: <130.209.45.81:9618?addrs=130.209.45.81-9618&alias=wiay.astro.gla.ac.uk&noUDP&sock=schedd_7939_1277>
+    DAG Node: inj_bs1024_a0p10_b0p10_ep600_pat40_lr3p0e_04_wd1p0e_05_319402_3_0042
+...
+001 (319897.000.000) 2026-08-04 11:30:04 Job executing on host: <130.209.203.171:9619?addrs=130.209.203.171-9619&alias=balta.physics.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_5@balta.physics.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_153204"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 16384
+...
+006 (319897.000.000) 2026-08-04 11:30:13 Image size of job updated: 622172
+	608  -  MemoryUsage of job (MB)
+	622172  -  ResidentSetSize of job (KB)
+...
+006 (319897.000.000) 2026-08-04 11:35:14 Image size of job updated: 749084
+	732  -  MemoryUsage of job (MB)
+	749084  -  ResidentSetSize of job (KB)
+...
+006 (319897.000.000) 2026-08-04 11:40:14 Image size of job updated: 771520
+	754  -  MemoryUsage of job (MB)
+	771520  -  ResidentSetSize of job (KB)
+...
+006 (319897.000.000) 2026-08-04 11:45:15 Image size of job updated: 772524
+	755  -  MemoryUsage of job (MB)
+	772524  -  ResidentSetSize of job (KB)
+...
+006 (319897.000.000) 2026-08-04 11:45:57 Image size of job updated: 772532
+	755  -  MemoryUsage of job (MB)
+	772524  -  ResidentSetSize of job (KB)
+...
+004 (319897.000.000) 2026-08-04 11:45:57 Job was evicted.
+	(0) CPU times
+		Usr 0 00:23:26, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.46        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   755       16384     16384 
+	   TimeExecute (s)      :   953                       
+	   TimeSlotBusy (s)     :   953                       
+...
+012 (319897.000.000) 2026-08-04 11:45:57 Job was held.
+	via condor_hold (by user 2673888s)
+	Code 1 Subcode 0
+...
+001 (319897.000.000) 2026-08-04 11:57:01 Job executing on host: <130.209.203.171:9619?addrs=130.209.203.171-9619&alias=balta.physics.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_5@balta.physics.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_153677"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 16384
+...
+013 (319897.000.000) 2026-08-04 11:57:05 Job was released.
+	via condor_release (by user 2673888s)
+...
+004 (319897.000.000) 2026-08-04 12:09:35 Job was evicted.
+	(0) CPU times
+		Usr 0 00:18:30, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.47        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   977       16384     16384 
+	   TimeExecute (s)      :   754                       
+	   TimeSlotBusy (s)     :   755                       
+...
+012 (319897.000.000) 2026-08-04 12:09:36 Job was held.
+	via condor_hold (by user 2673888s)
+	Code 1 Subcode 0
+...
+013 (319897.000.000) 2026-08-04 12:31:32 Job was released.
+	via condor_release (by user 2673888s)
+...
+001 (319897.000.000) 2026-08-04 12:31:38 Job executing on host: <130.209.203.171:9619?addrs=130.209.203.171-9619&alias=balta.physics.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_5@balta.physics.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_154141"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 16384
+...
+005 (319897.000.000) 2026-08-04 12:56:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:35:02, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:16:58, Sys 0 00:00:08  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.39        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   977       16384     16384 
+	   TimeExecute (s)      :  1512                       
+	   TimeSlotBusy (s)     :  1513                       
+...

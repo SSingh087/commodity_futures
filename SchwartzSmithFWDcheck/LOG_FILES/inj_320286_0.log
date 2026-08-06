@@ -1,0 +1,82 @@
+000 (320286.000.000) 2026-08-04 10:40:01 Job submitted from host: <130.209.45.81:9618?addrs=130.209.45.81-9618&alias=wiay.astro.gla.ac.uk&noUDP&sock=schedd_7939_1277>
+    DAG Node: inj_bs4096_a0p10_b0p10_ep600_pat40_lr3p0e_04_wd1p0e_05_319402_4_0011
+...
+012 (320286.000.000) 2026-08-04 11:45:58 Job was held.
+	via condor_hold (by user 2673888s)
+	Code 1 Subcode 0
+...
+013 (320286.000.000) 2026-08-04 11:57:01 Job was released.
+	via condor_release (by user 2673888s)
+...
+012 (320286.000.000) 2026-08-04 12:09:36 Job was held.
+	via condor_hold (by user 2673888s)
+	Code 1 Subcode 0
+...
+013 (320286.000.000) 2026-08-04 12:31:25 Job was released.
+	via condor_release (by user 2673888s)
+...
+001 (320286.000.000) 2026-08-04 16:33:43 Job executing on host: <130.209.203.190:9619?addrs=130.209.203.190-9619&alias=altair.astro.gla.ac.uk&noUDP&sock=startd_36_95e7>
+	SlotName: slot1_4@altair.astro.gla.ac.uk
+	CondorScratchDir = "/var/lib/condor/execute/dir_178090"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 16384
+...
+006 (320286.000.000) 2026-08-04 16:33:52 Image size of job updated: 433232
+	424  -  MemoryUsage of job (MB)
+	433232  -  ResidentSetSize of job (KB)
+...
+006 (320286.000.000) 2026-08-04 16:34:43 Image size of job updated: 685608
+	427  -  MemoryUsage of job (MB)
+	436780  -  ResidentSetSize of job (KB)
+...
+004 (320286.000.000) 2026-08-04 16:34:43 Job was evicted. Code 1005 Subcode 0
+	(0) CPU times
+		Usr 0 00:00:57, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.09        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   427       16384     16384 
+	   TimeExecute (s)      :    60                       
+	   TimeSlotBusy (s)     :    60                       
+...
+001 (320286.000.000) 2026-08-04 16:34:47 Job executing on host: <130.209.203.171:9619?addrs=130.209.203.171-9619&alias=balta.physics.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_5@balta.physics.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_157806"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 16384
+...
+006 (320286.000.000) 2026-08-04 16:34:55 Image size of job updated: 750000
+	600  -  MemoryUsage of job (MB)
+	613896  -  ResidentSetSize of job (KB)
+...
+006 (320286.000.000) 2026-08-04 16:38:09 Image size of job updated: 750000
+	600  -  MemoryUsage of job (MB)
+	613980  -  ResidentSetSize of job (KB)
+...
+005 (320286.000.000) 2026-08-04 16:38:09 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:21, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:18, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.54        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   600       16384     16384 
+	   TimeExecute (s)      :   202                       
+	   TimeSlotBusy (s)     :   202                       
+...

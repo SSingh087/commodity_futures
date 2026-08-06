@@ -5,6 +5,8 @@ from __training_imports__ import *
 from models import SurrogateMLP
 from trainer import SchwartzSmithTrainer
 
+import json
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--config", default="/home/2673888s/commodity_futures/config/SchwartzSmithFWD.yaml")
 # ── Sweep overrides ──────────────────────────────────────────────────────
@@ -23,10 +25,10 @@ parser.add_argument("--patience",     type=int,   default=None)
 parser.add_argument("--lr",           type=float, default=None)
 parser.add_argument("--weight_decay", type=float, default=None)
 parser.add_argument("--tag",          type=str,   default=None,
-                     help="Unique job tag (e.g. Cluster_Process) — appended "
-                          "to checkpoint_dir/plot_dir so sweep jobs never "
-                          "collide, the same way each injection-recovery "
-                          "job in a PE campaign needs its own output path.")
+                     help="HTCondor Cluster_Process, used ONLY as a "
+                          "disambiguating suffix on top of the descriptive "
+                          "hyperparameter tag built below — no longer the "
+                          "primary run identifier.")
 args = parser.parse_args()
 with open(args.config) as f:
     cfg = yaml.safe_load(f)
@@ -45,22 +47,60 @@ for key, val in overrides.items():
     if val is not None:
         cfg["training"][key] = val
 
+
+# ── Self-describing run tag ──────────────────────────────────────────────
+# Built from the EFFECTIVE hyperparameters (post-override), so the
+# directory name itself tells you what was run — no more cross-referencing
+# the submit file's row order against Cluster_Process. The raw Condor tag
+# (if given) is kept only as a short tie-breaker suffix in case two grid
+# rows round to an identical string.
+def make_run_tag(cfg: dict, condor_tag: str | None) -> str:
+    t = cfg["training"]
+    parts = [
+        f"bs{t['batch_size']}",
+        f"a{t['differential_loss_alpha']:.2f}",
+        f"b{t['differential_loss_beta']:.2f}",
+        f"ep{t['n_epochs']}",
+        f"pat{t['patience']}",
+        f"lr{t['learning_rate']:.1e}",
+        f"wd{t['weight_decay']:.1e}",
+    ]
+    tag = "_".join(parts)
+    if condor_tag:
+        tag += "_" + condor_tag.replace("_", "-")
+    return tag
+
+
+args.tag = make_run_tag(cfg, args.tag)
+
 plot_dir = Path(cfg["output"]["plot_dir"])
-ckpt_dir = Path(cfg["output"]["checkpoint_dir"])
-if args.tag:
-    # Isolate this job's outputs — critical for the sweep to actually
-    # produce n_rows distinct results instead of n_rows-1 overwritten ones.
-    plot_dir = plot_dir / args.tag
-    ckpt_dir = ckpt_dir / args.tag
+ckpt_dir = Path(cfg["output"]["checkpoint_dir"]) / "SchwartzSmithFWD"
+ckpt_dir = ckpt_dir / args.tag
 plot_dir.mkdir(parents=True, exist_ok=True)
 ckpt_dir.mkdir(parents=True, exist_ok=True)
 
-print(f"Job tag: {args.tag or '(none — single run)'}")
+print(f"Job tag: {args.tag}")
 print(f"Effective hyperparameters: batch_size={cfg['training']['batch_size']}  "
       f"alpha={cfg['training']['differential_loss_alpha']}  "
       f"beta={cfg['training']['differential_loss_beta']}  "
       f"n_epochs={cfg['training']['n_epochs']}  patience={cfg['training']['patience']}  "
       f"lr={cfg['training']['learning_rate']}  weight_decay={cfg['training']['weight_decay']}")
+
+# Save the exact effective config used for this run — the authoritative
+# source for any downstream script (e.g. organize_stage1_sweep.py) that
+# needs to know what hyperparameters produced this checkpoint, instead of
+# reverse-engineering it from a directory name or the submit file.
+with open(ckpt_dir / "config.json", "w") as f:
+    json.dump({
+        "batch_size":   cfg["training"]["batch_size"],
+        "alpha":        cfg["training"]["differential_loss_alpha"],
+        "beta":         cfg["training"]["differential_loss_beta"],
+        "n_epochs":     cfg["training"]["n_epochs"],
+        "patience":     cfg["training"]["patience"],
+        "lr":           cfg["training"]["learning_rate"],
+        "weight_decay": cfg["training"]["weight_decay"],
+        "condor_tag":   args.tag,
+    }, f, indent=2)
 
 
 def plot_training_loss(
@@ -249,7 +289,7 @@ history = trainer.train(train_loader, val_loader,
 
 # ── Validation plots ──────────────────────────────────────────────
 fig = plot_training_loss(history)
-fig.savefig(plot_dir / "training_loss.png", dpi=150, bbox_inches="tight")
+fig.savefig(plot_dir / f"training_loss_{args.tag}.png", dpi=150, bbox_inches="tight")
 
 device = next(model.parameters()).device
 model.eval()
@@ -271,10 +311,10 @@ log_F_pred = F_pred_norm * log_F_std + log_F_mean     # (200, M) log-price
 F_pred     = np.exp(log_F_pred)                        # (200, M) price
 
 fig = plot_surrogate_accuracy(data["F"][:200], F_pred, maturities)
-fig.savefig(plot_dir / "surrogate_accuracy.png", dpi=150, bbox_inches="tight")
+fig.savefig(plot_dir / f"surrogate_accuracy_{args.tag}.png", dpi=150, bbox_inches="tight")
 
 print(f"\nAll plots saved to {plot_dir}")
-print(f"Best checkpoint at {ckpt_dir}/best_model.pt")
+print(f"Best checkpoint at {ckpt_dir}/best_model_SchwartzSmithFWD.pt")
 print("Physical-unit parameter ranges for these 200 test samples (theta_raw):")
 for i, name in enumerate(cfg["param_names"]):
     print(f"  {name}: [{theta_raw[:200, i].min():.4f}, {theta_raw[:200, i].max():.4f}]")
@@ -299,5 +339,3 @@ norm_stats = {
 }
 np.savez(ckpt_dir / "norm_stats.npz", **norm_stats)
 print(f"Normalisation stats saved to {ckpt_dir}/norm_stats.npz")
-# print("NOTE: theta_mean/theta_std are in ln(kappa) space (kappa_is_log=True) — "
-#       "apply np.log() to raw kappa before normalising at Stage 3 inference time.")

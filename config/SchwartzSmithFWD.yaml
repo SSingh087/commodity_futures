@@ -39,6 +39,6 @@ data:
 
 output:
 
-  checkpoint_dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD
+  checkpoint_dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/
   log_dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/logs
-  plot_dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/plots/SchwartzSmithFWD
+  plot_dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/plots/

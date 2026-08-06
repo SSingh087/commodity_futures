@@ -219,6 +219,11 @@ class OptionsOnFuturesTrainer(Trainer):
     Trainer for the options-on-futures surrogate (Stage 2).
     Uses heteroscedastic loss to handle MC label noise.
 
+    GW analogy: separating the network's own (mu, log_var) into epistemic
+    vs. aleatoric parts downstream is exactly separating statistical vs.
+    systematic uncertainty on an inferred parameter — the MC stderr here
+    plays the role of finite-template-bank / finite-injection noise on an
+    SNR estimate.
     """
 
     def __init__(self, model, **kwargs):
@@ -251,6 +256,12 @@ def train_ensemble(
     """
     Train an ensemble of M independent models with different seeds.
 
+    GW analogy: running M independent MCMC chains and checking
+    that they all converge to the same posterior — chain-to-chain
+    scatter is exactly the ensemble's epistemic uncertainty, the same
+    way disagreement between independent nested-sampling runs flags
+    a poorly-constrained or multimodal likelihood surface.
+
     Returns (models, histories) so the caller can both use the
     trained ensemble and inspect/plot per-member training curves —
     the analogue of overlaying trace plots from parallel chains to
@@ -269,6 +280,6 @@ def train_ensemble(
         )
         history = trainer.train(train_loader, val_loader,
                                     n_epochs=n_epochs, patience=patience)
-        models.append(torch.load(ckpt / "best_model.pt"))
+        models.append(torch.load(ckpt / "best_model.pt", weights_only=False))
         histories.append(history)
     return models, histories

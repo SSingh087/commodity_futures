@@ -1,0 +1,12 @@
+==========================================
+ Stage 3 Layer 2 (options) PP plot
+ results_dir = /data/wiay/postgrads/shashwat/COMM_DATA/results/CALLIBRATION_S3_L2/ens5_bs2048_ep300_pat30_lr3.0e-04_wd1.0e-05_319409-0
+==========================================
+Loaded 70 injections from /data/wiay/postgrads/shashwat/COMM_DATA/results/CALLIBRATION_S3_L2/ens5_bs2048_ep300_pat30_lr3.0e-04_wd1.0e-05_319409-0
+Saved PP plot to /data/wiay/postgrads/shashwat/COMM_DATA/results/plots/CALLIBRATION_S3_L2/pp_plot_ens5_bs2048_ep300_pat30_lr3.0e-04_wd1.0e-05_319409-0.png
+
+Per-parameter KS test against Uniform(0,1) (low p-value = miscalibrated):
+  kappa         D=0.094  p=0.539
+  sigma_chi     D=0.106  p=0.382
+  sigma_xi      D=0.122  p=0.229
+  rho           D=0.140  p=0.116

@@ -1,0 +1,16 @@
+==========================================
+ Stage 3 Layer 1 PP plot
+ results_dir = /data/wiay/postgrads/shashwat/COMM_DATA/results/CALLIBRATION_S3_L1/bs1024_a0.10_b0.10_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-3
+==========================================
+Loaded 70 injections from /data/wiay/postgrads/shashwat/COMM_DATA/results/CALLIBRATION_S3_L1/bs1024_a0.10_b0.10_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-3
+Saved PP plot to /data/wiay/postgrads/shashwat/COMM_DATA/results/plots/CALLIBRATION_S3_L1/pp_plot_bs1024_a0.10_b0.10_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-3.png
+
+Per-parameter KS test against Uniform(0,1) (low p-value = miscalibrated):
+  kappa         D=0.125  p=0.203
+  mu_xi         D=0.130  p=0.171
+  sigma_chi     D=0.089  p=0.611
+  sigma_xi      D=0.130  p=0.169
+  rho           D=0.139  p=0.123
+  lambda_chi    D=0.110  p=0.340
+  chi0          D=0.100  p=0.461
+  xi0           D=0.110  p=0.336

@@ -1,0 +1,51 @@
+000 (320077.000.000) 2026-08-04 10:39:23 Job submitted from host: <130.209.45.81:9618?addrs=130.209.45.81-9618&alias=wiay.astro.gla.ac.uk&noUDP&sock=schedd_7939_1277>
+    DAG Node: inj_bs2048_a0p10_b0p10_ep600_pat40_lr3p0e_04_wd1p0e_04_319402_6_0012
+...
+012 (320077.000.000) 2026-08-04 11:46:02 Job was held.
+	via condor_hold (by user 2673888s)
+	Code 1 Subcode 0
+...
+013 (320077.000.000) 2026-08-04 11:57:06 Job was released.
+	via condor_release (by user 2673888s)
+...
+012 (320077.000.000) 2026-08-04 12:09:42 Job was held.
+	via condor_hold (by user 2673888s)
+	Code 1 Subcode 0
+...
+013 (320077.000.000) 2026-08-04 12:31:34 Job was released.
+	via condor_release (by user 2673888s)
+...
+001 (320077.000.000) 2026-08-04 14:16:56 Job executing on host: <130.209.203.174:9619?addrs=130.209.203.174-9619&alias=andromeda.astro.gla.ac.uk&noUDP&sock=startd_34_36b7>
+	SlotName: slot1_6@andromeda.astro.gla.ac.uk
+	CondorScratchDir = "/var/lib/condor/execute/dir_391453"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 16384
+...
+006 (320077.000.000) 2026-08-04 14:17:05 Image size of job updated: 649804
+	635  -  MemoryUsage of job (MB)
+	649804  -  ResidentSetSize of job (KB)
+...
+006 (320077.000.000) 2026-08-04 14:20:03 Image size of job updated: 755748
+	635  -  MemoryUsage of job (MB)
+	649832  -  ResidentSetSize of job (KB)
+...
+005 (320077.000.000) 2026-08-04 14:20:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:10, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:10, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :        1     1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      635    16384     16384 
+	   TimeExecute (s)      :      187                    
+	   TimeSlotBusy (s)     :      187                    
+...

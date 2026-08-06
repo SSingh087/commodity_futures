@@ -1,0 +1,58 @@
+/data/wiay/postgrads/shashwat/qunat_com_future/lib/python3.11/site-packages/nessai/utils/logging.py:133: FutureWarning: setup_logger is deprecated, use configure_logger instead
+  warnings.warn(
+08-04 16:42 nessai INFO    : Running Nessai version 0.15.2
+08-04 16:42 nessai INFO    : Starting multiprocessing pool with 4 processes
+08-04 16:42 nessai INFO    : Initialising nested sampler
+08-04 16:42 nessai WARNING : Multiprocessing pool has already been configured.
+/data/wiay/postgrads/shashwat/qunat_com_future/lib/python3.11/site-packages/nessai/gw/__init__.py:12: FutureWarning: The `nessai.gw` module will be deprecated in the next release in favour of the nessai-gw package. This packages provides the same functionality as`nessai.gw` via the plugin interface.For more details, see: https://github.com/mj-will/nessai-gw
+  warnings.warn(
+08-04 16:42 nessai INFO    : Passing kwargs to FlowProposal: {'poolsize': 1000}
+08-04 16:42 nessai INFO    : No reparameterisations provided, using default reparameterisations included in FlowProposal
+08-04 16:42 nessai INFO    : Adding reparameterisations from: {}
+08-04 16:42 nessai INFO    : Assuming fallback reparameterisation (ScaleAndShift) for ['kappa', 'sigma_chi', 'sigma_xi', 'rho'] with kwargs: {'estimate_scale': True, 'estimate_shift': True, 'prior_bounds': {'kappa': array([0.1, 5. ]), 'sigma_chi': array([0.05, 0.6 ]), 'sigma_xi': array([0.05, 0.4 ]), 'rho': array([-0.9,  0.9])}}.
+08-04 16:42 nessai INFO    : x space parameters: ['kappa', 'sigma_chi', 'sigma_xi', 'rho']
+08-04 16:42 nessai INFO    : x prime space parameters: ['kappa_prime', 'sigma_chi_prime', 'sigma_xi_prime', 'rho_prime']
+08-04 16:42 nessai INFO    : Overwriting fuzz factor with expansion fraction
+08-04 16:42 nessai INFO    : New fuzz factor: 1.4953487812212205
+08-04 16:42 nessai INFO    : Verifying rescaling functions
+08-04 16:42 nessai INFO    : Rescaling functions are invertible
+08-04 16:42 nessai INFO    : Populating initial live points
+08-04 16:42 nessai INFO    : Populated 100 / 1000 live points
+08-04 16:42 nessai INFO    : Populated 200 / 1000 live points
+08-04 16:42 nessai INFO    : Populated 300 / 1000 live points
+08-04 16:42 nessai INFO    : Populated 400 / 1000 live points
+08-04 16:42 nessai INFO    : Populated 500 / 1000 live points
+08-04 16:42 nessai INFO    : Populated 600 / 1000 live points
+08-04 16:42 nessai INFO    : Populated 700 / 1000 live points
+08-04 16:42 nessai INFO    : Populated 800 / 1000 live points
+08-04 16:42 nessai INFO    : Populated 900 / 1000 live points
+08-04 16:42 nessai INFO    : Populated 1000 / 1000 live points
+08-04 16:42 nessai INFO    : Starting nested sampling loop
+08-04 16:42 nessai INFO    : it:  1000: Rolling KS test: D=0.006, p-value=0.9268
+08-04 16:42 nessai INFO    : it:  1000: n eval: 3000 H: 0.45 dlogZ: 0.492 logZ: -3.796 +/- 0.021 logLmax: -3.25
+08-04 16:42 nessai INFO    : it:  2000: Rolling KS test: D=0.03, p-value=0.162
+08-04 16:42 nessai INFO    : it:  2000: n eval: 8000 H: 0.14 dlogZ: 0.157 logZ: -3.475 +/- 0.012 logLmax: -3.25
+08-04 16:42 nessai INFO    : Switching to FlowProposal
+08-04 16:42 nessai INFO    : Stopping with difference_log_evidence=0.100
+08-04 16:42 nessai INFO    : Finalising
+/data/wiay/postgrads/shashwat/qunat_com_future/lib/python3.11/site-packages/nessai/evidence.py:149: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(self.info[-1] / self.base_nlive)
+08-04 16:42 nessai INFO    : Final ln-evidence: -3.324 +/- nan
+08-04 16:42 nessai INFO    : Information: -0.01
+08-04 16:42 nessai INFO    : Final KS test: D=0.01213, p-value=0.4857
+08-04 16:42 nessai INFO    : Checkpointing nested sampling
+08-04 16:42 nessai INFO    : Total sampling time: 0:00:05.569531
+08-04 16:42 nessai INFO    : Total training time: 0:00:02.694755
+08-04 16:42 nessai INFO    : Total population time: 0:00:00.220386
+08-04 16:42 nessai INFO    : Total likelihood evaluations: 10338
+08-04 16:42 nessai INFO    : Time spent evaluating likelihood: 0:00:00.145758
+08-04 16:42 nessai INFO    : Total sampling time: 0:00:05.569531
+08-04 16:42 nessai INFO    : Total likelihood evaluations: 10338
+08-04 16:42 nessai INFO    : Starting post processing
+08-04 16:42 nessai INFO    : Computing posterior samples
+08-04 16:42 nessai INFO    : Effective sample size: 2033.1
+08-04 16:42 nessai INFO    : Producing posterior samples using rejection sampling
+08-04 16:42 nessai INFO    : Expect 1052.3756887569778 samples from rejection sampling
+08-04 16:42 nessai INFO    : Returned 1050 posterior samples
+08-04 16:42 nessai INFO    : Starting to close worker pool.
+08-04 16:42 nessai INFO    : Finished closing worker pool.

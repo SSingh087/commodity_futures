@@ -1,0 +1,116 @@
+/data/wiay/postgrads/shashwat/qunat_com_future/lib/python3.11/site-packages/nessai/utils/logging.py:133: FutureWarning: setup_logger is deprecated, use configure_logger instead
+  warnings.warn(
+08-04 12:54 nessai INFO    : Running Nessai version 0.15.2
+08-04 12:54 nessai INFO    : Starting multiprocessing pool with 4 processes
+08-04 12:54 nessai INFO    : Initialising nested sampler
+08-04 12:54 nessai WARNING : Multiprocessing pool has already been configured.
+/data/wiay/postgrads/shashwat/qunat_com_future/lib/python3.11/site-packages/nessai/gw/__init__.py:12: FutureWarning: The `nessai.gw` module will be deprecated in the next release in favour of the nessai-gw package. This packages provides the same functionality as`nessai.gw` via the plugin interface.For more details, see: https://github.com/mj-will/nessai-gw
+  warnings.warn(
+08-04 12:54 nessai INFO    : Passing kwargs to FlowProposal: {'poolsize': 1000}
+08-04 12:54 nessai INFO    : No reparameterisations provided, using default reparameterisations included in FlowProposal
+08-04 12:54 nessai INFO    : Adding reparameterisations from: {}
+08-04 12:54 nessai INFO    : Assuming fallback reparameterisation (ScaleAndShift) for ['kappa', 'mu_xi', 'sigma_chi', 'sigma_xi', 'rho', 'lambda_chi', 'chi0', 'xi0'] with kwargs: {'estimate_scale': True, 'estimate_shift': True, 'prior_bounds': {'kappa': array([0.1, 5. ]), 'mu_xi': array([0. , 0.1]), 'sigma_chi': array([0.05, 0.6 ]), 'sigma_xi': array([0.05, 0.4 ]), 'rho': array([-0.9,  0.9]), 'lambda_chi': array([-0.5,  0.5]), 'chi0': array([-0.5,  0.5]), 'xi0': array([2.5, 5. ])}}.
+08-04 12:54 nessai INFO    : x space parameters: ['kappa', 'mu_xi', 'sigma_chi', 'sigma_xi', 'rho', 'lambda_chi', 'chi0', 'xi0']
+08-04 12:54 nessai INFO    : x prime space parameters: ['kappa_prime', 'mu_xi_prime', 'sigma_chi_prime', 'sigma_xi_prime', 'rho_prime', 'lambda_chi_prime', 'chi0_prime', 'xi0_prime']
+08-04 12:54 nessai INFO    : Overwriting fuzz factor with expansion fraction
+08-04 12:54 nessai INFO    : New fuzz factor: 1.2228445449938519
+08-04 12:54 nessai INFO    : Verifying rescaling functions
+08-04 12:54 nessai INFO    : Rescaling functions are invertible
+08-04 12:54 nessai INFO    : Populating initial live points
+08-04 12:54 nessai INFO    : Populated 100 / 1000 live points
+08-04 12:54 nessai INFO    : Populated 200 / 1000 live points
+08-04 12:54 nessai INFO    : Populated 300 / 1000 live points
+08-04 12:54 nessai INFO    : Populated 400 / 1000 live points
+08-04 12:54 nessai INFO    : Populated 500 / 1000 live points
+08-04 12:54 nessai INFO    : Populated 600 / 1000 live points
+08-04 12:54 nessai INFO    : Populated 700 / 1000 live points
+08-04 12:54 nessai INFO    : Populated 800 / 1000 live points
+08-04 12:54 nessai INFO    : Populated 900 / 1000 live points
+08-04 12:54 nessai INFO    : Populated 1000 / 1000 live points
+08-04 12:54 nessai INFO    : Starting nested sampling loop
+08-04 12:54 nessai INFO    : it:  1000: Rolling KS test: D=0.023, p-value=0.3419
+08-04 12:54 nessai INFO    : it:  1000: n eval: 3000 H: 7.91 dlogZ: 17683271.725 logZ: -17745515.201 +/- 0.089 logLmax: -62242.48
+08-04 12:54 nessai INFO    : it:  2000: Rolling KS test: D=0.028, p-value=0.2046
+08-04 12:54 nessai INFO    : it:  2000: n eval: 8000 H: 8.91 dlogZ: 5702695.995 logZ: -5720948.579 +/- 0.094 logLmax: -18250.58
+08-04 12:54 nessai INFO    : Switching to FlowProposal
+08-04 12:54 nessai INFO    : it:  3000: Rolling KS test: D=0.025, p-value=0.2818
+08-04 12:54 nessai INFO    : it:  3000: n eval: 12404 H: 9.91 dlogZ: 2128800.502 logZ: -2147054.086 +/- 0.100 logLmax: -18250.58
+08-04 12:54 nessai INFO    : it:  4000: Rolling KS test: D=0.004, p-value=0.9659
+08-04 12:54 nessai INFO    : it:  4000: n eval: 16069 H: 10.91 dlogZ: 874683.849 logZ: -887127.019 +/- 0.104 logLmax: -12439.17
+08-04 12:54 nessai INFO    : it:  5000: Rolling KS test: D=0.018, p-value=0.5169
+08-04 12:54 nessai INFO    : it:  5000: n eval: 20503 H: 11.91 dlogZ: 393217.517 logZ: -403009.586 +/- 0.109 logLmax: -9787.07
+08-04 12:54 nessai INFO    : it:  6000: Rolling KS test: D=0.029, p-value=0.1825
+08-04 12:54 nessai INFO    : it:  6000: n eval: 24870 H: 12.90 dlogZ: 190079.003 logZ: -193801.446 +/- 0.114 logLmax: -3716.44
+08-04 12:54 nessai INFO    : it:  7000: Rolling KS test: D=0.026, p-value=0.2543
+08-04 12:54 nessai INFO    : it:  7000: n eval: 29750 H: 13.91 dlogZ: 93662.091 logZ: -97385.534 +/- 0.118 logLmax: -3716.44
+08-04 12:54 nessai INFO    : it:  8000: Rolling KS test: D=0.02, p-value=0.4434
+08-04 12:54 nessai INFO    : it:  8000: n eval: 35228 H: 14.91 dlogZ: 47545.376 logZ: -49448.168 +/- 0.122 logLmax: -1894.79
+08-04 12:54 nessai INFO    : it:  9000: Rolling KS test: D=0.014, p-value=0.6695
+08-04 12:54 nessai INFO    : it:  9000: n eval: 40105 H: 15.22 dlogZ: 26019.823 logZ: -26623.207 +/- 0.123 logLmax: -594.39
+08-04 12:54 nessai INFO    : it: 10000: Rolling KS test: D=0.011, p-value=0.7794
+08-04 12:54 nessai INFO    : it: 10000: n eval: 45205 H: 16.91 dlogZ: 14597.399 logZ: -15189.854 +/- 0.130 logLmax: -582.46
+08-04 12:54 nessai INFO    : it: 11000: Rolling KS test: D=0.017, p-value=0.5547
+08-04 12:54 nessai INFO    : it: 11000: n eval: 50676 H: 17.81 dlogZ: 8143.456 logZ: -8525.147 +/- 0.133 logLmax: -370.69
+08-04 12:54 nessai INFO    : it: 12000: Rolling KS test: D=0.033, p-value=0.1108
+08-04 12:54 nessai INFO    : it: 12000: n eval: 56840 H: 18.90 dlogZ: 4668.300 logZ: -4846.607 +/- 0.137 logLmax: -166.31
+08-04 12:54 nessai INFO    : it: 13000: Rolling KS test: D=0.036, p-value=0.07308
+08-04 12:54 nessai INFO    : it: 13000: n eval: 66188 H: 18.50 dlogZ: 2777.624 logZ: -2945.094 +/- 0.136 logLmax: -154.47
+08-04 12:54 nessai INFO    : it: 14000: Rolling KS test: D=0.029, p-value=0.1825
+08-04 12:54 nessai INFO    : it: 14000: n eval: 71814 H: 19.88 dlogZ: 1723.545 logZ: -1808.031 +/- 0.141 logLmax: -70.49
+08-04 12:54 nessai INFO    : it: 15000: Rolling KS test: D=0.03, p-value=0.162
+08-04 12:54 nessai INFO    : it: 15000: n eval: 78558 H: 20.51 dlogZ: 1008.908 logZ: -1094.394 +/- 0.143 logLmax: -70.49
+08-04 12:54 nessai INFO    : it: 16000: Rolling KS test: D=0.007, p-value=0.9024
+08-04 12:54 nessai INFO    : it: 16000: n eval: 86520 H: 20.97 dlogZ: 623.359 logZ: -660.251 +/- 0.145 logLmax: -20.89
+08-04 12:54 nessai INFO    : it: 17000: Rolling KS test: D=0.024, p-value=0.311
+08-04 12:54 nessai INFO    : it: 17000: n eval: 97674 H: 21.08 dlogZ: 396.744 logZ: -418.053 +/- 0.145 logLmax: -4.31
+08-04 12:55 nessai INFO    : it: 18000: Rolling KS test: D=0.02, p-value=0.4434
+08-04 12:55 nessai INFO    : it: 18000: n eval: 109721 H: 22.10 dlogZ: 236.668 logZ: -258.873 +/- 0.149 logLmax: -4.21
+08-04 12:55 nessai INFO    : it: 19000: Rolling KS test: D=0.006, p-value=0.9268
+08-04 12:55 nessai INFO    : it: 19000: n eval: 123820 H: 22.25 dlogZ: 145.963 logZ: -169.168 +/- 0.149 logLmax: -4.21
+08-04 12:55 nessai INFO    : it: 20000: Rolling KS test: D=0.027, p-value=0.2286
+08-04 12:55 nessai INFO    : it: 20000: n eval: 142114 H: 22.71 dlogZ: 87.268 logZ: -111.473 +/- 0.151 logLmax: -4.21
+08-04 12:55 nessai INFO    : it: 21000: Rolling KS test: D=0.001, p-value=0.9973
+08-04 12:55 nessai INFO    : it: 21000: n eval: 158626 H: 23.19 dlogZ: 55.876 logZ: -81.081 +/- 0.152 logLmax: -4.21
+08-04 12:55 nessai INFO    : it: 22000: Rolling KS test: D=0.016, p-value=0.593
+08-04 12:55 nessai INFO    : it: 22000: n eval: 176232 H: 23.72 dlogZ: 35.421 logZ: -60.201 +/- 0.154 logLmax: -2.78
+08-04 12:55 nessai INFO    : it: 23000: Rolling KS test: D=0.016, p-value=0.593
+08-04 12:55 nessai INFO    : it: 23000: n eval: 206576 H: 24.10 dlogZ: 22.761 logZ: -48.542 +/- 0.155 logLmax: -2.78
+08-04 12:55 nessai INFO    : it: 24000: Rolling KS test: D=0.026, p-value=0.2543
+08-04 12:55 nessai INFO    : it: 24000: n eval: 243433 H: 24.64 dlogZ: 14.953 logZ: -41.733 +/- 0.157 logLmax: -2.78
+08-04 12:55 nessai INFO    : it: 25000: Rolling KS test: D=0.015, p-value=0.6313
+08-04 12:55 nessai INFO    : it: 25000: n eval: 293396 H: 25.08 dlogZ: 10.310 logZ: -37.483 +/- 0.158 logLmax: -2.17
+08-04 12:55 nessai INFO    : it: 26000: Rolling KS test: D=0.024, p-value=0.311
+08-04 12:55 nessai INFO    : it: 26000: n eval: 353396 H: 25.49 dlogZ: 7.190 logZ: -34.881 +/- 0.160 logLmax: -1.69
+08-04 12:56 nessai INFO    : it: 27000: Rolling KS test: D=0.019, p-value=0.4797
+08-04 12:56 nessai INFO    : it: 27000: n eval: 423396 H: 25.84 dlogZ: 4.843 logZ: -33.351 +/- 0.161 logLmax: -1.52
+08-04 12:56 nessai INFO    : it: 28000: Rolling KS test: D=0.006, p-value=0.9268
+08-04 12:56 nessai INFO    : it: 28000: n eval: 483396 H: 26.15 dlogZ: 3.010 logZ: -32.475 +/- 0.162 logLmax: -1.52
+08-04 12:56 nessai INFO    : it: 29000: Rolling KS test: D=0.019, p-value=0.4797
+08-04 12:56 nessai INFO    : it: 29000: n eval: 553396 H: 26.45 dlogZ: 2.026 logZ: -31.936 +/- 0.163 logLmax: -1.05
+08-04 12:56 nessai INFO    : it: 30000: Rolling KS test: D=0.01, p-value=0.8133
+08-04 12:56 nessai INFO    : it: 30000: n eval: 623396 H: 26.69 dlogZ: 1.071 logZ: -31.616 +/- 0.163 logLmax: -0.97
+08-04 12:56 nessai INFO    : it: 31000: Rolling KS test: D=0.041, p-value=0.03371
+08-04 12:56 nessai INFO    : it: 31000: n eval: 713396 H: 26.87 dlogZ: 0.530 logZ: -31.438 +/- 0.164 logLmax: -0.80
+08-04 12:57 nessai INFO    : it: 32000: Rolling KS test: D=0.034, p-value=0.09683
+08-04 12:57 nessai INFO    : it: 32000: n eval: 793396 H: 26.98 dlogZ: 0.210 logZ: -31.341 +/- 0.164 logLmax: -0.80
+08-04 12:57 nessai INFO    : Stopping with difference_log_evidence=0.100
+08-04 12:57 nessai INFO    : Finalising
+08-04 12:57 nessai INFO    : Final ln-evidence: -31.251 +/- 0.165
+08-04 12:57 nessai INFO    : Information: 27.13
+08-04 12:57 nessai INFO    : Final KS test: D=0.006738, p-value=0.05026
+08-04 12:57 nessai INFO    : Checkpointing nested sampling
+08-04 12:57 nessai INFO    : Total sampling time: 0:02:58.648808
+08-04 12:57 nessai INFO    : Total training time: 0:00:49.081734
+08-04 12:57 nessai INFO    : Total population time: 0:01:05.584529
+08-04 12:57 nessai INFO    : Total likelihood evaluations: 863396
+08-04 12:57 nessai INFO    : Time spent evaluating likelihood: 0:00:26.270976
+08-04 12:57 nessai INFO    : Total sampling time: 0:02:58.648808
+08-04 12:57 nessai INFO    : Total likelihood evaluations: 863396
+08-04 12:57 nessai INFO    : Starting post processing
+08-04 12:57 nessai INFO    : Computing posterior samples
+08-04 12:57 nessai INFO    : Effective sample size: 6641.2
+08-04 12:57 nessai INFO    : Producing posterior samples using rejection sampling
+08-04 12:57 nessai INFO    : Expect 4655.214838139891 samples from rejection sampling
+08-04 12:57 nessai INFO    : Returned 4624 posterior samples
+08-04 12:57 nessai INFO    : Starting to close worker pool.
+08-04 12:57 nessai INFO    : Finished closing worker pool.

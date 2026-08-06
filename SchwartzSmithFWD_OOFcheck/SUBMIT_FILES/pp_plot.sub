@@ -1,0 +1,14 @@
+
+executable   = EXECUTABLES/pp_plot.sh
+getenv     = true
+arguments    = $(results_dir) $(out_path)
+
+log          = LOG_FILES/ppplot_$(Cluster)_$(Process).log.log
+error        = ERROR_FILES/ppplot_$(Cluster)_$(Process).err
+output       = OUTPUT_FILES/ppplot_$(Cluster)_$(Process).out
+
+getenv         = True
+request_cpus   = 1
+request_memory = 4GB
+
+queue

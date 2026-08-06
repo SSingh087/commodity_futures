@@ -1,0 +1,44 @@
+==========================================
+ Stage 3 Layer 2 (options) injection
+ model = ens5_bs1024_ep300_pat30_lr3.0e-04_wd1.0e-05_319409-4
+ seed  = 30
+==========================================
+Model: ens5_bs1024_ep300_pat30_lr3.0e-04_wd1.0e-05_319409-4
+Injection seed: 30
+Output dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/CALLIBRATION_S3_L2/ens5_bs1024_ep300_pat30_lr3.0e-04_wd1.0e-05_319409-4/inj_0030
+Loaded 5 ensemble members from ens5_bs1024_ep300_pat30_lr3.0e-04_wd1.0e-05_319409-4: ['model_00', 'model_01', 'model_02', 'model_03', 'model_04']
+{
+  "kappa": {
+    "true": 1.2554141435814108,
+    "median": 2.653734387285874,
+    "ci_lo": 0.3707821152113358,
+    "ci_hi": 4.784622828795948,
+    "covered": true,
+    "insertion_percentile": 0.24077868852459017
+  },
+  "sigma_chi": {
+    "true": 0.28600884926619613,
+    "median": 0.3250120098835645,
+    "ci_lo": 0.08022226678631551,
+    "ci_hi": 0.569849806852554,
+    "covered": true,
+    "insertion_percentile": 0.4293032786885246
+  },
+  "sigma_xi": {
+    "true": 0.08229555579365225,
+    "median": 0.22593062424198784,
+    "ci_lo": 0.06583259124030767,
+    "ci_hi": 0.38443225702601963,
+    "covered": true,
+    "insertion_percentile": 0.08811475409836066
+  },
+  "rho": {
+    "true": 0.16668496251847864,
+    "median": 0.0025287102322580912,
+    "ci_lo": -0.7989311164641667,
+    "ci_hi": 0.8011579283794166,
+    "covered": true,
+    "insertion_percentile": 0.5942622950819673
+  }
+}
+Saved KDE posterior plot to /data/wiay/postgrads/shashwat/COMM_DATA/results/CALLIBRATION_S3_L2/ens5_bs1024_ep300_pat30_lr3.0e-04_wd1.0e-05_319409-4/inj_0030/posterior_kde.png

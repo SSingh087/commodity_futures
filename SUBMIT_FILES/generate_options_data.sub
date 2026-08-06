@@ -13,4 +13,6 @@ notification = Error
 request_cpus   = 1
 request_memory = 4GB
 
+requirements = (TARGET.Machine =!= "butterfly.astro.gla.ac.uk")
+
 queue 1

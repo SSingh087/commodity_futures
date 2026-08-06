@@ -1,0 +1,75 @@
+==========================================
+ Stage 3 Layer 1 injection
+ model = bs2048_a0.10_b0.10_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-0
+ seed  = 9
+==========================================
+Model: bs2048_a0.10_b0.10_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-0
+Injection seed: 9
+Output dir: /data/wiay/postgrads/shashwat/COMM_DATA/results/CALLIBRATION_S3_L1/bs2048_a0.10_b0.10_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-0/inj_0009
+{
+  "kappa": {
+    "true": 4.364221099453415,
+    "median": 4.349550235054378,
+    "ci_lo": 4.314225763392742,
+    "ci_hi": 4.387002659931947,
+    "covered": true,
+    "insertion_percentile": 0.7450605481198216
+  },
+  "mu_xi": {
+    "true": 0.028681720908755537,
+    "median": 0.030743580777012985,
+    "ci_lo": 0.013975873286329111,
+    "ci_hi": 0.047325001412226814,
+    "covered": true,
+    "insertion_percentile": 0.41321436158912256
+  },
+  "sigma_chi": {
+    "true": 0.381731482528359,
+    "median": 0.2943554628987415,
+    "ci_lo": 0.1460786507419305,
+    "ci_hi": 0.41312279285519116,
+    "covered": true,
+    "insertion_percentile": 0.8570214574038666
+  },
+  "sigma_xi": {
+    "true": 0.3221369290220626,
+    "median": 0.3155856195287816,
+    "ci_lo": 0.257882836351015,
+    "ci_hi": 0.3649043770232238,
+    "covered": true,
+    "insertion_percentile": 0.5886976842999787
+  },
+  "rho": {
+    "true": 0.3889343332864176,
+    "median": 0.34592585743587007,
+    "ci_lo": 0.019075461829500238,
+    "ci_hi": 0.6529859933970024,
+    "covered": true,
+    "insertion_percentile": 0.586573188867644
+  },
+  "lambda_chi": {
+    "true": 0.41538012049050754,
+    "median": 0.38398110175802164,
+    "ci_lo": 0.22908629392826627,
+    "ci_hi": 0.46383408126116826,
+    "covered": true,
+    "insertion_percentile": 0.7168047588697685
+  },
+  "chi0": {
+    "true": 0.36039364918288463,
+    "median": 0.3583418599647863,
+    "ci_lo": 0.33793378398693646,
+    "ci_hi": 0.4005059946448795,
+    "covered": true,
+    "insertion_percentile": 0.5396218398130445
+  },
+  "xi0": {
+    "true": 4.795594072621906,
+    "median": 4.797069029964718,
+    "ci_lo": 4.752462050894887,
+    "ci_hi": 4.817591947343213,
+    "covered": true,
+    "insertion_percentile": 0.4710006373486297
+  }
+}
+Saved KDE posterior plot to /data/wiay/postgrads/shashwat/COMM_DATA/results/CALLIBRATION_S3_L1/bs2048_a0.10_b0.10_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-0/inj_0009/posterior_kde.png
