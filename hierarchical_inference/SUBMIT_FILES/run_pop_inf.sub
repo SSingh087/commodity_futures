@@ -1,0 +1,14 @@
+
+executable   = EXECUTABLES/run_pop_inference.sh
+getenv     = true
+arguments    = $(day_posteriors_root) $(lambda_true_path) $(output_root) $(n_live) $(n_pool)
+
+log          = /home/2673888s/commodity_futures/hierarchical_inference/LOG_FILES/hier_$(Cluster)_$(Process).log
+error        = /home/2673888s/commodity_futures/hierarchical_inference/ERROR_FILES/hier_$(Cluster)_$(Process).err
+output       = /home/2673888s/commodity_futures/hierarchical_inference/OUTPUT_FILES/hier_$(Cluster)_$(Process).out
+
+getenv         = True
+request_cpus   = $(n_pool)
+request_memory = 8GB
+
+queue

@@ -1,0 +1,13 @@
+executable   = EXECUTABLES/run_day_inference.sh
+getenv     = true
+arguments    = $(checkpoint_dir) $(day_dir) $(output_root) $(n_live) $(n_pool)
+
+log          = /home/2673888s/commodity_futures/hierarchical_inference/LOG_FILES/day_$(Cluster)_$(Process).log
+error        = /home/2673888s/commodity_futures/hierarchical_inference/ERROR_FILES/day_$(Cluster)_$(Process).err
+output       = /home/2673888s/commodity_futures/hierarchical_inference/OUTPUT_FILES/day_$(Cluster)_$(Process).out
+
+getenv         = True
+request_cpus   = $(n_pool)
+request_memory = 8GB
+
+queue

@@ -1,0 +1,63 @@
+JOB day_day_0000 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0000 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0000" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0001 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0001 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0001" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0002 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0002 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0002" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0003 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0003 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0003" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0004 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0004 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0004" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0005 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0005 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0005" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0006 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0006 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0006" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0007 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0007 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0007" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0008 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0008 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0008" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0009 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0009 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0009" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0010 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0010 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0010" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0011 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0011 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0011" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0012 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0012 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0012" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0013 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0013 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0013" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0014 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0014 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0014" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0015 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0015 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0015" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0016 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0016 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0016" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0017 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0017 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0017" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0018 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0018 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0018" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB day_day_0019 /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_day_inf.sub
+VARS day_day_0019 checkpoint_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/checkpoints/SchwartzSmithFWD/bs2048_a0.20_b0.20_ep600_pat40_lr3.0e-04_wd1.0e-05_319402-2" day_dir="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/day_0019" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" n_live="1000" n_pool="4"
+JOB hierarchical /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_pop_inf.sub
+VARS hierarchical day_posteriors_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer1_per_day" lambda_true_path="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/injection/lambda_true.npy" output_root="/data/wiay/postgrads/shashwat/COMM_DATA/results/population_results/layer2_hierarchical" n_live="1000" n_pool="4"
+PARENT day_day_0000 day_day_0001 day_day_0002 day_day_0003 day_day_0004 day_day_0005 day_day_0006 day_day_0007 day_day_0008 day_day_0009 day_day_0010 day_day_0011 day_day_0012 day_day_0013 day_day_0014 day_day_0015 day_day_0016 day_day_0017 day_day_0018 day_day_0019 CHILD hierarchical
+RETRY day_day_0000 1
+RETRY day_day_0001 1
+RETRY day_day_0002 1
+RETRY day_day_0003 1
+RETRY day_day_0004 1
+RETRY day_day_0005 1
+RETRY day_day_0006 1
+RETRY day_day_0007 1
+RETRY day_day_0008 1
+RETRY day_day_0009 1
+RETRY day_day_0010 1
+RETRY day_day_0011 1
+RETRY day_day_0012 1
+RETRY day_day_0013 1
+RETRY day_day_0014 1
+RETRY day_day_0015 1
+RETRY day_day_0016 1
+RETRY day_day_0017 1
+RETRY day_day_0018 1
+RETRY day_day_0019 1
