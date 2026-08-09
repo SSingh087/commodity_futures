@@ -254,3 +254,377 @@
 08/07/26 10:47:34 Number of idle job procs: 17
 08/07/26 10:47:34 Event: ULOG_EXECUTE for HTCondor Node day_day_0002 (97719.0.0) {08/07/26 10:47:29}
 08/07/26 10:47:34 Number of idle job procs: 16
+08/07/26 10:48:34 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:48:34 Event: ULOG_EXECUTE for HTCondor Node day_day_0004 (97721.0.0) {08/07/26 10:48:29}
+08/07/26 10:48:34 Number of idle job procs: 15
+08/07/26 10:49:34 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:49:34 Event: ULOG_EXECUTE for HTCondor Node day_day_0005 (97722.0.0) {08/07/26 10:49:29}
+08/07/26 10:49:34 Number of idle job procs: 14
+08/07/26 10:50:09 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:50:09 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0001 (97718.0.0) {08/07/26 10:50:08}
+08/07/26 10:50:09 Number of idle job procs: 14
+08/07/26 10:50:09 Node day_day_0001 job proc (97718.0.0) completed successfully.
+08/07/26 10:50:09 Node day_day_0001 job(s) have exited the queue
+08/07/26 10:50:09 Event: ULOG_EXECUTE for HTCondor Node day_day_0006 (97723.0.0) {08/07/26 10:50:09}
+08/07/26 10:50:09 Number of idle job procs: 13
+08/07/26 10:50:09 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:50:09 Of 21 nodes total:
+08/07/26 10:50:10  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:50:10   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:50:10     1       0       19       0       0          1        0        0
+08/07/26 10:50:10 0 job proc(s) currently held
+08/07/26 10:50:10 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.061; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.268; EventCycleTimeSum=2.878; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.002; SleepCycleTimeStd=0.001; SleepCycleTimeSum=235.227; SubmitCycleTimeAvg=0.030; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.210; SubmitCycleTimeSum=1.458; EventCycleTimeCount=47.000; SleepCycleTimeCount=47.000; SubmitCycleTimeCount=48.000; LogProcessCycleTimeAvg=0.261; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.037; LogProcessCycleTimeStd=0.401; LogProcessCycleTimeSum=1.563; LogProcessCycleTimeCount=6.000; ]
+08/07/26 10:50:30 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:50:30 Event: ULOG_EXECUTE for HTCondor Node day_day_0007 (97724.0.0) {08/07/26 10:50:29}
+08/07/26 10:50:30 Number of idle job procs: 12
+08/07/26 10:50:35 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:50:35 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0004 (97721.0.0) {08/07/26 10:50:30}
+08/07/26 10:50:35 Number of idle job procs: 12
+08/07/26 10:50:35 Node day_day_0004 job proc (97721.0.0) completed successfully.
+08/07/26 10:50:35 Node day_day_0004 job(s) have exited the queue
+08/07/26 10:50:35 Event: ULOG_EXECUTE for HTCondor Node day_day_0008 (97725.0.0) {08/07/26 10:50:30}
+08/07/26 10:50:35 Number of idle job procs: 11
+08/07/26 10:50:35 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:50:35 Of 21 nodes total:
+08/07/26 10:50:35  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:50:35   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:50:35     2       0       18       0       0          1        0        0
+08/07/26 10:50:35 0 job proc(s) currently held
+08/07/26 10:50:35 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.062; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.258; EventCycleTimeSum=3.249; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.002; SleepCycleTimeStd=0.001; SleepCycleTimeSum=260.250; SubmitCycleTimeAvg=0.028; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.200; SubmitCycleTimeSum=1.458; EventCycleTimeCount=52.000; SleepCycleTimeCount=52.000; SubmitCycleTimeCount=53.000; LogProcessCycleTimeAvg=0.209; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.037; LogProcessCycleTimeStd=0.352; LogProcessCycleTimeSum=1.674; LogProcessCycleTimeCount=8.000; ]
+08/07/26 10:51:00 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:51:00 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0003 (97720.0.0) {08/07/26 10:50:55}
+08/07/26 10:51:00 Number of idle job procs: 11
+08/07/26 10:51:00 Node day_day_0003 job proc (97720.0.0) completed successfully.
+08/07/26 10:51:00 Node day_day_0003 job(s) have exited the queue
+08/07/26 10:51:00 Event: ULOG_EXECUTE for HTCondor Node day_day_0009 (97726.0.0) {08/07/26 10:50:55}
+08/07/26 10:51:00 Number of idle job procs: 10
+08/07/26 10:51:00 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:51:00 Of 21 nodes total:
+08/07/26 10:51:00  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:51:00   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:51:00     3       0       17       0       0          1        0        0
+08/07/26 10:51:00 0 job proc(s) currently held
+08/07/26 10:51:00 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.059; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.247; EventCycleTimeSum=3.373; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.002; SleepCycleTimeStd=0.001; SleepCycleTimeSum=285.268; SubmitCycleTimeAvg=0.025; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.191; SubmitCycleTimeSum=1.458; EventCycleTimeCount=57.000; SleepCycleTimeCount=57.000; SubmitCycleTimeCount=58.000; LogProcessCycleTimeAvg=0.197; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.037; LogProcessCycleTimeStd=0.332; LogProcessCycleTimeSum=1.773; LogProcessCycleTimeCount=9.000; ]
+08/07/26 10:51:30 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:51:30 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0000 (97717.0.0) {08/07/26 10:51:25}
+08/07/26 10:51:30 Number of idle job procs: 10
+08/07/26 10:51:30 Node day_day_0000 job proc (97717.0.0) completed successfully.
+08/07/26 10:51:30 Node day_day_0000 job(s) have exited the queue
+08/07/26 10:51:30 Event: ULOG_EXECUTE for HTCondor Node day_day_0010 (97727.0.0) {08/07/26 10:51:25}
+08/07/26 10:51:30 Number of idle job procs: 9
+08/07/26 10:51:30 Event: ULOG_EXECUTE for HTCondor Node day_day_0011 (97728.0.0) {08/07/26 10:51:30}
+08/07/26 10:51:30 Number of idle job procs: 8
+08/07/26 10:51:30 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:51:30 Of 21 nodes total:
+08/07/26 10:51:30  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:51:30   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:51:30     4       0       16       0       0          1        0        0
+08/07/26 10:51:30 0 job proc(s) currently held
+08/07/26 10:51:30 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.056; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.236; EventCycleTimeSum=3.537; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.002; SleepCycleTimeStd=0.001; SleepCycleTimeSum=315.299; SubmitCycleTimeAvg=0.023; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.182; SubmitCycleTimeSum=1.458; EventCycleTimeCount=63.000; SleepCycleTimeCount=63.000; SubmitCycleTimeCount=64.000; LogProcessCycleTimeAvg=0.187; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.037; LogProcessCycleTimeStd=0.314; LogProcessCycleTimeSum=1.871; LogProcessCycleTimeCount=10.000; ]
+08/07/26 10:52:30 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:52:30 Event: ULOG_EXECUTE for HTCondor Node day_day_0012 (97729.0.0) {08/07/26 10:52:30}
+08/07/26 10:52:30 Number of idle job procs: 7
+08/07/26 10:52:40 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:52:40 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0008 (97725.0.0) {08/07/26 10:52:37}
+08/07/26 10:52:40 Number of idle job procs: 7
+08/07/26 10:52:40 Node day_day_0008 job proc (97725.0.0) completed successfully.
+08/07/26 10:52:40 Node day_day_0008 job(s) have exited the queue
+08/07/26 10:52:40 Event: ULOG_EXECUTE for HTCondor Node day_day_0013 (97730.0.0) {08/07/26 10:52:37}
+08/07/26 10:52:40 Number of idle job procs: 6
+08/07/26 10:52:40 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:52:40 Of 21 nodes total:
+08/07/26 10:52:40  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:52:40   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:52:40     5       0       15       0       0          1        0        0
+08/07/26 10:52:40 0 job proc(s) currently held
+08/07/26 10:52:40 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.048; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.214; EventCycleTimeSum=3.733; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=385.365; SubmitCycleTimeAvg=0.019; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.165; SubmitCycleTimeSum=1.458; EventCycleTimeCount=77.000; SleepCycleTimeCount=77.000; SubmitCycleTimeCount=78.000; LogProcessCycleTimeAvg=0.163; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.037; LogProcessCycleTimeStd=0.290; LogProcessCycleTimeSum=1.962; LogProcessCycleTimeCount=12.000; ]
+08/07/26 10:53:25 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:53:25 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0005 (97722.0.0) {08/07/26 10:53:22}
+08/07/26 10:53:25 Number of idle job procs: 6
+08/07/26 10:53:25 Node day_day_0005 job proc (97722.0.0) completed successfully.
+08/07/26 10:53:25 Node day_day_0005 job(s) have exited the queue
+08/07/26 10:53:26 Event: ULOG_EXECUTE for HTCondor Node day_day_0014 (97731.0.0) {08/07/26 10:53:22}
+08/07/26 10:53:26 Number of idle job procs: 5
+08/07/26 10:53:26 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:53:26 Of 21 nodes total:
+08/07/26 10:53:26  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:53:26   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:53:26     6       0       14       0       0          1        0        0
+08/07/26 10:53:26 0 job proc(s) currently held
+08/07/26 10:53:26 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.045; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.203; EventCycleTimeSum=3.845; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=430.412; SubmitCycleTimeAvg=0.017; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.156; SubmitCycleTimeSum=1.458; EventCycleTimeCount=86.000; SleepCycleTimeCount=86.000; SubmitCycleTimeCount=87.000; LogProcessCycleTimeAvg=0.162; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.037; LogProcessCycleTimeStd=0.277; LogProcessCycleTimeSum=2.104; LogProcessCycleTimeCount=13.000; ]
+08/07/26 10:53:31 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:53:31 Event: ULOG_EXECUTE for HTCondor Node day_day_0015 (97732.0.0) {08/07/26 10:53:29}
+08/07/26 10:53:31 Number of idle job procs: 4
+08/07/26 10:53:36 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:53:36 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0006 (97723.0.0) {08/07/26 10:53:35}
+08/07/26 10:53:36 Number of idle job procs: 4
+08/07/26 10:53:36 Node day_day_0006 job proc (97723.0.0) completed successfully.
+08/07/26 10:53:36 Node day_day_0006 job(s) have exited the queue
+08/07/26 10:53:36 Event: ULOG_EXECUTE for HTCondor Node day_day_0016 (97733.0.0) {08/07/26 10:53:35}
+08/07/26 10:53:36 Number of idle job procs: 3
+08/07/26 10:53:36 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:53:36 Of 21 nodes total:
+08/07/26 10:53:36  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:53:36   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:53:36     7       0       13       0       0          1        0        0
+08/07/26 10:53:36 0 job proc(s) currently held
+08/07/26 10:53:36 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.047; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.201; EventCycleTimeSum=4.104; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=440.420; SubmitCycleTimeAvg=0.016; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.155; SubmitCycleTimeSum=1.458; EventCycleTimeCount=88.000; SleepCycleTimeCount=88.000; SubmitCycleTimeCount=89.000; LogProcessCycleTimeAvg=0.150; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.037; LogProcessCycleTimeStd=0.259; LogProcessCycleTimeSum=2.246; LogProcessCycleTimeCount=15.000; ]
+08/07/26 10:54:11 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:54:11 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0002 (97719.0.0) {08/07/26 10:54:07}
+08/07/26 10:54:11 Number of idle job procs: 3
+08/07/26 10:54:11 Node day_day_0002 job proc (97719.0.0) completed successfully.
+08/07/26 10:54:11 Node day_day_0002 job(s) have exited the queue
+08/07/26 10:54:11 Event: ULOG_EXECUTE for HTCondor Node day_day_0017 (97734.0.0) {08/07/26 10:54:07}
+08/07/26 10:54:11 Number of idle job procs: 2
+08/07/26 10:54:11 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:54:11 Of 21 nodes total:
+08/07/26 10:54:11  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:54:11   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:54:11     8       0       12       0       0          1        0        0
+08/07/26 10:54:11 0 job proc(s) currently held
+08/07/26 10:54:11 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.045; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.194; EventCycleTimeSum=4.251; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=475.457; SubmitCycleTimeAvg=0.015; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.149; SubmitCycleTimeSum=1.458; EventCycleTimeCount=95.000; SleepCycleTimeCount=95.000; SubmitCycleTimeCount=96.000; LogProcessCycleTimeAvg=0.146; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.037; LogProcessCycleTimeStd=0.250; LogProcessCycleTimeSum=2.338; LogProcessCycleTimeCount=16.000; ]
+08/07/26 10:54:31 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:54:31 Event: ULOG_EXECUTE for HTCondor Node day_day_0018 (97735.0.0) {08/07/26 10:54:29}
+08/07/26 10:54:31 Number of idle job procs: 1
+08/07/26 10:54:46 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:54:46 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0013 (97730.0.0) {08/07/26 10:54:42}
+08/07/26 10:54:46 Number of idle job procs: 1
+08/07/26 10:54:46 Node day_day_0013 job proc (97730.0.0) completed successfully.
+08/07/26 10:54:46 Node day_day_0013 job(s) have exited the queue
+08/07/26 10:54:46 Event: ULOG_EXECUTE for HTCondor Node day_day_0019 (97736.0.0) {08/07/26 10:54:42}
+08/07/26 10:54:46 Number of idle job procs: 0
+08/07/26 10:54:46 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:54:46 Of 21 nodes total:
+08/07/26 10:54:46  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:54:46   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:54:46     9       0       11       0       0          1        0        0
+08/07/26 10:54:46 0 job proc(s) currently held
+08/07/26 10:54:46 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.043; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.188; EventCycleTimeSum=4.427; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=510.485; SubmitCycleTimeAvg=0.014; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.144; SubmitCycleTimeSum=1.458; EventCycleTimeCount=102.000; SleepCycleTimeCount=102.000; SubmitCycleTimeCount=103.000; LogProcessCycleTimeAvg=0.135; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.238; LogProcessCycleTimeSum=2.427; LogProcessCycleTimeCount=18.000; ]
+08/07/26 10:55:06 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:55:06 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0009 (97726.0.0) {08/07/26 10:55:03}
+08/07/26 10:55:06 Number of idle job procs: 0
+08/07/26 10:55:06 Node day_day_0009 job proc (97726.0.0) completed successfully.
+08/07/26 10:55:06 Node day_day_0009 job(s) have exited the queue
+08/07/26 10:55:06 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:55:06 Of 21 nodes total:
+08/07/26 10:55:06  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:55:06   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:55:06    10       0       10       0       0          1        0        0
+08/07/26 10:55:06 0 job proc(s) currently held
+08/07/26 10:55:06 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.043; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.185; EventCycleTimeSum=4.548; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=530.504; SubmitCycleTimeAvg=0.014; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.141; SubmitCycleTimeSum=1.458; EventCycleTimeCount=106.000; SleepCycleTimeCount=106.000; SubmitCycleTimeCount=107.000; LogProcessCycleTimeAvg=0.130; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.232; LogProcessCycleTimeSum=2.473; LogProcessCycleTimeCount=19.000; ]
+08/07/26 10:56:26 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:56:26 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0011 (97728.0.0) {08/07/26 10:56:23}
+08/07/26 10:56:26 Number of idle job procs: 0
+08/07/26 10:56:26 Node day_day_0011 job proc (97728.0.0) completed successfully.
+08/07/26 10:56:26 Node day_day_0011 job(s) have exited the queue
+08/07/26 10:56:26 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:56:26 Of 21 nodes total:
+08/07/26 10:56:26  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:56:26   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:56:26    11       0        9       0       0          1        0        0
+08/07/26 10:56:26 0 job proc(s) currently held
+08/07/26 10:56:26 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.038; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.173; EventCycleTimeSum=4.675; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=610.574; SubmitCycleTimeAvg=0.012; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.131; SubmitCycleTimeSum=1.458; EventCycleTimeCount=122.000; SleepCycleTimeCount=122.000; SubmitCycleTimeCount=123.000; LogProcessCycleTimeAvg=0.126; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.226; LogProcessCycleTimeSum=2.520; LogProcessCycleTimeCount=20.000; ]
+08/07/26 10:56:31 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:56:31 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0019 (97736.0.0) {08/07/26 10:56:30}
+08/07/26 10:56:31 Number of idle job procs: 0
+08/07/26 10:56:32 Node day_day_0019 job proc (97736.0.0) completed successfully.
+08/07/26 10:56:32 Node day_day_0019 job(s) have exited the queue
+08/07/26 10:56:32 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:56:32 Of 21 nodes total:
+08/07/26 10:56:32  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:56:32   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:56:32    12       0        8       0       0          1        0        0
+08/07/26 10:56:32 0 job proc(s) currently held
+08/07/26 10:56:32 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.039; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.172; EventCycleTimeSum=4.781; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=615.579; SubmitCycleTimeAvg=0.012; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.131; SubmitCycleTimeSum=1.458; EventCycleTimeCount=123.000; SleepCycleTimeCount=123.000; SubmitCycleTimeCount=124.000; LogProcessCycleTimeAvg=0.122; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.221; LogProcessCycleTimeSum=2.564; LogProcessCycleTimeCount=21.000; ]
+08/07/26 10:56:42 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:56:42 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0016 (97733.0.0) {08/07/26 10:56:38}
+08/07/26 10:56:42 Number of idle job procs: 0
+08/07/26 10:56:42 Node day_day_0016 job proc (97733.0.0) completed successfully.
+08/07/26 10:56:42 Node day_day_0016 job(s) have exited the queue
+08/07/26 10:56:42 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:56:42 Of 21 nodes total:
+08/07/26 10:56:42  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:56:42   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:56:42    13       0        7       0       0          1        0        0
+08/07/26 10:56:42 0 job proc(s) currently held
+08/07/26 10:56:42 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.039; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.171; EventCycleTimeSum=4.884; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=625.589; SubmitCycleTimeAvg=0.012; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.130; SubmitCycleTimeSum=1.458; EventCycleTimeCount=125.000; SleepCycleTimeCount=125.000; SubmitCycleTimeCount=126.000; LogProcessCycleTimeAvg=0.124; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.216; LogProcessCycleTimeSum=2.719; LogProcessCycleTimeCount=22.000; ]
+08/07/26 10:57:22 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:57:22 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0010 (97727.0.0) {08/07/26 10:57:19}
+08/07/26 10:57:22 Number of idle job procs: 0
+08/07/26 10:57:22 Node day_day_0010 job proc (97727.0.0) completed successfully.
+08/07/26 10:57:22 Node day_day_0010 job(s) have exited the queue
+08/07/26 10:57:22 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:57:22 Of 21 nodes total:
+08/07/26 10:57:22  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:57:22   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:57:22    14       0        6       0       0          1        0        0
+08/07/26 10:57:22 0 job proc(s) currently held
+08/07/26 10:57:22 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.038; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.167; EventCycleTimeSum=5.106; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=665.628; SubmitCycleTimeAvg=0.011; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.126; SubmitCycleTimeSum=1.458; EventCycleTimeCount=133.000; SleepCycleTimeCount=133.000; SubmitCycleTimeCount=134.000; LogProcessCycleTimeAvg=0.120; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.212; LogProcessCycleTimeSum=2.765; LogProcessCycleTimeCount=23.000; ]
+08/07/26 10:57:32 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:57:32 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0012 (97729.0.0) {08/07/26 10:57:31}
+08/07/26 10:57:32 Number of idle job procs: 0
+08/07/26 10:57:32 Node day_day_0012 job proc (97729.0.0) completed successfully.
+08/07/26 10:57:32 Node day_day_0012 job(s) have exited the queue
+08/07/26 10:57:32 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:57:32 Of 21 nodes total:
+08/07/26 10:57:32  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:57:32   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:57:32    15       0        5       0       0          1        0        0
+08/07/26 10:57:32 0 job proc(s) currently held
+08/07/26 10:57:32 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.039; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.166; EventCycleTimeSum=5.211; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=675.634; SubmitCycleTimeAvg=0.011; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.125; SubmitCycleTimeSum=1.458; EventCycleTimeCount=135.000; SleepCycleTimeCount=135.000; SubmitCycleTimeCount=136.000; LogProcessCycleTimeAvg=0.117; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.208; LogProcessCycleTimeSum=2.807; LogProcessCycleTimeCount=24.000; ]
+08/07/26 10:57:47 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:57:47 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0007 (97724.0.0) {08/07/26 10:57:44}
+08/07/26 10:57:47 Number of idle job procs: 0
+08/07/26 10:57:47 Node day_day_0007 job proc (97724.0.0) completed successfully.
+08/07/26 10:57:47 Node day_day_0007 job(s) have exited the queue
+08/07/26 10:57:47 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0015 (97732.0.0) {08/07/26 10:57:46}
+08/07/26 10:57:47 Number of idle job procs: 0
+08/07/26 10:57:47 Node day_day_0015 job proc (97732.0.0) completed successfully.
+08/07/26 10:57:47 Node day_day_0015 job(s) have exited the queue
+08/07/26 10:57:47 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:57:47 Of 21 nodes total:
+08/07/26 10:57:47  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:57:47   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:57:47    17       0        3       0       0          1        0        0
+08/07/26 10:57:47 0 job proc(s) currently held
+08/07/26 10:57:47 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.039; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.164; EventCycleTimeSum=5.313; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=690.644; SubmitCycleTimeAvg=0.010; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.124; SubmitCycleTimeSum=1.458; EventCycleTimeCount=138.000; SleepCycleTimeCount=138.000; SubmitCycleTimeCount=139.000; LogProcessCycleTimeAvg=0.116; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.203; LogProcessCycleTimeSum=2.889; LogProcessCycleTimeCount=25.000; ]
+08/07/26 10:58:12 Currently monitoring 1 HTCondor log file(s)
+08/07/26 10:58:12 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0017 (97734.0.0) {08/07/26 10:58:12}
+08/07/26 10:58:12 Number of idle job procs: 0
+08/07/26 10:58:12 Node day_day_0017 job proc (97734.0.0) completed successfully.
+08/07/26 10:58:12 Node day_day_0017 job(s) have exited the queue
+08/07/26 10:58:12 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 10:58:12 Of 21 nodes total:
+08/07/26 10:58:12  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 10:58:12   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 10:58:12    18       0        2       0       0          1        0        0
+08/07/26 10:58:12 0 job proc(s) currently held
+08/07/26 10:58:12 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.038; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.161; EventCycleTimeSum=5.453; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=715.671; SubmitCycleTimeAvg=0.010; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.122; SubmitCycleTimeSum=1.458; EventCycleTimeCount=143.000; SleepCycleTimeCount=143.000; SubmitCycleTimeCount=144.000; LogProcessCycleTimeAvg=0.113; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.200; LogProcessCycleTimeSum=2.931; LogProcessCycleTimeCount=26.000; ]
+08/07/26 11:00:07 Currently monitoring 1 HTCondor log file(s)
+08/07/26 11:00:07 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0014 (97731.0.0) {08/07/26 11:00:05}
+08/07/26 11:00:07 Number of idle job procs: 0
+08/07/26 11:00:07 Node day_day_0014 job proc (97731.0.0) completed successfully.
+08/07/26 11:00:07 Node day_day_0014 job(s) have exited the queue
+08/07/26 11:00:07 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 11:00:08 Of 21 nodes total:
+08/07/26 11:00:08  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 11:00:08   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 11:00:08    19       0        1       0       0          1        0        0
+08/07/26 11:00:08 0 job proc(s) currently held
+08/07/26 11:00:08 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.034; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.150; EventCycleTimeSum=5.565; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=830.771; SubmitCycleTimeAvg=0.009; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.113; SubmitCycleTimeSum=1.458; EventCycleTimeCount=166.000; SleepCycleTimeCount=166.000; SubmitCycleTimeCount=167.000; LogProcessCycleTimeAvg=0.110; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.196; LogProcessCycleTimeSum=2.973; LogProcessCycleTimeCount=27.000; ]
+08/07/26 11:01:13 Total jobs placed to AP: 20
+08/07/26 11:01:13      Idle     Held     Running     Successful     Failed
+08/07/26 11:01:13       ===      ===         ===            ===        ===
+08/07/26 11:01:13         0        0           1             19          0
+08/07/26 11:02:53 Currently monitoring 1 HTCondor log file(s)
+08/07/26 11:02:53 Event: ULOG_JOB_TERMINATED for HTCondor Node day_day_0018 (97735.0.0) {08/07/26 11:02:50}
+08/07/26 11:02:53 Number of idle job procs: 0
+08/07/26 11:02:53 Node day_day_0018 job proc (97735.0.0) completed successfully.
+08/07/26 11:02:53 Node day_day_0018 job(s) have exited the queue
+08/07/26 11:02:53 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 11:02:53 Of 21 nodes total:
+08/07/26 11:02:53  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 11:02:53   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 11:02:53    20       0        0       0       1          0        0        0
+08/07/26 11:02:53 0 job proc(s) currently held
+08/07/26 11:02:53 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.029; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.138; EventCycleTimeSum=5.710; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=995.933; SubmitCycleTimeAvg=0.007; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.103; SubmitCycleTimeSum=1.458; EventCycleTimeCount=199.000; SleepCycleTimeCount=199.000; SubmitCycleTimeCount=200.000; LogProcessCycleTimeAvg=0.109; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.193; LogProcessCycleTimeSum=3.046; LogProcessCycleTimeCount=28.000; ]
+08/07/26 11:02:58 Submitting HTCondor Node hierarchical job(s)...
+08/07/26 11:02:58 Submitting node hierarchical from file /home/2673888s/commodity_futures/hierarchical_inference/SUBMIT_FILES/run_pop_inf.sub using direct job submission
+08/07/26 11:02:58 	assigned HTCondor ID (97737.0.0)
+08/07/26 11:02:58 Just submitted 1 job this cycle...
+08/07/26 11:02:58 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 11:02:58 Of 21 nodes total:
+08/07/26 11:02:58  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 11:02:58   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 11:02:58    20       0        1       0       0          0        0        0
+08/07/26 11:02:58 0 job proc(s) currently held
+08/07/26 11:02:58 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.029; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.138; EventCycleTimeSum=5.841; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.006; SleepCycleTimeMin=5.001; SleepCycleTimeStd=0.001; SleepCycleTimeSum=1000.938; SubmitCycleTimeAvg=0.008; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.103; SubmitCycleTimeSum=1.563; EventCycleTimeCount=200.000; SleepCycleTimeCount=200.000; SubmitCycleTimeCount=201.000; LogProcessCycleTimeAvg=0.109; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.193; LogProcessCycleTimeSum=3.046; LogProcessCycleTimeCount=28.000; ]
+08/07/26 11:03:03 Currently monitoring 1 HTCondor log file(s)
+08/07/26 11:03:03 Reassigning the id of job hierarchical from (97737.0.0) to (97737.0.0)
+08/07/26 11:03:03 Event: ULOG_SUBMIT for HTCondor Node hierarchical (97737.0.0) {08/07/26 11:02:58}
+08/07/26 11:03:03 Number of idle job procs: 1
+08/07/26 11:03:03 Event: ULOG_EXECUTE for HTCondor Node hierarchical (97737.0.0) {08/07/26 11:02:58}
+08/07/26 11:03:03 Number of idle job procs: 0
+08/07/26 11:13:04 601 seconds since last log event
+08/07/26 11:13:04 Pending DAG nodes:
+08/07/26 11:13:04   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 11:16:14 Total jobs placed to AP: 21
+08/07/26 11:16:14      Idle     Held     Running     Successful     Failed
+08/07/26 11:16:14       ===      ===         ===            ===        ===
+08/07/26 11:16:14         0        0           1             20          0
+08/07/26 11:23:05 1202 seconds since last log event
+08/07/26 11:23:05 Pending DAG nodes:
+08/07/26 11:23:05   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 11:31:15 Total jobs placed to AP: 21
+08/07/26 11:31:15      Idle     Held     Running     Successful     Failed
+08/07/26 11:31:15       ===      ===         ===            ===        ===
+08/07/26 11:31:15         0        0           1             20          0
+08/07/26 11:33:05 1802 seconds since last log event
+08/07/26 11:33:05 Pending DAG nodes:
+08/07/26 11:33:05   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 11:43:06 2403 seconds since last log event
+08/07/26 11:43:06 Pending DAG nodes:
+08/07/26 11:43:06   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 11:46:16 Total jobs placed to AP: 21
+08/07/26 11:46:16      Idle     Held     Running     Successful     Failed
+08/07/26 11:46:16       ===      ===         ===            ===        ===
+08/07/26 11:46:16         0        0           1             20          0
+08/07/26 11:53:07 3004 seconds since last log event
+08/07/26 11:53:07 Pending DAG nodes:
+08/07/26 11:53:07   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 12:01:17 Total jobs placed to AP: 21
+08/07/26 12:01:17      Idle     Held     Running     Successful     Failed
+08/07/26 12:01:17       ===      ===         ===            ===        ===
+08/07/26 12:01:17         0        0           1             20          0
+08/07/26 12:03:07 3604 seconds since last log event
+08/07/26 12:03:07 Pending DAG nodes:
+08/07/26 12:03:08   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 12:13:08 4205 seconds since last log event
+08/07/26 12:13:08 Pending DAG nodes:
+08/07/26 12:13:08   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 12:16:18 Total jobs placed to AP: 21
+08/07/26 12:16:18      Idle     Held     Running     Successful     Failed
+08/07/26 12:16:18       ===      ===         ===            ===        ===
+08/07/26 12:16:18         0        0           1             20          0
+08/07/26 12:23:09 4806 seconds since last log event
+08/07/26 12:23:09 Pending DAG nodes:
+08/07/26 12:23:09   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 12:31:20 Total jobs placed to AP: 21
+08/07/26 12:31:20      Idle     Held     Running     Successful     Failed
+08/07/26 12:31:20       ===      ===         ===            ===        ===
+08/07/26 12:31:20         0        0           1             20          0
+08/07/26 12:33:10 5407 seconds since last log event
+08/07/26 12:33:10 Pending DAG nodes:
+08/07/26 12:33:10   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 12:43:10 6007 seconds since last log event
+08/07/26 12:43:10 Pending DAG nodes:
+08/07/26 12:43:11   Node hierarchical, HTCondor ID 97737, status STATUS_SUBMITTED
+08/07/26 12:43:46 Currently monitoring 1 HTCondor log file(s)
+08/07/26 12:43:46 Event: ULOG_JOB_TERMINATED for HTCondor Node hierarchical (97737.0.0) {08/07/26 12:43:42}
+08/07/26 12:43:46 Number of idle job procs: 0
+08/07/26 12:43:46 Node hierarchical job proc (97737.0.0) completed successfully.
+08/07/26 12:43:46 Node hierarchical job(s) have exited the queue
+08/07/26 12:43:46 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 12:43:46 Of 21 nodes total:
+08/07/26 12:43:46  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 12:43:46   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 12:43:46    21       0        0       0       0          0        0        0
+08/07/26 12:43:46 0 job proc(s) currently held
+08/07/26 12:43:46 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.005; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.053; EventCycleTimeSum=7.674; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.019; SleepCycleTimeMin=5.000; SleepCycleTimeStd=0.002; SleepCycleTimeSum=7046.766; SubmitCycleTimeAvg=0.001; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.039; SubmitCycleTimeSum=1.564; EventCycleTimeCount=1408.000; SleepCycleTimeCount=1408.000; SubmitCycleTimeCount=1409.000; LogProcessCycleTimeAvg=0.105; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.187; LogProcessCycleTimeSum=3.150; LogProcessCycleTimeCount=30.000; ]
+08/07/26 12:43:46 All jobs Completed!
+08/07/26 12:43:46 Note: 0 total node deferrals because of -MaxJobs limit (0)
+08/07/26 12:43:46 Note: 0 total node deferrals because of -MaxIdle limit (1000)
+08/07/26 12:43:46 Note: 0 total node deferrals because of node category throttles
+08/07/26 12:43:46 Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+08/07/26 12:43:46 Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+08/07/26 12:43:46 Note: 0 total HOLD script deferrals because of -MaxHold limit (20) or DEFER
+08/07/26 12:43:46 DAG status: 0 (DAG_STATUS_OK)
+08/07/26 12:43:46 Of 21 nodes total:
+08/07/26 12:43:46  Done     Pre   Queued    Post   Ready   Un-Ready   Failed   Futile
+08/07/26 12:43:46   ===     ===      ===     ===     ===        ===      ===      ===
+08/07/26 12:43:46    21       0        0       0       0          0        0        0
+08/07/26 12:43:46 0 job proc(s) currently held
+08/07/26 12:43:46 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.005; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.053; EventCycleTimeSum=7.674; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.019; SleepCycleTimeMin=5.000; SleepCycleTimeStd=0.002; SleepCycleTimeSum=7046.766; SubmitCycleTimeAvg=0.001; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.039; SubmitCycleTimeSum=1.564; EventCycleTimeCount=1408.000; SleepCycleTimeCount=1408.000; SubmitCycleTimeCount=1409.000; LogProcessCycleTimeAvg=0.105; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.187; LogProcessCycleTimeSum=3.150; LogProcessCycleTimeCount=30.000; ]
+08/07/26 12:43:46 Wrote metrics file population_inf.dag.metrics.
+08/07/26 12:43:46 DAGMan Runtime Statistics: [EventCycleTimeAvg=0.005; EventCycleTimeMax=1.526; EventCycleTimeMin=0.000; EventCycleTimeStd=0.053; EventCycleTimeSum=7.674; SleepCycleTimeAvg=5.005; SleepCycleTimeMax=5.019; SleepCycleTimeMin=5.000; SleepCycleTimeStd=0.002; SleepCycleTimeSum=7046.766; SubmitCycleTimeAvg=0.001; SubmitCycleTimeMax=1.458; SubmitCycleTimeMin=0.000; SubmitCycleTimeStd=0.039; SubmitCycleTimeSum=1.564; EventCycleTimeCount=1408.000; SleepCycleTimeCount=1408.000; SubmitCycleTimeCount=1409.000; LogProcessCycleTimeAvg=0.105; LogProcessCycleTimeMax=1.063; LogProcessCycleTimeMin=0.027; LogProcessCycleTimeStd=0.187; LogProcessCycleTimeSum=3.150; LogProcessCycleTimeCount=30.000; ]
+08/07/26 12:43:46 **** condor_scheduniv_exec.97716.0 (condor_DAGMAN) pid 1301888 EXITING WITH STATUS 0

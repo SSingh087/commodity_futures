@@ -94,3 +94,532 @@
 	GPUs = 0
 	Memory = 8192
 ...
+001 (97721.000.000) 2026-08-07 10:48:29 Job executing on host: <130.209.45.171:9619?addrs=130.209.45.171-9619&alias=puck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_9@puck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_440122"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+001 (97722.000.000) 2026-08-07 10:49:29 Job executing on host: <130.209.45.226:9619?addrs=130.209.45.226-9619&alias=muck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_6@muck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_90731"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97718.000.000) 2026-08-07 10:50:08 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:22, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:22, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     1        8192      8192 
+	   TimeExecute (s)      :   219                       
+	   TimeSlotBusy (s)     :   219                       
+...
+001 (97723.000.000) 2026-08-07 10:50:09 Job executing on host: <130.209.45.171:9619?addrs=130.209.45.171-9619&alias=puck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_6@puck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_440146"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+001 (97724.000.000) 2026-08-07 10:50:29 Job executing on host: <130.209.45.226:9619?addrs=130.209.45.226-9619&alias=muck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_4@muck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_90899"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97721.000.000) 2026-08-07 10:50:30 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:25, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:25, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :        1     1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      646     8192      8192 
+	   TimeExecute (s)      :      121                    
+	   TimeSlotBusy (s)     :      121                    
+...
+001 (97725.000.000) 2026-08-07 10:50:30 Job executing on host: <130.209.45.171:9619?addrs=130.209.45.171-9619&alias=puck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_9@puck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_440174"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97720.000.000) 2026-08-07 10:50:55 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:20, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:20, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :        1     1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      643     8192      8192 
+	   TimeExecute (s)      :      206                    
+	   TimeSlotBusy (s)     :      206                    
+...
+001 (97726.000.000) 2026-08-07 10:50:55 Job executing on host: <130.209.45.171:9619?addrs=130.209.45.171-9619&alias=puck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_8@puck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_440193"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97717.000.000) 2026-08-07 10:51:25 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:10, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:10, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.14        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     1        8192      8192 
+	   TimeExecute (s)      :   296                       
+	   TimeSlotBusy (s)     :   296                       
+...
+001 (97727.000.000) 2026-08-07 10:51:25 Job executing on host: <130.209.203.171:9619?addrs=130.209.203.171-9619&alias=balta.physics.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_5@balta.physics.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_185006"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+001 (97728.000.000) 2026-08-07 10:51:30 Job executing on host: <130.209.203.174:9619?addrs=130.209.203.174-9619&alias=andromeda.astro.gla.ac.uk&noUDP&sock=startd_34_36b7>
+	SlotName: slot1_18@andromeda.astro.gla.ac.uk
+	CondorScratchDir = "/var/lib/condor/execute/dir_441976"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+001 (97729.000.000) 2026-08-07 10:52:30 Job executing on host: <130.209.203.174:9619?addrs=130.209.203.174-9619&alias=andromeda.astro.gla.ac.uk&noUDP&sock=startd_34_36b7>
+	SlotName: slot1_1@andromeda.astro.gla.ac.uk
+	CondorScratchDir = "/var/lib/condor/execute/dir_442142"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97725.000.000) 2026-08-07 10:52:37 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:39, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:39, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.30        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   666        8192      8192 
+	   TimeExecute (s)      :   127                       
+	   TimeSlotBusy (s)     :   127                       
+...
+001 (97730.000.000) 2026-08-07 10:52:37 Job executing on host: <130.209.45.171:9619?addrs=130.209.45.171-9619&alias=puck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_9@puck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_440216"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97722.000.000) 2026-08-07 10:53:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:40, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:40, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.40        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     1        8192      8192 
+	   TimeExecute (s)      :   233                       
+	   TimeSlotBusy (s)     :   233                       
+...
+001 (97731.000.000) 2026-08-07 10:53:22 Job executing on host: <130.209.45.226:9619?addrs=130.209.45.226-9619&alias=muck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_6@muck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_90940"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+001 (97732.000.000) 2026-08-07 10:53:29 Job executing on host: <130.209.203.174:9619?addrs=130.209.203.174-9619&alias=andromeda.astro.gla.ac.uk&noUDP&sock=startd_34_36b7>
+	SlotName: slot1_6@andromeda.astro.gla.ac.uk
+	CondorScratchDir = "/var/lib/condor/execute/dir_442172"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97723.000.000) 2026-08-07 10:53:35 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:29, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:29, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.27        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   635        8192      8192 
+	   TimeExecute (s)      :   206                       
+	   TimeSlotBusy (s)     :   207                       
+...
+001 (97733.000.000) 2026-08-07 10:53:35 Job executing on host: <130.209.45.171:9619?addrs=130.209.45.171-9619&alias=puck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_6@puck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_440238"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97719.000.000) 2026-08-07 10:54:07 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:09:31, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:09:31, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.60        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   738        8192      8192 
+	   TimeExecute (s)      :   398                       
+	   TimeSlotBusy (s)     :   398                       
+...
+001 (97734.000.000) 2026-08-07 10:54:07 Job executing on host: <130.209.203.171:9619?addrs=130.209.203.171-9619&alias=balta.physics.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_6@balta.physics.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_185033"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+001 (97735.000.000) 2026-08-07 10:54:29 Job executing on host: <172.20.45.180:9619?addrs=172.20.45.180-9619&alias=deneb.physics.gla.ac.uk&noUDP&sock=startd_35_e64f>
+	SlotName: slot1_6@deneb.physics.gla.ac.uk
+	CondorScratchDir = "/var/lib/condor/execute/dir_197914"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97730.000.000) 2026-08-07 10:54:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:31, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:31, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :        1     1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      646     8192      8192 
+	   TimeExecute (s)      :      125                    
+	   TimeSlotBusy (s)     :      125                    
+...
+001 (97736.000.000) 2026-08-07 10:54:42 Job executing on host: <130.209.45.171:9619?addrs=130.209.45.171-9619&alias=puck.astro.gla.ac.uk&noUDP&sock=startd_79_147a>
+	SlotName: slot1_9@puck.astro.gla.ac.uk
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_440260"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97726.000.000) 2026-08-07 10:55:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:38, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:38, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.13        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   637        8192      8192 
+	   TimeExecute (s)      :   248                       
+	   TimeSlotBusy (s)     :   248                       
+...
+005 (97728.000.000) 2026-08-07 10:56:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:35, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:35, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.12        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :     1        8192      8192 
+	   TimeExecute (s)      :   293                       
+	   TimeSlotBusy (s)     :   293                       
+...
+005 (97736.000.000) 2026-08-07 10:56:30 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:02:07, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:02:07, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        4         4 
+	   Disk (KB)            :        1     1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      644     8192      8192 
+	   TimeExecute (s)      :      108                    
+	   TimeSlotBusy (s)     :      108                    
+...
+005 (97733.000.000) 2026-08-07 10:56:38 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:03:59, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:03:59, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.34        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   644        8192      8192 
+	   TimeExecute (s)      :   183                       
+	   TimeSlotBusy (s)     :   183                       
+...
+005 (97727.000.000) 2026-08-07 10:57:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:08:31, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:08:31, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.24        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   729        8192      8192 
+	   TimeExecute (s)      :   354                       
+	   TimeSlotBusy (s)     :   354                       
+...
+005 (97729.000.000) 2026-08-07 10:57:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:50, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:50, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.48        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   609        8192      8192 
+	   TimeExecute (s)      :   301                       
+	   TimeSlotBusy (s)     :   301                       
+...
+005 (97724.000.000) 2026-08-07 10:57:44 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:10:22, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:10:22, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.63        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   722        8192      8192 
+	   TimeExecute (s)      :   435                       
+	   TimeSlotBusy (s)     :   435                       
+...
+005 (97732.000.000) 2026-08-07 10:57:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:55, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:55, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.57        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   632        8192      8192 
+	   TimeExecute (s)      :   257                       
+	   TimeSlotBusy (s)     :   257                       
+...
+005 (97734.000.000) 2026-08-07 10:58:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:05:24, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:05:24, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.61        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   606        8192      8192 
+	   TimeExecute (s)      :   245                       
+	   TimeSlotBusy (s)     :   245                       
+...
+005 (97731.000.000) 2026-08-07 11:00:05 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:09:02, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:09:02, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.34        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   745        8192      8192 
+	   TimeExecute (s)      :   402                       
+	   TimeSlotBusy (s)     :   403                       
+...
+005 (97735.000.000) 2026-08-07 11:02:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:00, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:00, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.47        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   703        8192      8192 
+	   TimeExecute (s)      :   501                       
+	   TimeSlotBusy (s)     :   501                       
+...
+000 (97737.000.000) 2026-08-07 11:02:58 Job submitted from host: <130.209.203.177:9618?addrs=130.209.203.177-9618&alias=condor-submit.astro.gla.ac.uk&noUDP&sock=schedd_29_eccb>
+    DAG Node: hierarchical
+...
+001 (97737.000.000) 2026-08-07 11:02:58 Job executing on host: <172.20.45.180:9619?addrs=172.20.45.180-9619&alias=deneb.physics.gla.ac.uk&noUDP&sock=startd_35_e64f>
+	SlotName: slot1_6@deneb.physics.gla.ac.uk
+	CondorScratchDir = "/var/lib/condor/execute/dir_198112"
+	Cpus = 4
+	Disk = 2048
+	GPUs = 0
+	Memory = 8192
+...
+005 (97737.000.000) 2026-08-07 12:43:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 05:31:59, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 05:31:59, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     2.73        4         4 
+	   Disk (KB)            :     1        1024      2048 
+	   GPUs                 :                           0 
+	   Memory (MB)          :   900        8192      8192 
+	   TimeExecute (s)      :  6044                       
+	   TimeSlotBusy (s)     :  6044                       
+...
